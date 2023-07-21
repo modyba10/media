@@ -40,7 +40,7 @@ def update_vlans():
 
 
 
-def json_to_csv():
+def vlans_to_csv():
     csv_file = "data_for_nautobot.csv"
     data_json = update_vlans()
     # Vérification des données JSON
@@ -59,6 +59,6 @@ def json_to_csv():
         for entry in data_json:
             writer.writerow(entry)
 
-# Exemple d'utilisation
-json_to_csv()
+
+
 

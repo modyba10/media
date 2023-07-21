@@ -27,7 +27,7 @@ def update_vlans_domains_data():
 
 
 
-def json_to_csv():
+def vlans_domains_to_csv():
     csv_file = "data_for_nautobot.csv"
     data_json = update_vlans_domains_data()
     
@@ -46,9 +46,5 @@ def json_to_csv():
         writer.writeheader()
         for entry in data_json:
             writer.writerow(entry)
-
-
-
-json_to_csv()
 
 
