@@ -35,7 +35,5 @@ def update_subnet_data():
         subnet ["masterSubnet"] =subnet.pop("masterSubnetId")
     
     
-    return json.dumps(data, indent=4)
-data = update_subnet_data()
-print (data)
+    return data
 

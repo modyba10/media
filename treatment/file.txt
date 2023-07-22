@@ -1,0 +1,18 @@
+code pour surpimer les ligne identique dans n'importe quel csv
+
+import pandas as pd
+
+# Charger les données CSV dans un DataFrame
+df = pd.read_csv('data.csv')
+
+# Supprimer les lignes avec les mêmes valeurs dans toutes les colonnes
+df = df.drop_duplicates(keep=False)
+
+# Écrire le DataFrame sans doublons dans un nouveau fichier CSV
+df.to_csv('data_without_duplicates.csv', index=False)
+
+
+
+Tache :
+
+des vlan ont le même nom  dans le même groupe, comment gérer ?

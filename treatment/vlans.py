@@ -26,7 +26,7 @@ def update_vlans():
         del vlan["custom_fields"]
         del vlan ["customer_id"]
         del vlan["editDate"]
-        del vlan ["number"]
+        del vlan ["id"]
         
 
 
@@ -34,7 +34,7 @@ def update_vlans():
 
 
         vlan["group"] =vlan.pop ("domainId")
-        vlan["vid"] =vlan.pop ("id")
+        vlan["vid"] =vlan.pop ("number")
 
     return data
 
@@ -59,6 +59,6 @@ def vlans_to_csv():
         for entry in data_json:
             writer.writerow(entry)
 
-
+vlans_to_csv ()
 
 
