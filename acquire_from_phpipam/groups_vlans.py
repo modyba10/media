@@ -1,4 +1,4 @@
-import  api 
+import  api
 import csv
 
 def update_vlans_domains_data():
@@ -16,17 +16,14 @@ def update_vlans_domains_data():
          del element["sections"]
          del element ["links"]
          del element ["id"]
-
-        # A partir d'ici on va supprimer les champs qu'il faut, c'est à dire les champs inutile 
          
-
          #A On va redefir les champs pour les rendre comforme à Nautobot
 
 
     return data
 
 
-
+"""
 def vlans_domains_to_csv():
     csv_file = "data_for_nautobot.csv"
     data_json = update_vlans_domains_data()
@@ -45,6 +42,6 @@ def vlans_domains_to_csv():
         writer = csv.DictWriter(csvfile, fieldnames=headers)
         writer.writeheader()
         for entry in data_json:
-            writer.writerow(entry)
+            writer.writerow(entry) """
 
 

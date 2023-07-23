@@ -39,7 +39,7 @@ def update_vlans():
     return data
 
 
-
+"""
 def vlans_to_csv():
     csv_file = "data_for_nautobot.csv"
     data_json = update_vlans()
@@ -60,5 +60,6 @@ def vlans_to_csv():
             writer.writerow(entry)
 
 vlans_to_csv ()
+"""
 
 
