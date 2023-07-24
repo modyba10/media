@@ -1,6 +1,6 @@
 import  api
 import csv
-import vlans_domains as dm
+
 
 def update_vlans():
 
@@ -37,6 +37,7 @@ def update_vlans():
         vlan["vid"] =vlan.pop ("number")
 
     return data
+print (update_vlans())
 
 
 """
