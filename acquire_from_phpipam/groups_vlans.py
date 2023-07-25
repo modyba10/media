@@ -23,7 +23,7 @@ def update_vlans_domains_data():
     return data
 
 
-"""
+
 def vlans_domains_to_csv():
     csv_file = "data_for_nautobot.csv"
     data_json = update_vlans_domains_data()
@@ -42,6 +42,6 @@ def vlans_domains_to_csv():
         writer = csv.DictWriter(csvfile, fieldnames=headers)
         writer.writeheader()
         for entry in data_json:
-            writer.writerow(entry) """
+            writer.writerow(entry) 
 
 

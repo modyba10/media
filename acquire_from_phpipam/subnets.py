@@ -4,13 +4,17 @@ import json
 
 
 def update_subnet_data():
+
+
     data = api.acquire_data ("subnets/all/")
-    
-   
-    
+ 
+
+    i=0
+
     for subnet in data:
-        # Concatenate the "mask" field to the "subnet" field
+
         subnet["subnet"] += "/" + subnet["mask"]
+    
         
         
 
@@ -24,16 +28,27 @@ def update_subnet_data():
         else:
             subnet["masterSubnetId"] = None
 
-        # A partir d'ici on va supprimer les champs qu'il faut, c'est à dire les champs inutile 
-
-        del subnet["mask"]
 
         #A On va redefir les champs pour les rendre comforme à Nautobot
+
+    
+    for subnet in data :
+
+
 
         
 
         subnet ["masterSubnet"] =subnet.pop("masterSubnetId")
+
+        #Ici on va supprimer les champs non utile
     
     
-    return data
+    return [data]
+
+
+
+
+
+
+
 
