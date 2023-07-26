@@ -3,7 +3,7 @@ import add_to_nautobot_api.ip_nautobots as ip
 import add_to_nautobot_api.subnets_nautobots as subnets
 import add_to_nautobot_api.vlans_nautobots as vlans
 
-
+#defini true les données que tu veux POST
 config = {
 
     "group" : False,

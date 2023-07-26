@@ -44,7 +44,7 @@ def update_subnet_data_for_ip():
 
 def get_ip_adresses():
 
-    data = api.acquire_data_test("addresses/all/")
+    data = api.acquire_data("addresses/all/")
 
     # Appeler la fonction update_subnet_data() pour obtenir la liste des sous-réseaux
     subnets_data = update_subnet_data_for_ip()
@@ -197,4 +197,4 @@ def update_columns_from_csv():
         writer.writerows(data)
 
 
-
+update_columns_from_csv()
