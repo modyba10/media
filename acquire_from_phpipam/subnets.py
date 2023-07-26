@@ -1,9 +1,31 @@
 import csv
 import api
 
+
+
+
+
+def update_vlans_test():
+    data_domains = api.acquire_data("l2domains/")
+    data = api.acquire_data("vlans/all")
+
+    for vlan in data:
+
+        for domain in data_domains:
+            if vlan["domainId"] == domain["id"]:
+                vlan["domainId"] = domain["name"]
+                break
+    
+
+    return data
+
+
+
+
+
 def update_subnet_data():
     data = api.acquire_data("subnets/all/")
-    vlans = api.acquire_data("vlans/all/")
+    vlans = update_vlans_test()
 
     for subnet in data:
         subnet["subnet"] += "/" + subnet["mask"]
@@ -29,7 +51,7 @@ def update_subnet_data():
         if subnet["vlanId"] != 0:
             for vlan in vlans:
                 if vlan["id"] == subnet["vlanId"]:
-                    subnet["vlanId"] = vlan["name"]
+                    subnet["vlanId"] = vlan["domainId"]
                     break
         else:
             subnet["vlanId"] = None
@@ -45,6 +67,9 @@ def update_subnet_data():
                 del subnet[key]
 
     return data
+
+
+
 
 
 def subnets_to_csv():
@@ -67,5 +92,6 @@ def subnets_to_csv():
         for entry in data_json:
             writer.writerow(entry)
 
+subnets_to_csv()
 
 
