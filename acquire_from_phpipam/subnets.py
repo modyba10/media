@@ -34,6 +34,8 @@ def update_subnet_data():
     vlans = update_vlans_test()
 
     for subnet in data:
+
+        
         subnet["subnet"] += "/" + subnet["mask"]
 
         # Replace the value of the "masterSubnetId" field
@@ -57,20 +59,34 @@ def update_subnet_data():
         if subnet["vlanId"] != 0:
 
             for vlan in vlans:
+                
                 if vlan["id"] == subnet["vlanId"]:
+
+                    subnet["vlan_group"] = vlan["domainId"]
+
                     subnet["vlanId"] = vlan["name"]
+
                     break
+
         else:
+
             subnet["vlanId"] = None
 
+
         subnet["vlan"] = subnet.pop("vlanId")
+
+
         subnet["prefix"] = subnet.pop("subnet")
 
         # Remove unnecessary fields
-        keys_to_keep = ["status", "is_pool", "vlan", "prefix","description"]
+        keys_to_keep = ["vlan_group","status", "is_pool", "vlan", "prefix","description"]
+
         subnet_keys = list(subnet.keys())
+
         for key in subnet_keys:
+
             if key not in keys_to_keep:
+
                 del subnet[key]
 
     return data
