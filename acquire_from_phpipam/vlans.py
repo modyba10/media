@@ -21,7 +21,6 @@ def update_vlans():
         del vlan["custom_fields"]
         del vlan["customer_id"]
         del vlan["editDate"]
-        del vlan["number"]
         del vlan["domainId"]
         
 
