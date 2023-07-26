@@ -11,6 +11,7 @@ def update_vlans_test():
     data = api.acquire_data("vlans/all")
 
     for vlan in data:
+        vlan["name"] = f"{vlan['name']}-{vlan['number']}"
         found_match = False  # Variable pour vérifier si une correspondance a été trouvée pour ce VLAN
         for domain in data_domains:
             if vlan["domainId"] == domain["id"]:
@@ -57,7 +58,7 @@ def update_subnet_data():
 
             for vlan in vlans:
                 if vlan["id"] == subnet["vlanId"]:
-                    subnet["vlanId"] = vlan["domainId"]
+                    subnet["vlanId"] = vlan["name"]
                     break
         else:
             subnet["vlanId"] = None
