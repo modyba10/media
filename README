@@ -1,18 +1,3 @@
-function isIpAddressAlive($ip_address) {
-    // Commande de ping pour vérifier l'état de l'adresse IP
-    $ping_command = "ping -c 1 " . escapeshellarg($ip_address);
-    
-    // Exécute la commande de ping et récupère le résultat
-    exec($ping_command, $output, $result);
-    
-    // Si le résultat est 0, l'adresse IP est en ligne (alive)
-    // Sinon, elle est hors ligne (offline)
-    return ($result === 0);
-}
+importation par CSV: Contrainte
 
-// Vérifie si l'adresse IP est en ligne ou hors ligne
-if (isIpAddressAlive($ip_address)) {
-    echo "L'adresse IP $ip_address est en ligne (alive).";
-} else {
-    echo "L'adresse IP $ip_address est hors ligne (offline).";
-}
+On arrive pas a importer plus de 1800 address ip à la fois, du coup il faut trouver un moyen de secrtionner 

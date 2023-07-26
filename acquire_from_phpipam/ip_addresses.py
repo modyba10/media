@@ -7,14 +7,48 @@ import subnets
 
 import api
 import json
-import subnets
+
+
+import   api
+
+import json
+
+
+def update_subnet_data_for_ip():
+
+    data = api.acquire_data ("subnets/all/")
+
+    for subnet in data:
+
+        subnet["subnet"] += "/" + subnet["mask"]
+    
+        
+        
+
+        # Replace the value of the "masterSubnetId" field
+        # with the corresponding subnet if it's different from "0", otherwise, set it to None
+        if subnet["masterSubnetId"] != "0":
+            for prev_subnet in data:
+                if prev_subnet["id"] == subnet["masterSubnetId"]:
+                    subnet["masterSubnetId"] = prev_subnet["subnet"]
+                    break
+        else:
+
+            subnet["masterSubnetId"] = None
+
+
+    return data
+
+
+
 
 def get_ip_adresses():
-    data = api.acquire_data("addresses/all/")
+
+    data = api.acquire_data_test("addresses/all/")
 
     # Appeler la fonction update_subnet_data() pour obtenir la liste des sous-réseaux
-    subnets_data = subnets.update_subnet_data()
-    subnets_d = subnets_data[0]
+    subnets_data = update_subnet_data_for_ip()
+    subnets_d = subnets_data
     
     for ip in data:
 
@@ -162,6 +196,5 @@ def update_columns_from_csv():
 
         writer.writerows(data)
 
-update_columns_from_csv()
 
 

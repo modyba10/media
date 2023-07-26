@@ -19,7 +19,7 @@ def acquire_data(path):
             return data
 
         else:
-            print("La requête a retourné un code d'erreur :", response.status_code)
+            print("La requête api vers phpipam a retourné un code d'erreur :", response.status_code)
             return None
 
     except requests.RequestException as e:
