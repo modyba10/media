@@ -48,7 +48,7 @@ def get_ip_adresses():
 
     # Appeler la fonction update_subnet_data() pour obtenir la liste des sous-réseaux
     subnets_data = update_subnet_data_for_ip()
-    subnets_d = subnets_data
+    
     
     for ip in data:
 
@@ -58,7 +58,7 @@ def get_ip_adresses():
 
         subnet_id = ip["subnetId"]
 
-        for subnet in subnets_d:
+        for subnet in subnets_data:
 
             if subnet["id"] == subnet_id:
 

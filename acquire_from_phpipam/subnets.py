@@ -8,11 +8,12 @@ def update_subnet_data():
 
 
     data = api.acquire_data ("subnets/all/")
-    vlans =api.acquire_data ("vlans/all/")
-    
+    vlans =api.acquire_data ("vlans/all/") 
+
+   
  
 
-    i=0
+    
 
     for subnet in data:
 
@@ -37,7 +38,6 @@ def update_subnet_data():
 
 
         subnet ["masterSubnet"] =subnet.pop("masterSubnetId")
-        subnet ["masterSubnet"] =subnet.pop("masterSubnetId")
         subnet["status"] = "active"
         subnet["is_pool"] =True
 
@@ -49,34 +49,62 @@ def update_subnet_data():
             for vlan in vlans:
 
                 if vlan["id"] ==subnet["vlanId"]:
-                    subnet["vlanId"]= vlans["name"]
+                    subnet["vlanId"]= vlan["name"]
                     break
         else:
             subnet["vlanId"] =None
+
         
-        subnet["vlanId"] = subnet.pop("vlan")
-                 
+      
+        subnet ["vlan"] =subnet.pop("vlanId")        
 
 
         
 
         #Ici on va supprimer les champs non utile
-
-        del subnet["id"]
-        del subnet["mask"]
-        del subnet["sectionId"]
-        del subnet["isFull"]
-        del subnet["isGateway"]
-        del subnet["vrfId"]
-        del subnet["permissions"]
-        del subnet["subnet_calc"]
-        del subnet["custom_fields"]
       
-        
+        list = [
+        "mask",
+        "sectionId",
+        "isFull",
+        "vrfId",
+        "permissions",
+        "custom_fields",
+        "pingSubnet",
+        "discoverSubnet",
+        "resolveDNS",
+        "DNSrecursive",
+        "DNSrecords",
+        "nameserverId",
+        "scanAgent",
+        "customer_id",
+        "isFolder",
+        "tag",
+        "threshold",
+        "location",
+        "editDate",
+        "lastScan",
+        "lastDiscovery",
+        "isPool",
+        "links", 
+        "linked_subnet",
+        "firewallAddressObject",
+        "allowRequests",
+        "showName",
+        "device"]
 
+
+        for item in list:
+
+            del subnet[item]
 
     
-    return [data]
+    return json.dumps(data,indent =4)
+  
+
+
+print (update_subnet_data ())
+
 
 
 def subnets_to_csv():

@@ -1,7 +1,7 @@
 import api
 import csv
 
-
+import json
 
 def update_vlans():
     data_domains = api.acquire_data("l2domains/")
@@ -15,21 +15,23 @@ def update_vlans():
                 vlan["domainId"] = domain["name"]
                 break
 
-        # A partir d'ici on va supprimer les champs qu'il faut, c'est à dire les champs inutile 
         
+        # Concatenate the "name" field with the "id" field and replace the "name" field
+        vlan["name"] = f"{vlan['name']}-{vlan['number']}"
+
+        # A partir d'ici on va supprimer les champs qu'il faut, c'est à dire les champs inutile 
         del vlan["links"]
         del vlan["custom_fields"]
         del vlan["customer_id"]
         del vlan["editDate"]
-        del vlan["domainId"]
+        del vlan["number"]
         
 
         # A On va redefir les champs pour les rendre comforme à Nautobot
-        vlan["group"] = "TDF"
+        vlan["group"] = vlan.pop("domainId")
         vlan["vid"] = vlan.pop("id")
 
-        # Concatenate the "name" field with the "id" field and replace the "name" field
-        vlan["name"] = f"{vlan['name']}-{vlan['vid']}"
+        
 
     return data
 
@@ -65,7 +67,7 @@ def vlans_to_csv():
         for entry in data_json:
             writer.writerow(entry)
 
-
 vlans_to_csv()
+
 
 
