@@ -1,0 +1,1538 @@
+nameservers,prefix,gateway,is_pool,gatewayId,description,status,vlan
+,fd13:6d20:29dc:cf27::/64,,True,,Private subnet 1,active,IPv6 private 1
+,10.0.0.0/8,,True,,CJI,active,0
+,10.69.0.0/16,,True,,QA,active,0
+,10.69.0.0/18,,True,,POP1,active,0
+,10.69.0.0/22,,True,,ADM Environment,active,0
+,10.69.4.0/22,,True,,LAB Environment,active,0
+,10.69.8.0/22,,True,,CDN Environment,active,0
+,10.69.12.0/22,,True,,C4M Environment,active,0
+,10.69.16.0/22,,True,,VP Environment,active,0
+,10.69.20.0/22,,True,,OTT Environment,active,0
+,10.69.24.0/22,,True,,CUS Environment,active,0
+,10.69.28.0/24,,True,,INFRA Services,active,0
+,10.69.29.0/24,,True,,INFRA CI,active,0
+,10.69.32.0/24,,True,,COMMON,active,0
+,10.159.0.0/16,,True,,,active,0
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.159.1.0/24,,True,,,active,0
+,10.159.4.0/24,,True,,,active,0
+,10.159.0.0/24,,True,,,active,0
+,10.159.2.0/24,,True,,,active,0
+,10.159.3.0/24,,True,,,active,0
+,10.56.0.0/16,,True,,IPTV Admin,active,0
+,10.56.0.0/24,,True,,,active,0
+,10.56.1.0/24,,True,,BeIN ITX2,active,0
+,10.56.2.0/24,,True,,BeIN RMV,active,0
+,10.56.3.0/24,,True,,CJI PARIS,active,0
+,10.56.4.0/24,,True,,,active,56
+,10.56.5.0/24,,True,,CJI PARIS Completel,active,0
+,10.56.6.0/24,,True,,VM IPTV,active,0
+,10.56.7.0/24,,True,,,active,0
+,10.56.8.0/24,,True,,ADMIN_MOLOTOV_IVRY (VLAN 4056),active,0
+,10.56.9.0/24,,True,,IPTV_ADMIN_PRA_RMV (vlan 1857),active,0
+,10.56.10.0/24,,True,,IPPLAY MAIN,active,0
+,10.56.11.0/24,,True,,IPPLAY SOURCE,active,0
+,10.56.12.0/24,,True,,SPV - MONITORING ( POC ),active,0
+,10.56.13.0/24,,True,,,active,0
+,10.56.100.0/24,,True,,loopback_Nokia,active,0
+,10.56.200.0/24,,True,,,active,0
+,10.56.255.0/24,,True,,Network intercos,active,0
+,239.0.0.0/8,,True,,Multicast network,active,0
+,239.20.20.0/24,,True,,mcast_projet_EntryLevel_Arkena,active,
+,10.37.0.0/16,,True,,C4M Transform & BPM,active,0
+,95.81.145.96/27,,True,,FE-48,active,0
+,10.37.64.0/18,,True,,BPM instances,active,0
+,10.37.127.0/24,,True,,BPM / interco routers & sw,active,0
+,10.37.64.0/24,,True,,BPM Interco,active,0
+,10.103.0.0/16,,True,,C4M RxTx VRF,active,0
+,10.103.1.0/26,,True,,RXTX_VRFRXTX_ITX2 - vlan 2885 (2nd range),active,0
+,10.103.1.64/26,,True,,RXTX_VRFRXTX_RMV-2 - vlan 2992 (2nd range),active,0
+,10.29.0.0/16,,True,,Playgrounds,active,0
+,10.29.0.0/20,,True,,Playground RMV,active,0
+,10.37.101.0/24,,True,,BPM Harmony COMMON PROD instances,active,0
+,10.159.5.0/24,,True,,,active,0
+,172.16.0.0/12,,True,,,active,0
+,172.16.0.0/24,,True,,,active,MAM ?
+,172.24.56.0/24,,True,,,active,Dalet
+,10.28.41.0/24,,True,,zixi_priv,active,zixi_priv
+,10.250.0.0/16,,True,,,active,0
+,10.250.1.0/24,,True,,FTP,active,0
+,10.201.42.0/24,,True,,OFFICE-CJI-PRINTERS,active,0
+,10.201.40.0/23,,True,,OFFICE-CJI-GUESTS,active,0
+,10.201.32.0/21,,True,,OFFICE-CJI-USERS,active,0
+,172.16.81.0/24,,True,,prod-tv-radio,active,prod-tv-radio
+,172.16.35.0/24,,True,,Zone dmz-veda-3035 VPLS 203133,active,MCL
+,10.20.35.0/24,,True,,supervision_mcl,active,supervision_mcl
+,10.100.60.0/24,,True,,dmz_www_out,active,dmz_www_out
+,10.100.161.0/24,,True,,VMS PreProd - Internal - CJI,active,VMS PREPROD 161
+,10.37.0.0/18,,True,,C4M Transform,active,0
+,10.37.34.0/24,,True,,10.37.34.0/24,active,0
+,95.81.173.128/27,,True,,SHA-ITX2-2,active,
+,10.37.20.0/25,,True,,STORAGE_NAS_RMV - vlan2890 - nas-rmv.store - RMV,active,0
+,10.37.6.0/24,,True,,DB_COMMON,active,0
+,10.60.0.0/16,,True,,Origin,active,0
+,10.60.1.0/24,,True,,Internal Origin RMV,active,0
+,10.37.202.0/24,,True,,ATEME_DRIVERS_PREPROD - vlan351 - preprod.drivers.c4m - ITX,active,0
+,10.37.7.0/25,,True,,DMZ_MEDIA - vlan2099 - - RMV,active,0
+,10.37.18.0/25,,True,,CLIENT_COMMON_STORE,active,2707
+,10.180.103.0/24,,True,,,active,smtp.cji.fr est dedans
+,10.32.0.0/16,,True,,C4M EU pop,active,0
+,10.32.2.0/24,,True,,edata.fr.c4m @itx2 ( vlan 322 ),active,0
+,10.32.0.0/24,,True,,main.fr.c4m @itx2 ( vlan 320 ),active,0
+,10.32.1.0/24,,True,,EU pop / interco @itx2 ( vlan 321 ),active,0
+,10.37.106.0/24,,True,,BPM HARMONY PPD,active,0
+,10.60.0.0/24,,True,,Internal Origin ITX2,active,0
+,172.16.100.0/24,,True,,,active,0
+,172.16.106.0/24,,True,,,active,3106
+,10.20.56.0/24,,True,,,active,0
+,172.16.131.0/24,,True,,,active,AUTOMATION-MCL3
+,172.16.132.0/24,,True,,habillage_mcl3,active,HABILLAGE_MCL3
+,172.16.135.0/24,,True,,,active,PARALLELE_ANTENNE_MCL3
+,172.16.141.0/24,,True,,exploitation_mcl3,active,EXPLOITATION_MCL3
+,172.16.160.0/24,,True,,,active,0
+,172.16.169.0/24,,True,,3169,active,CLIENT 3169
+,172.16.171.0/24,,True,,,active,TRANSFERT 3171
+,172.16.176.0/24,,True,,,active,KVM_MTH
+,172.16.177.0/24,,True,,GPI,active,GPI_MTH
+,172.16.187.0/24,,True,,PRA_OCS_GLUE           ,active,0
+,172.16.3.0/24,,True,,DATA - CJI,active,DCM-PROD
+,172.16.7.0/24,,True,,,active,halo_1_out
+,172.16.88.0/24,,True,,sgt,active,sgt
+,172.16.93.0/24,,True,,NEW-SGT,active,NEW-SGT
+,172.20.7.0/24,,True,,,active,0
+,172.24.91.0/24,,True,,,active,
+,10.30.0.0/16,,True,,C4M US pop,active,0
+,10.30.0.0/24,,True,,US pop / main,active,0
+,10.30.1.0/24,,True,,US pop / interco,active,0
+,10.30.2.0/24,,True,,US pop / edata,active,0
+,10.30.31.0/24,,True,,US pop / vrf rxtx US,active,0
+,10.30.100.0/24,,True,,US pop / serverless,active,0
+,10.30.240.0/20,,True,,US pop / Pre prod,active,0
+,10.30.242.0/24,,True,,US pop / Pre prod / edata,active,0
+,10.32.3.0/24,,True,,dmzpro.fr.c4m @itx2 ( vlan 323 ),active,0
+,10.32.4.0/24,,True,,pptools.fr.c4m @rmv ( vlan 2835 ),active,0
+,10.32.6.0/24,,True,,stor.fr.c4m @rmv ( vlan 326 ),active,0
+,10.32.7.0/24,,True,,secure.fr.c4m @itx2 ( vlan 342 ),active,0
+,10.32.8.0/24,,True,,storitx2.fr.c4m @itx2 ( vlan 324 ),active,0
+,10.32.15.0/24,,True,,tools.fr.c4m @itx2 ( vlan 345 ),active,0
+,10.32.31.0/24,,True,,interco vrfrxtx.fr.c4m @itx2 ( vlan 331 ),active,0
+,10.32.100.0/24,,True,,srl.fr.c4m @itx2 ( vlan 325 ),active,0
+,10.32.254.0/24,,True,,EU pop / interco routers & sw,active,0
+,10.32.254.0/29,,True,,XCO_VRF_SJTP_RMV ( vlan9 - SW-519 ),active,0
+,10.32.254.8/29,,True,,XCO_VRF_SJTP_ITX2 ( vlan9 - SW-387 ),active,0
+,10.32.254.16/29,,True,,ITX2 : dmzpro / vrf sjtp fw interco - vlan340,active,0
+,10.32.254.24/29,,True,,ITX2 : secure / vrf sjtp fw interco - vlan341,active,0
+,10.32.254.32/29,,True,,ITX2 : vrf rxtx / vrf sjtp fw interco - vlan???,active,0
+,10.32.254.40/29,,True,,RMV : pptools.fr - vlan 2834,active,0
+,10.32.254.48/29,,True,,ITX2: srl / vrf sjtp fw interco,active,0
+,10.32.254.56/29,,True,,INTERCO_RMV_ITX2,active,0
+,10.37.100.0/24,,True,,BPM tools zone,active,0
+,10.37.102.0/24,,True,,BPM Harmony mcs instances,active,0
+,10.37.102.0/26,,True,,mcs-ops intsance,active,0
+,10.37.102.64/26,,True,,mcs instance,active,0
+,10.37.103.0/24,,True,,BPM Harmony tf1 instances,active,0
+,10.37.103.0/26,,True,,tf1-ops instance,active,0
+,10.37.103.64/26,,True,,tf1 instance,active,0
+,10.37.103.128/26,,True,,tf1-preprod instance,active,0
+,10.37.104.0/24,,True,,BPM Harmony OCS instances,active,0
+,10.37.104.0/26,,True,,ocs instance,active,0
+,10.37.105.0/24,,True,,BPM Harmony ftv instances,active,0
+,10.37.105.64/26,,True,,ftv instance,active,0
+,10.38.0.0/24,,True,,GULLI PRA,active,0
+,10.38.0.0/27,,True,,VLAN 811 GPRA DATAS,active,0
+,10.38.0.32/27,,True,,VLAN 812 GPRA ADMIN,active,0
+,10.38.0.64/28,,True,,VLAN 813 GPRA STREAM,active,0
+,10.38.0.80/30,,True,,VLAN 2827 C4M Transfert Server,active,0
+,10.38.1.0/24,,True,,C4M PRA A RMV,active,0
+,10.38.1.0/29,,True,,C4M PRA FTV A RMV,active,0
+,10.38.1.8/29,,True,,C4M PRA FMM A RMV,active,0
+,10.99.0.0/16,,True,,C4M RxTx new subnet,active,0
+,10.99.0.0/22,,True,,CW rxtx EU,active,0
+,10.99.4.0/22,,True,,CW rxtx US,active,0
+,10.102.0.0/16,,True,,C4M RxTx Vpnconnect,active,0
+,10.103.0.0/28,,True,,Ivry - vlan 293,active,0
+,10.103.0.16/28,,True,,Paris/cji - vlan 284,active,0
+,10.103.0.64/28,,True,,Paris/cji/pool 2 - vlan 284,active,0
+,10.103.0.80/28,,True,,RXTX_VRFRXTX_RMV - vlan 289,active,0
+,10.103.0.96/28,,True,,Orange,active,0
+,10.103.0.112/28,,True,,sj-qbrick1-sw-1,active,0
+,10.103.0.128/28,,True,,Coresite/us,active,0
+,10.103.0.160/28,,True,,RXTX_VRFRXTX_ITX2 - vlan 332,active,0
+,10.103.0.176/28,,True,,Ivry - sj-whatfilms-fr-1,active,0
+,10.103.0.192/28,,True,,Ivry/lab - vlan 335,active,0
+,10.103.0.224/28,,True,,Canal/Reunion,active,0
+,10.103.254.0/24,,True,,INTERCOS,active,0
+,10.103.254.0/29,,True,,RMV RO  SW,active,0
+,10.103.254.8/31,,True,,OSL1  STO2,active,0
+,10.103.254.10/31,,True,,CPH  STO1,active,0
+,10.8.2.0/24,,True,,CPW_DMZ - vlan82 - cpw - ITX,active,0
+,10.8.3.0/24,,True,,CPW_ENCODE - vlan83 - cpw - ITX,active,0
+,10.8.5.0/24,,True,,VMS2 - vlan85 - vms2 - ITX,active,0
+,10.37.1.0/24,,True,,ATEME_DRIVERS_PROD - vlan1331 - prod.drivers.c4m - ITX,active,0
+,10.37.2.0/24,,True,,TRANSFO_MONIT - vlan2900 - tools.transform - RMV,active,0
+,10.37.5.0/24,,True,,TRANSCO_DC - vlan2954 - transco.media.tvvideoms.com - RMV,active,0
+,10.37.6.128/25,,True,,ADMIN_COMMON - vlan1792 - admin.media - RMV,active,0
+,10.37.11.0/24,,True,,KARAJAN_PROD_INTERNAL - vlan346 - karajan.transform.c4m - ITX,active,0
+,10.37.12.0/24,,True,,KARAJAN_PROD_INTERNAL_RMV - vlan2637 - prod.karajan.media - RMV,active,0
+,10.37.16.0/21,,True,,VRF STORE - COMMON,active,0
+,10.37.16.0/25,,True,,KARAJAN_PREPROD_STORE- vlan1790 - store.karajan.transform.c4m - RMV,active,0
+,10.37.16.128/25,,True,,KARAJAN_PROD_STORE- vlan2639 - prod.karajan.store - RMV,active,0
+,10.37.17.0/24,,True,,KARAJAN_PROD_STORE - vlan2887 - store.karajan.transform.c4m - ITX,active,0
+,10.37.19.0/25,,True,,STORAGE_NAS_CES - vlan2030 - nas-ces.store - CES,active,0
+,10.37.19.128/29,,True,,INTERCO NI-33_NI-34 - vlan4016 - RMV/ITX,active,0
+,10.37.19.136/29,,True,,INTERCO VRF STORE DSI CORE | BACKBONE  - vlan2112 - ITX,active,0
+,10.37.19.144/29,,True,,INTERCO VRF STORE DSI CORE | BACKBONE  - vlan2624 - RMV,active,0
+,10.37.19.152/31,,True,,INT1 BROADPEAK - vlan2906 - ITX,active,0
+,10.37.19.154/31,,True,,INT2 BROADPEAK - vlan2907 - ITX,active,0
+,10.37.19.156/31,,True,,INT3 BROADPEAK - vlan2908 - ITX,active,0
+,10.37.19.160/27,,True,,LAN BROADPEAK - vlan2905 - ITX,active,0
+,10.37.19.192/28,,True,,Interco_VRF_STORE_BPM-PP-TF1,active,0
+,10.37.20.128/25,,True,,TRANSCO_DC_STORE - vlan1506 - ateme.transco.store -RMV,active,0
+,10.37.21.0/24,,True,,VODMANAGER_DMZ_ITX - vlan347 - prod.vodmanager - ITX,active,0
+,10.37.22.0/28,,True,,VMS PreProd DC - VRF Storage Zone,active,0
+,10.37.22.16/28,,True,,VMS Prod DC - VRF Storage Zone,active,0
+,10.37.23.0/24,,True,,VODMANAGER_INTERNAL_ITX - vlan348 - prod.vodmanager - ITX,active,0
+,10.37.31.0/24,,True,,VODMANAGER_DMZ_RMV - vlan347 - prod.vodmanager - RMV,active,0
+,10.37.33.0/24,,True,,VODMANAGER_INTERNAL_RMV - vlan348 - prod.vodmanager - RMV,active,0
+,10.37.34.0/27,,True,,PROXMOX_STORE - vlan -  - CJI,active,0
+,10.37.34.32/28,,True,,OCS_STORE - vlan2666 - ocs.store.media  - RMV,active,0
+,10.37.34.48/28,,True,,INTERCO_MTH-COS_PF_COMMON - vlan2642 - - RMV,active,0
+,10.37.34.64/29,,True,,LCP-DMZ - vlan3533 - CJI,active,0
+,10.37.203.0/24,,True,,KARAJAN_PREPROD_INTERNAL - vlan2802 - preprod.karajan.media - RMV,active,0
+,10.58.1.0/24,,True,,MAM_ITX - vlan58 - transco - ITX,active,0
+,10.100.160.0/24,,True,,VMS1 - Internal - CJI,active,DMZ-DMC-CORE
+,172.16.1.0/24,,True,,MAM - CJI,active,0
+,172.16.101.0/24,,True,,FLIP - CJI,active,LGD COGNACQ
+,172.16.214.0/25,,True,,admin_proxmox - vlan - proxmox.media - CJI,active,0
+,10.1.5.0/24,,True,,INTERCO_CANAL_SNL_CTRL,active,0
+,10.1.5.0/30,,True,,Interco primaire - manage by Canal,active,0
+,10.1.5.4/30,,True,,Interco secondaire - manage by Canal,active,0
+,10.1.5.8/29,,True,,INTERCO_CANAL_FARMAN_PRIMAIRE_CTRL - vlan2871 - pctrl.sco.woode,active,0
+,10.1.5.16/29,,True,,INTERCO_CANAL_FARMAN_SECONDAIRE_CTRL - vlan2885 - sctrl.sco.woode,active,0
+,10.1.5.24/30,,True,,- Interco primaire - tenant QA,active,0
+,10.1.5.28/30,,True,,- Interco secondaire - tenant QA,active,0
+,10.1.5.32/27,,True,,- Arkena QA - tenant QA,active,0
+,10.1.5.64/27,,True,,INTERCO_ARKENA_NAT_PREPROD - arkena.preprod.snlco.woode,active,0
+,10.1.5.96/27,,True,,INTERCO_ARKENA_NAT_PROD - arkena.prod.snlco.woode,active,0
+,10.1.5.128/26,,True,,Arkena Subnet,active,0
+,10.1.5.192/27,,True,,INTERCO_CANAL_NAT_PREPROD - manage by Canal - canal.preprod.snlco.woode,active,0
+,10.1.5.224/27,,True,,INTERCO_CANAL_NAT_PROD - manage by Canal - canal.prod.snlco.woode,active,0
+,10.1.6.0/24,,True,,INTERCO_CANAL_SNL_DATA,active,0
+,10.1.6.0/29,,True,,INTERCO_CANAL_FARMAN_PRIMAIRE_DATA - vlan2872 - pdata.sco.woode,active,0
+,10.1.6.8/29,,True,,INTERCO_CANAL_FARMAN_SECONDAIRE_DATA - vlan2886 - sdata.sco.woode,active,0
+,10.1.6.16/28,,True,,INTERCO_CANAL_LUMIERE_MIT_1 - vlan2907 - mitco.woode,active,0
+,10.31.0.0/21,,True,,Canal+ SNL - dedicated,active,0
+,10.31.0.0/24,,True,,SNL_DMZ - vlan2873 - dmz.woode,active,0
+,10.31.1.0/24,,True,,SNL_WOODE_PP - vlan2874 - pp.woode,active,0
+,10.31.2.0/24,,True,,SNL_WOODE_PROD - vlan2875 - prod.woode,active,0
+,10.31.3.0/28,,True,,SNL_FW_OUT_PROV - vlan2893 - prov.woode,active,0
+,10.31.3.16/28,,True,,SNL_RXTX - vlan2879 - dmzrxtx.woode,active,0
+,10.31.3.32/27,,True,,SNL_TOOLS  - vlan2909 - tools.woode,active,0
+,10.31.3.64/28,,True,,SNL_DMZFTP - vlan2991 - dmzftp.woode,active,0
+,10.31.3.80/28,,True,,SNL_DMZ_PROV - vlan103 - dmzprov.woode,active,0
+,10.31.3.96/27,,True,,NEW SNL_FW_OUT_PROV - vlan2893 - prov.woode,active,0
+,10.31.3.128/27,,True,,NEW SNL_DMZ_PROV - vlan103 - dmzprov.woode,active,0
+,10.31.3.160/27,,True,,NEW SNL_RXTX - vlan2879 - dmzrxtx.woode,active,0
+,10.31.4.0/24,,True,,SNL_DB - vlan2877 - db.woode,active,0
+,10.31.5.0/24,,True,,SNL_STORAGE - vlan2878 - stor.woode,active,0
+,10.31.6.0/28,,True,,SNL_BPM_PROD - vlan32 - bpm.woode,active,0
+,10.31.6.16/28,,True,,SNL_BPM_PREPROD - vlan2610 - preprod.bpm.woode,active,0
+,10.31.7.0/24,,True,,SNL_DMZ_IN - vlan593 - dmzin.woode,active,0
+,10.31.64.0/24,,True,,SNL_TRANSCO_ATEME - vlan2876 - transco.woode,active,0
+,10.31.65.0/24,,True,,STORAGE_SCALITY_NODES - vlan2896 - scality.woode,active,0
+,10.31.254.0/29,,True,,SNL_INTERCO_XCO - vlan2881 - xco.woode,active,0
+,10.31.254.8/30,,True,,SNL_FW_VRRP - vlan2888- vrrp.woode,active,0
+,10.242.0.0/16,,True,,VPN Access Clients,active,0
+,95.81.146.112/28,,True,,SNL_PUBLIC - vlan2887 - public.woode,active,0
+,172.16.114.0/24,,True,,SNL COCKPIT N1,active,CNALA+_SNL
+,10.8.7.0/24,,True,,SMC-1,active,0
+,10.55.0.0/16,,True,,ADBS,active,0
+,10.55.1.0/24,,True,,ADBS Anycast,active,0
+,10.55.11.0/24,,True,,Pool A,active,0
+,10.55.12.0/24,,True,,Pool B,active,0
+,10.201.0.0/16,,True,,Office,active,0
+,10.201.0.0/21,,True,,OFFICE-IVR-USERS,active,0
+,10.201.8.0/23,,True,,OFFICE-IVR-GUESTS,active,0
+,10.201.10.0/24,,True,,OFFICE-IVR-PRINTERS,active,0
+,10.201.11.0/24,,True,,OFFICE-IVR-LIMITED,active,0
+,10.201.43.0/24,,True,,OFFICE-CJI-LIMITED,active,0
+,172.20.4.0/23,,True,,OFFICE-CJI-LEGACY,active,0
+,213.205.126.96/28,,True,,ZoneSHA,active,0
+,10.69.0.0/24,,True,,ADM Services,active,0
+,10.69.1.0/24,,True,,ADM Hypervisors,active,0
+,10.69.2.0/24,,True,,ADM Unused 1,active,0
+,10.69.3.0/24,,True,,ADM Unused 2,active,0
+,10.69.4.0/24,,True,,LAB Services,active,0
+,10.69.5.0/24,,True,,LAB CI,active,0
+,10.69.6.0/24,,True,,LAB Staging,active,0
+,10.69.7.0/24,,True,,LAB Unused,active,0
+,10.69.8.0/24,,True,,CDN Services,active,0
+,10.69.9.0/24,,True,,CDN CI,active,0
+,10.69.10.0/24,,True,,CDN Staging,active,0
+,10.69.10.0/28,,True,,CDN Staging 0,active,0
+,10.69.10.16/28,,True,,CDN Staging 1,active,0
+,10.69.10.32/28,,True,,CDN Staging 2,active,0
+,10.69.10.48/28,,True,,CDN Staging 3,active,0
+,10.69.10.64/28,,True,,CDN Staging 4,active,0
+,10.69.10.80/28,,True,,CDN Staging 5,active,0
+,10.69.10.96/28,,True,,CDN Staging 6,active,0
+,10.69.10.112/28,,True,,CDN Staging 7,active,0
+,10.69.10.128/28,,True,,CDN Staging 8,active,0
+,10.69.10.144/28,,True,,CDN Staging 9,active,0
+,10.69.10.160/28,,True,,CDN Staging A,active,0
+,10.69.10.176/28,,True,,CDN Staging B,active,0
+,10.69.10.192/28,,True,,CDN Staging C,active,0
+,10.69.10.208/28,,True,,CDN Staging D,active,0
+,10.69.10.224/28,,True,,CDN Staging E,active,0
+,10.69.10.240/28,,True,,CDN Staging F,active,0
+,10.69.11.0/24,,True,,CDN Unused,active,0
+,10.69.12.0/24,,True,,C4M Services,active,0
+,10.69.13.0/24,,True,,C4M CI,active,0
+,10.69.14.0/24,,True,,C4M Staging,active,0
+,10.69.14.0/28,,True,,C4M Staging 0,active,0
+,10.69.14.16/28,,True,,C4M Staging 1,active,0
+,10.69.14.32/28,,True,,C4M Staging 2,active,QA
+,10.69.14.48/28,,True,,C4M Staging 3,active,0
+,10.69.14.64/28,,True,,C4M Staging 4,active,0
+,10.69.14.80/28,,True,,C4M Staging 5,active,0
+,10.69.14.96/28,,True,,C4M Staging 6,active,0
+,10.69.14.112/28,,True,,C4M Staging 7,active,0
+,10.69.14.128/28,,True,,C4M Staging 8,active,0
+,10.69.14.144/28,,True,,C4M Staging 9,active,0
+,10.69.14.160/28,,True,,C4M Staging A,active,0
+,10.69.14.176/28,,True,,C4M Staging B,active,0
+,10.69.14.192/28,,True,,C4M Staging C,active,0
+,10.69.14.208/28,,True,,C4M Staging D,active,0
+,10.69.14.224/28,,True,,C4M Staging E,active,0
+,10.69.15.0/24,,True,,C4M Unused,active,0
+,10.69.16.0/24,,True,,VP Services,active,0
+,10.69.17.0/24,,True,,VP CI,active,0
+,10.69.18.0/24,,True,,VP Staging,active,0
+,10.69.18.0/28,,True,,VP Staging 0,active,0
+,10.69.18.16/28,,True,,VP Staging 1,active,0
+,10.69.18.32/28,,True,,VP Staging 2,active,0
+,10.69.18.48/28,,True,,VP Staging 3,active,0
+,10.69.18.64/28,,True,,VP Staging 4,active,0
+,10.69.18.80/28,,True,,VP Staging 5,active,0
+,10.69.18.96/28,,True,,VP Staging 6,active,0
+,10.69.18.112/28,,True,,VP Staging 7,active,0
+,10.69.18.128/28,,True,,VP Staging 8,active,0
+,10.69.18.144/28,,True,,VP Staging 9,active,0
+,10.69.18.160/28,,True,,VP Staging A,active,0
+,10.69.18.176/28,,True,,VP Staging B,active,0
+,10.69.18.192/28,,True,,VP Staging C,active,0
+,10.69.18.208/28,,True,,VP Staging D,active,0
+,10.69.18.224/28,,True,,VP Staging E,active,0
+,10.69.18.240/28,,True,,VP Staging F,active,0
+,10.69.19.0/24,,True,,VP Unused,active,0
+,10.69.20.0/24,,True,,OTT Services,active,0
+,10.69.21.0/24,,True,,OTT CI,active,0
+,10.69.22.0/24,,True,,OTT Staging,active,0
+,10.69.22.0/27,,True,,OTT Staging 0,active,0
+,10.69.22.32/27,,True,,OTT Staging 1,active,0
+,10.69.22.64/27,,True,,OTT Staging 2,active,0
+,10.69.22.96/27,,True,,OTT Staging 3,active,0
+,10.69.22.128/27,,True,,OTT Staging 4,active,0
+,10.69.22.160/27,,True,,OTT Staging 5,active,0
+,10.69.22.192/27,,True,,OTT Staging 6,active,0
+,10.69.22.224/27,,True,,OTT Staging 7,active,0
+,10.69.23.0/24,,True,,OTT Unused,active,0
+,10.69.24.0/24,,True,,CUS Services,active,0
+,10.69.25.0/24,,True,,CUS CI,active,0
+,10.69.26.0/24,,True,,CUS Staging,active,0
+,10.69.26.0/28,,True,,CUS Staging 0,active,0
+,10.69.26.16/28,,True,,CUS Staging 1,active,0
+,10.69.26.32/28,,True,,CUS Staging 2,active,0
+,10.69.26.48/28,,True,,CUS Staging 3,active,0
+,10.69.26.64/28,,True,,CUS Staging 4,active,0
+,10.69.26.80/28,,True,,CUS Staging 5,active,0
+,10.69.26.96/28,,True,,CUS Staging 6,active,0
+,10.69.26.112/28,,True,,CUS Staging 7,active,0
+,10.69.26.128/28,,True,,CUS Staging 8,active,0
+,10.69.26.144/28,"{'id': '394', 'subnetId': '24', 'ip_addr': '10.159.0.1', 'is_gateway': '1', 'description': None, 'hostname': 'vip-fw-admin-rmv.xco.arkena.net', 'mac': None, 'owner': None, 'state': '2', 'switch': None, 'location': None, 'port': None, 'note': None, 'lastSeen': '2023-07-26 10:30:01', 'excludePing': '0', 'PTRignore': '0', 'PTR': '0', 'firewallAddressObject': None, 'editDate': '2023-07-26 10:31:53', 'customer_id': None, 'custom_HOSTNAME_NICS_ADMIN': None, 'custom_HOSTNAME_NICS_STORAGE': None, 'custom_FQDN_INTERNAL': None}",True,394,CUS Staging 9,active,0
+,10.69.26.160/28,,True,,CUS Staging A,active,0
+,10.69.26.176/28,,True,,CUS Staging B,active,0
+,10.69.26.192/28,,True,,CUS Staging C,active,0
+,10.69.26.208/28,,True,,CUS Staging D,active,0
+,10.69.26.224/28,,True,,CUS Staging E,active,0
+,10.69.26.240/28,,True,,CUS Staging F,active,0
+,10.69.27.0/24,,True,,CUS Unused,active,0
+,10.69.28.0/22,,True,,INFRA Environment,active,0
+,10.69.30.0/24,,True,,INFRA Unused,active,0
+,10.69.31.0/24,,True,,SNL TMP,active,
+,10.69.32.0/22,,True,,COMMON Environment,active,0
+,10.69.36.0/22,,True,,DRM Environment,active,0
+,10.69.36.0/24,,True,,DRM Services,active,0
+,10.69.37.0/24,,True,,DRM CI,active,0
+,10.69.38.0/24,,True,,DRM Staging,active,0
+,10.69.38.0/27,,True,,DRM Staging 0,active,0
+,10.69.38.32/27,,True,,DRM Staging 1,active,0
+,10.69.38.64/27,,True,,DRM Staging 2,active,0
+,10.69.38.96/27,,True,,DRM Staging 3,active,0
+,10.69.38.128/27,,True,,DRM Staging 4,active,0
+,10.69.38.160/27,,True,,DRM Staging 5,active,0
+,10.69.38.192/27,,True,,DRM Staging 6,active,0
+,10.69.38.224/27,,True,,DRM Staging 7,active,0
+,10.69.39.0/24,,True,,DRM Unused,active,0
+,10.69.40.0/22,,True,,POP1 Unused Environment,active,0
+,10.69.44.0/22,,True,,POP1 Unused Environment,active,0
+,10.69.48.0/22,,True,,POP1 Unused Environment,active,0
+,10.69.52.0/22,,True,,POP1 Unused Environment,active,0
+,10.69.56.0/22,,True,,POP1 Unused Environment,active,0
+,10.69.60.0/22,,True,,POP1 Unused Environment,active,0
+,10.69.64.0/18,,True,,POP2 Unused,active,0
+,10.69.128.0/18,,True,,POP3 Unused,active,0
+,10.69.192.0/18,,True,,POP3 Unused,active,0
+,10.56.0.0/28,,True,,ITX2 Network devices for Dataminer,active,0
+,10.56.0.16/28,,True,,RMV Network devices for Dataminer,active,0
+,10.56.4.0/25,,True,,TH2 sur cpe-th2-1-old et sw-contrib-th2-*,active,56
+,10.56.4.128/25,,True,,TH2 sur cpe-th2-1-new,active,0
+,10.56.13.0/30,,True,,IPTV_ADMIN_DCM_RMV (TransfoNet Arkena BB),active,0
+,10.56.200.0/29,,True,,passerelle_Nokia_Brocade_RMV,active,0
+,10.56.255.8/29,,True,,SW-CORE-ITX2  RO-ITX2,active,0
+,10.56.255.16/29,,True,,SW-CORE-RMV  RO-RMV,active,0
+,10.56.255.24/29,,True,,IPPLAY INTERCO,active,0
+,10.56.255.32/29,,True,,SPV - MONITORING,active,0
+,10.56.255.40/29,,True,,INTERCO_RMV_ITX2,active,0
+,95.81.145.192/26,,True,,LBZ Net Output,active,0
+,95.81.146.0/27,,True,,Public Interco ORIGIN ITX2 Ingest,active,0
+,95.81.146.32/27,,True,,Public Interco ORIGIN RMV Ingest,active,0
+,95.81.146.88/29,,True,,CDNWEB ITX2 INTERNET,active,0
+,95.81.146.96/29,,True,,CDNWEB RMV INTERNET,active,0
+,95.81.147.0/24,,True,,CDN GEO Paris 02 (Romainville),active,0
+,95.81.147.192/26,,True,,INPUT ROMAINVILLE,active,0
+,95.81.154.0/24,,True,,CDN GEO Helsinki 01 (Radiokatu),active,0
+,95.81.154.144/28,,True,,QBRICK_STREAMER_2,active,0
+,95.81.154.160/28,,True,,QBRICK_STREAMER,active,0
+,95.81.154.192/26,,True,,INPUT RADIOKATU,active,0
+,95.81.155.0/24,,True,,CDN GEO Paris 03 (Interxion2),active,0
+,95.81.155.192/26,,True,,INPUT INTERXION2,active,0
+,95.81.159.0/24,,True,,CDN GEO Preprod,active,0
+,95.81.159.192/26,,True,,INPUT PREPROD,active,0
+,91.209.15.0/24,,True,,ITX2_PUBLIC_CORE,active,0
+,91.209.15.240/28,,True,,US,active,
+,95.81.145.0/28,,True,,VPNRXTX_C4M_PROD,active,0
+,213.205.126.0/27,,True,,RXTX_PUBLIC_ITX2,active,0
+,213.205.126.120/29,,True,,zixi_pub,active,0
+,91.197.164.0/27,,True,,SHA-RMV-2,active,
+,91.197.165.0/27,,True,,SHA-ITX-3,active,
+,95.81.173.0/27,,True,,SHA-ITX2-1,active,0
+,95.81.173.32/27,,True,,DMA-1 (ITX2),active,0
+,95.81.173.64/27,,True,,SHA-RMV-1,active,0
+,95.81.173.96/27,,True,,DMA-2 (RMV),active,0
+,95.81.173.160/27,,True,,DMA-3 (ITX2),active,0
+,95.81.173.224/27,,True,,DMA-5,active,0
+,224.0.0.0/4,,True,,Contrib RX-TX A TRIER,active,0
+,239.180.9.0/24,,True,,mcast_radio_PRA-FMM,active,
+,239.180.28.0/24,,True,,mcast_radio_contrib,active,
+,239.182.9.0/24,,True,,mcast_PRA-FMM,active,
+,239.182.11.0/24,,True,,mcast_VM_Brane_IPPlay,active,
+,239.182.25.0/24,,True,,mcast_out_regie_Lagardere_RMV_sd,active,
+,239.182.26.0/24,,True,,mcast_flux_monitoringSD_regie_Lagardere_RMV,active,
+,239.182.28.0/24,,True,,mcast_tv_sd_contrib,active,
+,239.182.29.0/24,,True,,mcast_b2m,active,
+,239.182.30.0/24,,True,,mcast_contrib_Gbe2.cji.fr,active,
+,239.182.37.0/24,,True,,????,active,
+,239.182.38.0/24,,True,,????,active,
+,239.182.40.0/24,,True,,mcast_out_regie_Africa 24_RMV_sd,active,
+,239.182.42.0/24,,True,,mcast _transco_FTTH,active,
+,239.182.43.0/24,,True,,mcast_bytel_ott.cji.fr,active,
+,239.182.44.0/24,,True,,secu_IRD_chaines_SD.cji.fr,active,
+,239.182.46.0/24,,True,,mcast_bytel_otheroccult.cji.fr,active,
+,239.182.47.0/24,,True,,mcast_mfp_cji.fr,active,
+,239.182.48.0/24,,True,,mcast_occultation_SD.cji.fr,active,
+,239.182.49.0/24,,True,,mcast_mfp-2_cji.fr,active,
+,239.182.50.0/24,,True,,mcast _transco_secu_coeur2.cji.fr,active,
+,239.182.60.0/24,,True,,mcast_ipplay_coder.cji.fr,active,
+,239.182.61.0/24,,True,,mcast_bytel_transco.cji.fr,active,
+,239.182.64.0/24,,True,,mcast_coeur_NC.cji.fr,active,
+,239.182.70.0/24,,True,,mcast_completel.cji.fr,active,
+,239.182.79.0/24,,True,,mcast_transco_secu_coeur.cji.fr,active,
+,239.182.80.0/24,,True,,mcast_contrib_intx2_SD,active,
+,239.182.91.0/24,,True,,mcast_encodage_RMV_SD,active,
+,239.182.125.0/24,,True,,mcast_flux_secu_regie_Lagardere_RMV_sd,active,
+,239.182.140.0/24,,True,,mcast_flux_secu_regie_Africa24_RMV_sd,active,
+,239.183.159.0/24,,True,,mcast_enc_OUT_beIN_RMV,active,
+,239.183.160.0/24,,True,,mcast_enc_OUT_beIN_INTX2,active,
+,239.183.161.0/24,,True,,mcast_enc_OUT_Mutual_INTX2,active,
+,239.184.9.0/24,,True,,mcast_HD_PRA-FMM,active,
+,239.184.11.0/24,,True,,mcast-HD_VM_Brane_IPPlay,active,
+,239.184.25.0/24,,True,,mcast_out_regie_Lagardere_RMV_hd,active,
+,239.184.26.0/24,,True,,mcast_flux_monitoringHD_regie_Lagardere_RMV,active,
+,239.184.28.0/24,,True,,mcast_tv_hd_contrib,active,
+,239.184.30.0/24,,True,,mcast_contrib_hd_Gbe2.cji.fr,active,
+,239.184.35.0/24,,True,,mcast_POC_HCI_KarimSadan,active,
+,239.184.37.0/24,,True,,mcast_JPEG2000_PRA_OCS,active,
+,239.184.42.0/24,,True,,mcast_enc_specif_Bytel,active,
+,239.184.44.0/24,,True,,mcast_secu_IRD_8eme_chaines_HD,active,
+,239.184.46.0/24,,True,,mcast_bytel_occult_HD.cji.fr,active,
+,239.184.47.0/24,,True,,mcast_mfp_hd_cji.fr,active,
+,239.184.48.0/24,,True,,mcast_occultation_HD.cji.fr,active,
+,239.184.49.0/24,,True,,mcast_mfp-2_cji.fr,active,
+,239.184.50.0/24,,True,,mcast_secu_mfp2_cji.fr,active,
+,239.184.60.0/24,,True,,mcast_ipplay_coder_hd.cji.fr,active,
+,239.184.61.0/24,,True,,mcast_bytel_transco_hd.cji.fr,active,
+,239.184.62.0/24,,True,,mcast_PRA_FTVEN_Titan,active,
+,239.184.64.0/24,,True,,mcast_DCM_NC,active,
+,239.184.70.0/24,,True,,mcast_completel_hd.cji.fr,active,
+,239.184.79.0/24,,True,,mcast _transco_secu_coeur_hd.cji,active,
+,239.184.80.0/24,,True,,mcast_bein_hd_intx2,active,
+,239.184.90.0/24,,True,,mcast_bein_hd_th2,active,
+,239.184.91.0/24,,True,,mcast_encodage_RMV_HD,active,
+,239.184.92.0/24,,True,,mcast_chaînes_HD_regie_6eme,active,
+,239.184.100.0/24,,True,,mcast beIN APAC Intx2,active,
+,239.184.101.0/24,,True,,mcast beIN APAC TH2,active,
+,239.184.125.0/24,,True,,mcast_flux_secu_regie_Lagardere_RMV_hd,active,
+,239.184.127.0/24,,True,,mcast_PRA_OCS_CJI & RMV,active,
+,239.184.135.0/24,,True,,mcast_flux_secu_POC_HCI_KarimSadan,active,
+,239.186.26.0/24,,True,,mcast UHD contrib,active,
+,239.186.44.0/24,,True,,mcast_secu_ird_chaines_UHD,active,
+,239.186.91.0/24,,True,,mcast UHD from regie 6eme,active,
+,239.192.0.0/24,,True,,mcast_anevia_SPTS.cji.fr,active,
+,239.192.1.0/24,,True,,mcast_anevia_MPTS.cji.fr,active,
+,239.192.2.0/24,,True,,mcast_Cisco_DRD_spts.cji.fr,active,
+,239.192.3.0/24,,True,,mcast_DCM_Zixi,active,
+,239.192.4.0/24,,True,,mcast_MPTS_DRD,active,
+,239.192.5.0/24,,True,,mcast_Anevia_Flamingo_SAT_sources,active,
+,239.192.6.0/24,,True,,mcast_Anevia_FlamingoD4_TNT_sources,active,
+,239.224.50.0/24,,True,,????,active,
+,239.255.1.0/24,,True,,mcast_anevia_radio_SPTS.cji.fr,active,
+,239.255.20.0/24,,True,,mcast_DCM_NC,active,
+,10.16.0.0/16,,True,,XCO,active,0
+,10.16.2.0/24,,True,,TH2,active,0
+,10.16.4.0/24,,True,,IVR,active,0
+,10.16.6.0/24,,True,,ITX2,active,0
+,10.16.7.0/24,,True,,RMV,active,0
+,10.16.9.0/24,,True,,CJI,active,0
+,10.16.10.0/24,,True,,MRS,active,0
+,10.16.14.0/24,,True,,STR,active,0
+,10.16.15.0/24,,True,,RKU,active,0
+,10.16.17.0/24,,True,,BIX,active,0
+,10.16.18.0/24,,True,,DTX,active,0
+,10.16.21.0/24,,True,,OSL2,active,0
+,10.16.22.0/24,,True,,LA,active,0
+,10.16.23.0/24,,True,,OSL1,active,0
+,10.16.254.0/24,,True,,Intercos,active,0
+,10.16.254.0/29,,True,,INTERCO_RMV_ITX2,active,0
+,10.16.254.8/29,,True,,Interco RMV CORE ROUTERs,active,0
+,10.16.254.16/29,,True,,Interco ITX2 CORE ROUTERS,active,0
+,10.242.0.0/17,,True,,VPN Access Internal,active,0
+,10.242.248.0/22,,True,,VPN Access External,active,0
+,10.242.252.0/22,,True,,VPN Access Bots,active,0
+,95.81.163.0/25,,True,,VPN Access,active,0
+,95.81.163.4/30,,True,,vpnadm-rmv,active,0
+,95.81.163.8/31,,True,,vpnaccess-rmv 1,active,0
+,95.81.163.10/31,,True,,vpnaccess-rmv 2,active,0
+,95.81.163.12/31,,True,,vpnaccess-la 1,active,0
+,95.81.163.14/31,,True,,vpnaccess-la 2,active,0
+,95.81.163.16/31,,True,,vpnaccess-itx2 1,active,0
+,95.81.163.18/31,,True,,vpnaccess-itx2 2,active,0
+,95.81.163.20/31,,True,,vpnaccess-rku 1,active,0
+,95.81.163.22/31,,True,,vpnaccess-rku 2,active,0
+,95.81.163.24/29,,True,,vpnaccess-itx2,active,0
+,95.81.163.32/29,,True,,vpnaccess-rmv,active,0
+,10.4.0.0/14,,True,,Load Balancing Service,active,0
+,10.4.0.0/18,,True,,LBS Capitole,active,0
+,10.4.0.0/24,,True,,LBS Captitole System,active,0
+,10.4.6.0/24,,True,,ADWZG Pool A,active,0
+,10.4.10.0/24,,True,,FLVLG Pool A,active,0
+,10.4.11.0/24,,True,,HBB11LG Pool A,active,0
+,10.4.13.0/24,,True,,WEBCG Pool A,active,0
+,10.4.14.0/24,,True,,SJTP serverless redirector,active,0
+,10.4.16.0/24,,True,,CHKG POOL A,active,0
+,10.4.22.0/24,,True,,ADWZG2 Pool A,active,0
+,10.4.25.0/24,,True,,HTTPG3 Pool A,active,0
+,10.4.26.0/24,,True,,ADWZG3 Pool A,active,0
+,10.4.27.0/24,,True,,ADWZG4 Pool A,active,0
+,10.4.28.0/24,,True,,HCACHEG Pool A,active,0
+,10.4.64.0/18,,True,,LBS Romainville,active,0
+,10.4.64.0/24,,True,,LBS Romainville System,active,0
+,10.4.72.0/24,,True,,ADWZG Pool B,active,0
+,10.4.73.0/24,,True,,HBB11LG Pool B,active,0
+,10.4.74.0/24,,True,,MP3LG3 Pool B,active,0
+,10.4.76.0/24,,True,,FLVLG Pool B,active,0
+,10.4.79.0/24,,True,,CHKG POOL B,active,0
+,10.4.85.0/24,,True,,ADWZG2 Pool B,active,0
+,10.4.88.0/24,,True,,HTTPG3 Pool B,active,0
+,10.4.89.0/24,,True,,ADWZG3 Pool B,active,0
+,10.4.90.0/24,,True,,ADWZG4 Pool B,active,0
+,10.4.91.0/24,,True,,HCACHEG Pool B,active,0
+,10.4.92.0/24,,True,,ADWZG5 Pool B,active,0
+,10.4.93.0/24,,True,,AUDIOTS POOL B,active,0
+,10.4.94.0/24,,True,,AUDIO POOL B,active,0
+,10.4.96.0/24,,True,,ADWZG6 POOL B,active,0
+,10.4.97.0/24,,True,,RADIONOMY POOL B,active,0
+,10.4.98.0/24,,True,,TRITON POOL B,active,0
+,10.4.99.0/24,,True,,PLAYERS POOL B,active,0
+,10.4.128.0/18,,True,,LBS Interxion 2,active,0
+,10.4.128.0/24,,True,,LBS Interxion 2,active,0
+,10.4.144.0/24,,True,,CHKG Pool c,active,0
+,10.4.145.0/24,,True,,ADWZG2 Pool c,active,0
+,10.4.146.0/24,,True,,ADWZG3 Pool c,active,0
+,10.4.147.0/24,,True,,ADWZG4 Pool c,active,0
+,10.4.149.0/24,,True,,HBB11LG POOL C,active,0
+,10.4.156.0/24,,True,,HCACHEG Pool A,active,0
+,10.4.157.0/24,,True,,HTTPG3 Pool C,active,0
+,10.4.158.0/24,,True,,ADWZG Pool c,active,0
+,10.4.159.0/24,,True,,ADWZG5 Pool A,active,0
+,10.4.160.0/24,,True,,FLVG Pool C,active,0
+,10.4.170.0/24,,True,,AUDIOTS POOL C,active,0
+,10.4.171.0/24,,True,,AUDIO POOL C,active,0
+,10.4.173.0/24,,True,,ADWZG6 POOL C,active,0
+,10.4.174.0/24,,True,,WOWG POOL C,active,0
+,10.4.175.0/24,,True,,RADIONOMY POOL C,active,0
+,10.4.176.0/24,,True,,TRITON POOL C,active,0
+,10.4.177.0/24,,True,,PLAYERS POOL C,active,0
+,10.5.192.0/18,,True,,LBS Rennes,active,0
+,10.5.192.0/24,,True,,LBS Rennes System,active,0
+,10.6.0.0/18,,True,,LBS Marseille,active,0
+,10.6.0.0/24,,True,,LBS Marseille System,active,0
+,10.6.64.0/18,,True,,LBS Oslo Telia,active,0
+,10.6.64.0/24,,True,,LBS OSL1 Telia System,active,0
+,10.6.65.0/24,,True,,HCACHEGN,active,0
+,10.6.66.0/24,,True,,HTTPODN,active,0
+,10.6.128.0/18,,True,,LBS Oslo Verizon,active,0
+,10.6.128.0/24,,True,,LBS OSL2 verizon System,active,0
+,10.6.129.0/24,,True,,HCACHEGN,active,0
+,10.6.130.0/24,,True,,HTTPODN,active,0
+,10.6.192.0/18,,True,,LBS Budapest BIX,active,0
+,10.6.192.0/24,,True,,LBS Budapest BIX System,active,0
+,10.6.194.0/24,,True,,HSSLHU Pool A,active,0
+,10.6.195.0/24,,True,,HSSOHU Pool A,active,0
+,10.6.196.0/24,,True,,HTTPHU Pool A,active,0
+,10.6.197.0/24,,True,,MP3LHU Pool A,active,0
+,10.6.198.0/24,,True,,CHKHU Pool A,active,0
+,10.6.199.0/24,,True,,MPTSLHU Pool A,active,0
+,10.6.200.0/24,,True,,FLVLHU Pool A,active,0
+,10.6.201.0/24,,True,,WOWHU Pool A,active,0
+,10.6.202.0/24,,True,,FLVOHU Pool A,active,0
+,10.6.203.0/24,,True,,HCACHEHU Pool A,active,0
+,10.7.0.0/18,,True,,LBS Budapest DTX,active,0
+,10.7.0.0/24,,True,,LBS Budapest DTX System,active,0
+,10.17.0.0/16,,True,,Stream Contribution (stcon),active,0
+,10.17.0.0/30,,True,,STCON_IN_HSS,active,0
+,10.17.0.4/30,,True,,STREAMING_POOL_PRIVATE,active,0
+,10.17.0.88/29,,True,,MP3 OUTPUT POOL B,active,0
+,10.17.0.96/29,,True,,MP3 INPUT POOL E,active,0
+,10.17.0.96/30,,True,,Router CAP  mp3-in-e1,active,0
+,10.17.0.100/30,,True,,Router RMV  mp3-in-e2,active,0
+,10.17.0.104/29,,True,,MP3 INPUT POOL B,active,0
+,10.17.0.104/30,,True,,Router Cap  mp3-in-b1,active,0
+,10.17.0.108/30,,True,,Router RMV  mp3-in-b2,active,0
+,10.17.0.112/29,,True,,MP3 INPUT POOL C,active,0
+,10.17.0.112/30,,True,,Router CAP  mp3-in-c1,active,0
+,10.17.0.116/30,,True,,Router RMV  mp3-in-c2,active,0
+,10.17.0.120/29,,True,,MP3 OUTPUT POOL E,active,0
+,10.17.0.128/29,,True,,MP3 OUTPUT POOL F,active,0
+,10.17.0.136/29,,True,,MP3 OUTPUT POOL G,active,0
+,10.17.1.32/29,,True,,WOWZA INPUT POOL A,active,0
+,10.17.1.32/30,,True,,Cap pool,active,0
+,10.17.1.36/30,,True,,Rmv pool,active,0
+,10.17.1.64/29,,True,,MP3 INPUT POOL F,active,0
+,10.17.1.64/30,,True,,Cap  mp3-in-f1,active,0
+,10.17.1.68/30,,True,,Rmv  mp3-in-f2,active,0
+,10.17.1.72/29,,True,,MP3 INPUT POOL G,active,0
+,10.17.1.72/30,,True,,Cap  mp3-in-g1,active,0
+,10.17.1.76/30,,True,,Rmv  mp3-in-g2,active,0
+,10.17.1.96/29,,True,,ADWZBIP INPUT POOL A,active,0
+,10.17.1.96/30,,True,,Cap  adwzbip-in-a1,active,0
+,10.17.1.100/30,,True,,Rmv adwzbip-in-a2,active,0
+,10.17.1.104/29,,True,,ADWZG OUT POOL A,active,0
+,10.17.1.112/29,,True,,ADWZG OUT POOL B,active,0
+,10.17.1.120/29,,True,,ADWZBIP INPUT POOL B,active,0
+,10.17.1.120/30,,True,,Cap  adwzbip-in-b1,active,0
+,10.17.1.124/30,,True,,Rmv  adwzbip-in-b2,active,0
+,10.17.1.128/29,,True,,CHUNK INPUT POOL B,active,0
+,10.17.1.128/30,,True,,Cap  chunk-in-b1,active,0
+,10.17.1.132/30,,True,,Rmv  chunk-in-b2,active,0
+,10.17.1.136/29,,True,,WOWZA INPUT POOL B,active,0
+,10.17.1.136/30,,True,,Cap pool,active,0
+,10.17.1.140/30,,True,,Rmv pool,active,0
+,10.17.1.144/29,,True,,ADWZBIP INPUT POOL G,active,0
+,10.17.1.144/30,,True,,Cap  adwzbip-in-g1,active,0
+,10.17.1.148/30,,True,,Rmv  adwzbip-in-g2,active,0
+,10.17.1.152/29,,True,,ADWZBIP IN POOL H,active,0
+,10.17.1.152/30,,True,,Cap  adwzbip-in-h1,active,0
+,10.17.1.156/30,,True,,Rmv  adwzbip-in-h2,active,0
+,10.17.1.160/29,,True,,FLVLG OUPUT POOL A,active,0
+,10.17.1.168/29,,True,,HBB11LG OUTPUT POOL A,active,0
+,10.17.1.176/29,,True,,HBB11LG OUTPUT POOL B,active,0
+,10.17.1.216/29,,True,,ADWZBIP INPUT POOL C,active,0
+,10.17.1.216/30,,True,,Cap  adwzbip-in-c1,active,0
+,10.17.1.220/30,,True,,Rmv  adwzbip-in-c2,active,0
+,10.17.1.232/29,,True,,FLVLG OUT POOL B,active,0
+,10.17.1.240/29,,True,,FTP IN B,active,0
+,10.17.1.240/30,,True,,BIX  ftp-in-b1pouet,active,0
+,10.17.1.244/30,,True,,DTX  ftp-in-b2,active,0
+,10.17.1.248/29,,True,,HSS IN B,active,0
+,10.17.1.248/30,,True,,BIX  hss-in-b1,active,0
+,10.17.1.252/30,,True,,DTX  hss-in-b2,active,0
+,10.17.2.0/29,,True,,CHUNK IN C,active,0
+,10.17.2.0/30,,True,,BIX  chunk-in-c1,active,0
+,10.17.2.4/30,,True,,DTX  chunk-in-c2,active,0
+,10.17.2.8/29,,True,,HTTPHU OUT POOL A,active,0
+,10.17.2.48/29,,True,,HTTPHU OUT POOL B,active,0
+,10.17.2.72/29,,True,,STORAGE IN B,active,0
+,10.17.2.72/30,,True,,BIX  storage-in-b1,active,0
+,10.17.2.76/30,,True,,DTX  storage-in-b2,active,0
+,10.17.2.80/29,,True,,MP3 INPUT POOL H,active,0
+,10.17.2.80/30,,True,,CAP  mp3-in-h1,active,0
+,10.17.2.84/30,,True,,RMV  mp3-in-h2,active,0
+,10.17.2.88/29,,True,,HSSLHU MONIT,active,0
+,10.17.2.88/30,,True,,BIX  hsslhu1-monit1,active,0
+,10.17.2.92/30,,True,,DTX  hsslhu1-monit2,active,0
+,10.17.2.96/29,,True,,HBB11LG OUTPUT POOL E,active,0
+,10.17.2.104/29,,True,,FLV INPUT POOL A,active,0
+,10.17.2.104/30,,True,,Router Cap  flv-in-a1,active,0
+,10.17.2.108/30,,True,,Router Rmv  flv-in-a2,active,0
+,10.17.2.112/29,,True,,MP3 INPUT POOL I,active,0
+,10.17.2.112/30,,True,,Router Bix  mp3-in-i1,active,0
+,10.17.2.116/30,,True,,Router Dtx  mp3-in-i2,active,0
+,10.17.2.136/29,,True,,CHUNK INPUT POOL D,active,0
+,10.17.2.136/30,,True,,Router Cap  chunk-in-d1,active,0
+,10.17.2.140/30,,True,,Router Rmv  chunk-in-d2,active,0
+,10.17.2.144/29,,True,,CHKHU OUT POOL A,active,0
+,10.17.2.152/29,,True,,CHKHU OUT POOL B,active,0
+,10.17.2.160/29,,True,,HTTPULL INPUT POOL A,active,0
+,10.17.2.160/30,,True,,Router Bix  httpull-in-a1,active,0
+,10.17.2.164/30,,True,,Router Dtx  httpull-in-a2,active,0
+,10.17.2.168/29,,True,,CHUNK INPUT POOL E,active,0
+,10.17.2.168/30,,True,,Router Anc  chunk-in-e1,active,0
+,10.17.2.172/30,,True,,Router Mun  chunk-in-e2,active,0
+,10.17.3.0/29,,True,,HSSOD IN B,active,0
+,10.17.3.0/30,,True,,Router Bix  hssod-in-b1,active,0
+,10.17.3.4/30,,True,,Router Dtx  hssod-in-b2,active,0
+,10.17.3.16/29,,True,,HSSOD IN C,active,0
+,10.17.3.24/30,,True,,STCON_IN_FTP,active,0
+,10.17.3.80/29,,True,,CHKG OUT POOL A,active,0
+,10.17.3.88/29,,True,,CHKG OUT POOL B,active,0
+,10.17.3.96/29,,True,,HTTPULL INPUT POOL B,active,0
+,10.17.3.96/30,,True,,Router Cap  httpull-in-b1,active,0
+,10.17.3.100/30,,True,,Router Rmv  httpull-in-b2,active,0
+,10.17.3.104/29,,True,,CHUNK INPUT F,active,0
+,10.17.3.104/30,,True,,Router Cap  chunk-in-f1,active,0
+,10.17.3.108/30,,True,,Router Rmv  chunk-in-f2,active,0
+,10.17.3.136/29,,True,,WOWG OUT POOL B,active,0
+,10.17.3.144/29,,True,,HTTPULL INPUT POOL C (Cap-Rmv),active,0
+,10.17.3.144/30,,True,,Router Cap  httpull-in-c1,active,0
+,10.17.3.148/30,,True,,Router Rmv  httpull-in-c2,active,0
+,10.17.3.216/29,,True,,HSSOD IN E,active,0
+,10.17.3.216/30,,True,,Router Cap  hssod-in-e1,active,0
+,10.17.3.220/30,,True,,Router Rmv  hssod-in-e2,active,0
+,10.17.4.0/29,,True,,HSSOD IN B,active,0
+,10.17.4.0/30,,True,,Router Bix  hssod-in-b1,active,0
+,10.17.4.4/30,,True,,Router Dtx  hssod-in-b2,active,0
+,10.17.4.48/29,,True,,CHKG OUT POOL H,active,0
+,10.17.4.56/29,,True,,MPTSLHU OUTPUT POOL A,active,0
+,10.17.4.64/29,,True,,MPTSLHU OUTPUT POOL B,active,0
+,10.17.4.72/29,,True,,STORAGE IN F,active,0
+,10.17.4.72/30,,True,,Cap  storage-in-f1,active,0
+,10.17.4.76/30,,True,,Rmv  storage-in-f2,active,0
+,10.17.4.80/29,,True,,FTP IN F,active,0
+,10.17.4.80/30,,True,,Cap  ftp-in-f1,active,0
+,10.17.4.84/30,,True,,Rmv  ftp-in-f2,active,0
+,10.17.4.104/29,,True,,ADWZG2 OUT POOL A,active,0
+,10.17.4.112/29,,True,,ADWZG2 OUT POOL B,active,0
+,10.17.4.152/29,,True,,ADWZBIP IN  D,active,0
+,10.17.4.152/30,,True,,Cap  adwzbip-in-d1,active,0
+,10.17.4.156/30,,True,,Rmv  adwzbip-in-d2,active,0
+,10.17.4.184/29,,True,,MP3 IN POOL K,active,0
+,10.17.4.184/30,,True,,Router Cap  mp3-in-k1,active,0
+,10.17.4.188/30,,True,,Router Rmv  mp3-in-k2,active,0
+,10.17.4.248/29,,True,,FTP IN H,active,0
+,10.17.4.248/30,,True,,Itx2  ftp-in-h1,active,0
+,10.17.4.252/30,,True,,Rmv  ftp-in-h2,active,0
+,10.17.5.0/28,,True,,CDN STORAGE RMV,active,0
+,10.17.5.32/29,,True,,CHUNK INPUT G,active,0
+,10.17.5.32/30,,True,,Router Cap  chunk-in-g1,active,0
+,10.17.5.36/30,,True,,Router Rmv  chunk-in-g2,active,0
+,10.17.5.56/29,,True,,ADWZBIP INPUT POOL E,active,0
+,10.17.5.56/30,,True,,Router Cap  adwzbip-in-e1,active,0
+,10.17.5.60/30,,True,,Router Rmv  adwzbip-in-e2,active,0
+,10.17.5.64/29,,True,,ADWZBIP INPUT POOL F,active,0
+,10.17.5.64/30,,True,,Router Cap  adwzbip-in-f,active,0
+,10.17.5.68/30,,True,,Router Rmv  adwzbip-in-f,active,0
+,10.17.5.80/28,,True,,ADWZG3 OUTPUT POOL A,active,0
+,10.17.5.112/28,,True,,ADWZG4 OUTPUT POOL A,active,0
+,10.17.5.144/28,,True,,HCACHEG OUTPUT POOL A,active,0
+,10.17.5.160/28,,True,,HCACHEG OUTPUT POOL B,active,0
+,10.17.5.176/28,,True,,HTTPULL INPUT POOL E,active,0
+,10.17.5.176/30,,True,,Router itx2  httpull-in-e1,active,0
+,10.17.5.180/30,,True,,Router Rmv  httpull-in-e2,active,0
+,10.17.5.208/28,,True,,HTTPG3 OUTPUT POOL C,active,0
+,10.17.5.224/28,,True,,HTTPG3 OUT POOL B,active,0
+,10.17.5.240/28,,True,,HTTPULL INPUT POOL F,active,0
+,10.17.5.240/29,,True,,Router itx2  httpull-in-f1,active,0
+,10.17.5.248/29,,True,,Router rmv  httpull-in-f2,active,0
+,10.17.6.0/28,,True,,CHUNK INPUT POOL H,active,0
+,10.17.6.0/30,,True,,Router itx2  chunk-in-h1,active,0
+,10.17.6.80/28,,True,,CHUNK INPUT POOL I,active,0
+,10.17.6.80/29,,True,,BIX  chunk-in-i1,active,0
+,10.17.6.88/29,,True,,DTX  chunk-in-i2,active,0
+,10.17.6.160/28,,True,,HTTPG OUTPUT POOL C,active,0
+,10.17.6.176/28,,True,,HBB11LG OUTPUT POOL C,active,0
+,10.17.7.144/28,,True,,FTP-INPUT POOL B,active,0
+,10.17.7.144/29,,True,,rmv  ftp-in-e2,active,0
+,10.17.7.160/28,,True,,MCAST Origine POOL A,active,0
+,10.17.7.160/29,,True,,mcast-in-a  itx2,active,0
+,10.17.7.168/29,,True,,mcast-in-a  rmv,active,0
+,10.17.7.176/28,,True,,MCAST Origine POOL B,active,0
+,10.17.7.176/29,,True,,mcast-in-b  itx2,active,0
+,10.17.7.184/29,,True,,mcast-in-b  rmv,active,0
+,10.17.7.192/28,,True,,AUDIOTS Output pool C (itx2),active,0
+,10.17.7.208/28,,True,,AUDIOTS OUTPUT POOL B,active,0
+,10.17.7.224/28,,True,,AUDIO OUTPUT POOL B,active,0
+,10.17.7.240/28,,True,,AUDIO OUTPUT POOL C,active,0
+,10.17.8.0/28,,True,,MCAST Origine POOL C,active,0
+,10.17.8.0/29,,True,,mcast-in-c  itx2,active,0
+,10.17.8.8/29,,True,,mcast-in-c  rmv,active,0
+,10.17.8.16/28,,True,,MCAST Origine POOL D,active,0
+,10.17.8.16/29,,True,,mcast-in-d  itx2,active,0
+,10.17.8.24/29,,True,,mcast-in-d  rmv,active,0
+,10.17.8.32/28,,True,,MCAST Origine POOL E,active,0
+,10.17.8.32/29,,True,,mcast-in-e  itx2,active,0
+,10.17.8.40/29,,True,,mcast-in-e  rmv,active,0
+,10.17.8.48/28,,True,,MCAST Origine POOL F,active,0
+,10.17.8.48/29,,True,,mcast-in-f  itx2,active,0
+,10.17.8.56/29,,True,,mcast-in-f  rmv,active,0
+,10.17.8.176/28,,True,,MP3 INPUT POOL E,active,0
+,10.17.8.176/29,,True,,mp3-in-e  itx2,active,0
+,10.17.8.184/29,,True,,mp3-in-e  rmv,active,0
+,10.17.8.192/28,,True,,MP3 INPUT POOL B,active,0
+,10.17.8.192/29,,True,,mp3-in-b  itx2,active,0
+,10.17.8.200/29,,True,,mp3-in-b  rmv,active,0
+,10.17.9.16/28,,True,,MP3 INPUT POOL F,active,0
+,10.17.9.16/29,,True,,mp3-in-f  itx2,active,0
+,10.17.9.24/29,,True,,mp3-in-f  rmv,active,0
+,10.17.9.32/28,,True,,MP3 INPUT POOL G,active,0
+,10.17.9.32/29,,True,,mp3-in-g  itx2,active,0
+,10.17.9.40/29,,True,,mp3-in-g  rmv,active,0
+,10.17.9.208/28,,True,,CHUNK INPUT POOL B,active,0
+,10.17.9.208/29,,True,,chunk-in-b  itx2,active,0
+,10.17.9.216/29,,True,,chunk-in-b  rmv,active,0
+,10.17.9.224/28,,True,,CHUNK INPUT POOL D,active,0
+,10.17.9.224/29,,True,,chunk-in-d  itx2,active,0
+,10.17.9.232/29,,True,,chunk-in-d  rmv,active,0
+,10.17.9.240/28,,True,,CHUNK INPUT POOL F,active,0
+,10.17.9.240/29,,True,,chunk-in-f  itx2,active,0
+,10.17.9.248/29,,True,,chunk-in-f  rmv,active,0
+,10.17.10.0/28,,True,,CHUNK INPUT POOL G,active,0
+,10.17.10.0/29,,True,,chunk-in-g  itx2,active,0
+,10.17.10.8/29,,True,,chunk-in-g  rmv,active,0
+,10.17.10.16/28,,True,,WOWZA INPUT POOL B,active,0
+,10.17.10.16/29,,True,,wowza-in-b  itx2,active,0
+,10.17.10.24/29,,True,,wowza-in-b  rmv,active,0
+,10.17.10.48/28,,True,,FTP INPUT POOL H,active,0
+,10.17.10.48/29,,True,,ftp-in-h  itx2,active,0
+,10.17.10.56/29,,True,,ftp-in-h  rmv,active,0
+,10.17.10.80/28,,True,,MP3 INPUT POOL H,active,0
+,10.17.10.80/29,,True,,mp3-in-h  itx2,active,0
+,10.17.10.88/29,,True,,mp3-in-h  rmv,active,0
+,10.17.10.96/28,,True,,MP3 INPUT POOL K,active,0
+,10.17.10.96/29,,True,,mp3-in-h  itx2,active,0
+,10.17.10.104/29,,True,,mp3-in-h  rmv,active,0
+,10.17.10.128/28,,True,,HTTPULL INPUT POOL B,active,0
+,10.17.10.128/29,,True,,httpull-in-b  itx2,active,0
+,10.17.10.136/29,,True,,httpull-in-b  rmv,active,0
+,10.17.10.144/28,,True,,HTTPULL INPUT POOL E,active,0
+,10.17.10.144/29,,True,,httpull-in-e  itx2,active,0
+,10.17.10.152/29,,True,,httpull-in-e  rmv,active,0
+,10.17.10.160/28,,True,,HTTPULL INPUT POOL D,active,0
+,10.17.10.160/29,,True,,httpull-in-d  itx2,active,0
+,10.17.10.168/29,,True,,httpull-in-d  rmv,active,0
+,10.17.10.176/28,,True,,HBB11LG OUTPUT POOL B,active,0
+,10.17.11.144/28,,True,,HSSOD INPUT POOL E,active,0
+,10.17.11.144/29,,True,,hssod-in-e  itx2,active,0
+,10.17.11.152/29,,True,,hssod-in-e  rmv,active,0
+,10.17.11.160/28,,True,,HSSOD INPUT POOL G,active,0
+,10.17.11.160/29,,True,,hssod-in-g  itx2,active,0
+,10.17.11.168/29,,True,,hssod-in-g  rmv,active,0
+,10.17.11.208/28,,True,,RADIONOMY OUT POOL C,active,0
+,10.17.11.224/28,,True,,MP3 INPUT POOL L,active,0
+,10.17.11.224/29,,True,,mp3-in-l  itx2,active,0
+,10.17.11.232/29,,True,,mp3-in-l  rmv,active,0
+,10.17.11.240/28,,True,,CHUNK INPUT POOL A,active,0
+,10.17.11.240/29,,True,,chunk-in-a  itx2,active,0
+,10.17.11.248/29,,True,,chunk-in-a rmv,active,0
+,10.17.12.0/28,,True,,CDN STORAGE ITX2,active,0
+,10.17.12.16/28,,True,,MP3 INPUT POOL M,active,0
+,10.17.12.16/29,,True,,mp3-in-m  itx2,active,0
+,10.17.12.24/29,,True,,mp3-in-m  rmv,active,0
+,10.17.12.64/28,,True,,HTTPODN OUT POOL A,active,0
+,10.17.12.80/28,,True,,HTTPODN OUT POOL B (NRK),active,0
+,10.17.12.96/28,,True,,OD INGEST POOL A (NRK),active,0
+,10.17.12.96/29,,True,,od-in-a  osl1,active,0
+,10.17.12.104/29,,True,,od-in-a  osl2,active,0
+,10.17.12.112/28,,True,,LIVE INGEST POOL A (NRK),active,0
+,10.17.12.112/29,,True,,live-in-a  osl1,active,0
+,10.17.12.120/29,,True,,live-in-a  osl2,active,0
+,10.17.12.128/28,,True,,LOG AGGREGATORS POOL  (NRK),active,0
+,10.17.12.128/29,,True,,log-aggregator-a  osl1,active,0
+,10.17.12.136/29,,True,,log-aggregator-a  osl2,active,0
+,10.17.12.144/28,,True,,ORIGINHU-HTTP INPUT POOL B,active,0
+,10.17.12.144/29,,True,,originhu-http-b  bix,active,0
+,10.17.12.152/29,,True,,originhu-http-b  dtx,active,0
+,10.17.12.160/28,,True,,CDN STORAGE RMV,active,0
+,10.17.12.176/28,,True,,HTTPHU OUT POOL A,active,0
+,10.17.12.192/28,,True,,HTTPHU OUT POOL B,active,0
+,10.17.12.208/28,,True,,MPTSLHU OUTPUT POOL A,active,0
+,10.17.12.224/28,,True,,MPTSLHU OUTPUT POOL B,active,0
+,10.17.12.240/28,,True,,CHKHU OUT POOL A,active,0
+,10.17.13.0/28,,True,,CHKHU OUT POOL B,active,0
+,10.17.13.48/28,,True,,PLAYERS OUTPUT POOL C,active,0
+,10.17.13.64/28,,True,,PLAYERS OUTPUT POOL B,active,0
+,10.17.164.4/30,,True,,STREAMING_POOL_PRIVATE,active,0
+,10.17.164.36/30,,True,,STREAMING_POOL_PRIVATE,active,0
+,10.17.252.0/24,,True,,ANALYTICS,active,0
+,10.17.253.0/24,,True,,Router/Switch BGP,active,0
+,10.17.253.0/28,,True,,ITX2,active,0
+,10.17.253.16/28,,True,,RMV,active,0
+,10.17.253.32/29,,True,,INTERCO_RMV_ITX2,active,0
+,10.17.254.0/28,,True,,Supervision ITX2,active,0
+,10.17.254.16/28,,True,,Supervision RMV,active,0
+,10.17.254.32/29,,True,,fwstcon ITX2,active,0
+,10.17.254.40/29,,True,,fwstcon RMV,active,0
+,10.17.254.48/28,,True,,Supervision LYO,active,0
+,10.17.254.64/28,,True,,Supervision LIL,active,0
+,10.17.254.80/28,,True,,Supervision MRS,active,0
+,10.17.254.96/28,,True,,Supervision BIX,active,0
+,10.17.254.112/28,,True,,Supervision DTX,active,0
+,10.17.255.0/30,,True,,Router CAP  fwstcon-1,active,0
+,10.17.255.4/30,,True,,Router RMV  fwstcon-2,active,0
+,10.17.255.8/29,,True,,Router RMV  Log Pool A,active,0
+,10.17.255.16/29,,True,,Router STR  Log Pool B,active,0
+,10.18.0.0/16,,True,,Streaming Pool,active,0
+,10.18.4.0/24,,True,,FLVLG OUT POOL A,active,0
+,10.18.5.0/24,,True,,FLVLG OUT POOL B,active,0
+,10.18.8.0/24,,True,,FLVLG OUTPUT POOL C,active,0
+,10.18.35.0/24,,True,,ADWZG OUT POOL A,active,0
+,10.18.36.0/24,,True,,ADWZG OUT POOL B,active,0
+,10.18.39.0/24,,True,,HBB11LG OUT POOL A,active,0
+,10.18.40.0/24,,True,,HBB11LG OUT POOL B,active,0
+,10.18.45.0/24,,True,,HTTPHU OUT POOL A,active,0
+,10.18.50.0/24,,True,,HTTPHU OUT POOL B,active,0
+,10.18.53.0/24,,True,,HTTPG OUT POOL A,active,0
+,10.18.54.0/24,,True,,HTTPG OUT POOL B,active,0
+,10.18.55.0/24,,True,,HBB11LG OUT POOL E,active,0
+,10.18.58.0/24,,True,,CHKHU OUT POOL A,active,0
+,10.18.59.0/24,,True,,CHKHU OUT POOL B,active,0
+,10.18.71.0/24,,True,,CHKG OUT POOL A,active,0
+,10.18.72.0/24,,True,,CHKG OUT POOL B,active,0
+,10.18.91.0/24,,True,,CHKG OUT POOL H,active,0
+,10.18.92.0/24,,True,,MPTSLHU OUT POOL A,active,0
+,10.18.93.0/24,,True,,MPTSLHU OUT POOL B,active,0
+,10.18.96.0/24,,True,,ADWZG2 OUT POOL A,active,0
+,10.18.97.0/24,,True,,ADWZG2 OUT POOL B,active,0
+,10.18.107.0/24,,True,,HTTPG3 OUT POOL B,active,0
+,10.18.108.0/24,,True,,ADWZG3 OUT POOL A,active,0
+,10.18.109.0/24,,True,,ADWZG3 OUT POOL B,active,0
+,10.18.110.0/24,,True,,ADWZG4 OUT POOL A,active,0
+,10.18.111.0/24,,True,,ADWZG4 OUT POOL B,active,0
+,10.18.112.0/24,,True,,HCACHEG OUTPUT POOL B,active,0
+,10.18.113.0/24,,True,,HCACHEG OUTPUT POOL A,active,0
+,10.18.114.0/24,,True,,HTTPG3 OUTPUT POOL C,active,0
+,10.18.116.0/24,,True,,ADWZG5 OUT POOL A,active,0
+,10.18.117.0/24,,True,,ADWZG5 OUT POOL B,active,0
+,10.18.118.0/24,,True,,CHKG OUT POOL C,active,0
+,10.18.119.0/24,,True,,ADWZG2 OUT POOL C,active,0
+,10.18.120.0/24,,True,,ADWZG3 OUT POOL C,active,0
+,10.18.121.0/24,,True,,ADWZG4 OUT POOL C,active,0
+,10.18.123.0/24,,True,,HBB11LG OUT POOL C,active,0
+,10.18.124.0/24,,True,,WEBCG OUT POOL C,active,0
+,10.18.130.0/24,,True,,ADWZG OUTPUT POOL C,active,0
+,10.18.133.0/24,,True,,AUDIOTS OUTPUT POOL C,active,0
+,10.18.134.0/24,,True,,AUDIOTS OUTPUT POOL B,active,0
+,10.18.135.0/24,,True,,AUDIO OUTPUT POOL B,active,0
+,10.18.136.0/24,,True,,AUDIO OUTPUT POOL C,active,0
+,10.18.137.0/24,,True,,AUDIOTS OUTPUT POOL B,active,0
+,10.18.138.0/24,,True,,AUDIOTS OUTPUT POOL C,active,0
+,10.18.139.0/24,,True,,ADWZG6 OUTPUT POOL B,active,0
+,10.18.140.0/24,,True,,ADWZG6 OUTPUT POOL C,active,0
+,10.18.141.0/24,,True,,RADIONOMY OUTPUT POOL B,active,0
+,10.18.142.0/24,,True,,RADIONOMY OUTPUT POOL C,active,0
+,10.18.147.0/24,,True,,TRITON OUTPUT POOL B,active,0
+,10.18.148.0/24,,True,,TRITON OUTPUT POOL C,active,0
+,10.19.0.0/16,,True,,Log system (log.wan),active,0
+,10.19.0.0/22,,True,,Log Pool A,active,0
+,10.19.4.0/22,,True,,Log Pool B,active,0
+,10.19.8.0/22,,True,,Log Pool C (itx2),active,0
+,10.19.12.0/22,,True,,CDN Analytics,active,0
+,10.35.0.0/16,,True,,CDN ADM,active,0
+,10.35.0.0/22,,True,,CDNZONE - ITX2,active,0
+,10.35.0.0/24,,True,,CDNADM - ITX2,active,0
+,10.35.1.0/24,,True,,CDNDB - ITX2,active,0
+,10.35.2.0/24,,True,,CDNDBZ - ITX2,active,0
+,10.35.3.0/24,,True,,CDNWEB - ITX2,active,0
+,10.35.4.0/22,,True,,CDNZONE - RMV,active,0
+,10.35.4.0/24,,True,,CDNADM - RMV,active,0
+,10.35.5.0/24,,True,,CDNDB - RMV,active,0
+,10.35.6.0/24,,True,,CDNDBZ - RMV,active,0
+,10.35.7.0/24,,True,,CDNWEB - RMV,active,0
+,10.36.0.0/16,,True,,CDN API ( not in used depricated ),active,0
+,10.36.0.0/22,,True,,CDNAPI ITX2,active,0
+,10.36.4.0/22,,True,,CDNAPI RMV,active,0
+,10.60.2.0/25,,True,,NFS_RMV,active,0
+,10.60.2.128/25,,True,,NFS_ITX2,active,0
+,10.60.3.0/29,,True,,NFS_INTERCO,active,0
+,10.115.0.0/16,,True,,CDN Preprod ADM,active,0
+,10.115.232.0/21,,True,,VPNPREPRODADM,active,0
+,10.115.233.0/24,,True,,R&E,active,0
+,10.115.255.0/24,,True,,Preprod subnet interco,active,0
+,10.117.0.0/16,,True,,Preprod STCON,active,0
+,10.117.0.0/29,,True,,Mp3 Input Pool A,active,0
+,10.117.0.0/30,,True,,ro-stcon-preprod-1  mp3lg-in-a1,active,0
+,10.117.0.4/30,,True,,ro-stcon-preprod-1  mp3lg-in-a2,active,0
+,10.117.0.8/29,,True,,MP3LG Output Pool A,active,0
+,10.117.0.16/29,,True,,Wowza Input Pool A,active,0
+,10.117.0.16/30,,True,,rien  wowza-capt-a1,active,0
+,10.117.0.20/30,,True,,rien  wowza-capt-a2,active,0
+,10.117.0.24/29,,True,,Wowza Output Pool A,active,0
+,10.117.0.32/29,,True,,Adwizz Input Pool A,active,0
+,10.117.0.32/30,,True,,ro-stcon-preprod-1  adw-in-a1,active,0
+,10.117.0.36/30,,True,,ro-stcon-preprod-1  adw-in-a2,active,0
+,10.117.0.40/29,,True,,Adwizz Output Pool A,active,0
+,10.117.0.48/29,,True,,Adwizz Input Pool B,active,0
+,10.117.0.48/30,,True,,ro-stcon-preprod-1  adwzg-in-b1,active,0
+,10.117.0.56/29,,True,,FLVLP Output Pool A,active,0
+,10.117.0.64/29,,True,,Webdav Input Pool A,active,0
+,10.117.0.64/30,,True,,ro-stcon-preprod-1  webdav-in-a1.preprod,active,0
+,10.117.0.68/30,,True,,ro-stcon-preprod-1  webdav-in-a2.preprod,active,0
+,10.117.0.72/29,,True,,HbbTV1.1 Output Pool A,active,0
+,10.117.0.80/29,,True,,HSS Input Pool A - LC,active,0
+,10.117.0.80/30,,True,,rien  hss-in-a1-preprod,active,0
+,10.117.0.88/29,,True,,httpg out pool A,active,0
+,10.117.0.96/29,,True,,HSS Input Pool B,active,0
+,10.117.0.96/30,,True,,ro-stcon-preprod-1  hss-in-b1,active,0
+,10.117.0.100/30,,True,,ro-stcon-preprod-1  hss-in-b2,active,0
+,10.117.0.104/29,,True,,HTTPULL Input A,active,0
+,10.117.0.104/30,,True,,ro-stcon-preprod-1  httpull-in-a1,active,0
+,10.117.0.108/30,,True,,ro-stcon-preprod-1  httpull-in-a2,active,0
+,10.117.0.112/29,,True,,FMSG,active,0
+,10.117.0.112/30,,True,,ro-stcon-preprod-1  fmsg-in-a1,active,0
+,10.117.0.120/29,,True,,codeshop input,active,0
+,10.117.0.120/30,,True,,ro-stcon-preprod-1  codeshop-in-a1,active,0
+,10.117.0.128/29,,True,,wowza input,active,0
+,10.117.0.128/30,,True,,ro-stcon-preprod-1  wow-in-test1,active,0
+,10.117.0.136/29,,True,,CHKP Output A,active,0
+,10.117.0.144/29,,True,,FLVOP Output,active,0
+,10.117.0.152/29,,True,,FTP Input pool A,active,0
+,10.117.0.152/30,,True,,ro-stcon-preprod-1  ftp-in-a1.preprod,active,0
+,10.117.0.156/30,,True,,ro-stcon-preprod-1  ftp-in-a2.preprod,active,0
+,10.117.0.160/29,,True,,MPTSLP Input Pool A,active,0
+,10.117.0.160/30,,True,,ro-stcon-preprod-1  mptslp-in-a1,active,0
+,10.117.0.164/30,,True,,ro-stcon-preprod-1  mptslp-in-a2,active,0
+,10.117.0.168/29,,True,,MPTSLP Output Pool A,active,0
+,10.117.0.176/29,,True,,MP3TSP Output A,active,0
+,10.117.0.184/29,,True,,HBB11P Out Pool A,active,0
+,10.117.0.192/29,,True,,FLVLP Input Pool A,active,0
+,10.117.0.192/30,,True,,ro-stcon-preprod-1  flv-in-a1.preprod,active,0
+,10.117.0.200/29,,True,,Transmux Input Pool A,active,0
+,10.117.0.200/30,,True,,ro-stcon-preprod-1  cdn-transmux-1,active,0
+,10.117.0.208/29,,True,,Multicast Origin Pool A,active,0
+,10.117.0.208/30,,True,,ro-stcon-preprod-1  cdn-mcastorigin-a1,active,0
+,10.117.0.216/29,,True,,Triton Capt 1,active,0
+,10.117.0.216/30,,True,,ro-stcon-1  triton-in-a1,active,0
+,10.117.0.224/28,,True,,Triton Out A,active,0
+,10.117.0.240/28,,True,,audiorad Pool A,active,0
+,10.117.1.0/28,,True,,Origin Pool A,active,0
+,10.117.1.16/28,,True,,Origin Pool B,active,0
+,10.117.224.0/20,,True,,CDN Lab STCON,active,0
+,10.117.255.8/29,,True,,STCON - Log A,active,0
+,10.118.0.0/16,,True,,Preprod Pool,active,0
+,10.118.0.0/24,,True,,Preprod MP3LG OUT Pool A,active,0
+,10.118.1.0/24,,True,,Wowza Output Pool A,active,0
+,10.118.2.0/24,,True,,Adwizz Out Pool A,active,0
+,10.118.3.0/24,,True,,FLVG Output Pool A,active,0
+,10.118.4.0/24,,True,,HbbTV1.1 Output Pool A,active,0
+,10.118.5.0/24,,True,,httpg output pool A,active,0
+,10.118.6.0/24,,True,,CHKP Output A,active,0
+,10.118.7.0/24,,True,,FLVOP output pool A,active,0
+,10.118.8.0/24,,True,,MPTSLP Output Pool A,active,0
+,10.118.9.0/24,,True,,MP3TSP Output A,active,0
+,10.118.10.0/24,,True,,Hbb11P Pool A Restart,active,0
+,10.118.11.0/24,,True,,httpg3 on ohcache,active,0
+,10.118.12.0/24,,True,,audiorad pool A,active,0
+,10.118.224.0/20,,True,,CDN Lab stdiff,active,0
+,10.119.0.0/16,,True,,Log Preprod System,active,0
+,10.119.0.0/22,,True,,Log Pool A,active,0
+,10.119.1.0/24,,True,,Log A Parser Pool,active,0
+,10.119.2.0/24,,True,,Mongodb cluster,active,0
+,10.119.153.128/25,,True,,livraison.byteltab.cji.fr - VLAN 3146: livraison.byteltab,active,0
+,95.0.0.0/8,,True,,,active,0
+,91.197.0.0/16,,True,,,active,0
+,2a00:1080:804:200::/56,,True,,OFFICE-IVR,active,
+,2a00:1080:804:200::/64,,True,,OFFICE-IVR-LAN,active,
+,2a00:1080:804:201::/64,,True,,OFFICE-IVR-GUEST,active,
+,2a00:1080:804:202::/64,,True,,OFFICE-IVR-ADMIN,active,
+,2a00:1080:804:203::/64,,True,,OFFICE-IVR-LIMITED,active,
+,2a00:1080:809:200::/56,,True,,OFFICE-CJI,active,
+,2a00:1080:809:200::/64,,True,,OFFICE-IVR-LAN,active,
+,2a00:1080:809:201::/64,,True,,OFFICE-IVR-GUEST,active,
+,2a00:1080:809:202::/64,,True,,OFFICE-IVR-ADMIN,active,
+,2a00:1080:809:203::/64,,True,,OFFICE-CJI-LIMITED,active,
+,2a02:3e8:fc0a::/48,,True,,ZoneSHA_IPv6,active,
+,2a02:3e8:fc0a::/56,,True,,Zone_SHA_RMV,active,
+,2a02:3e8:fc0a::/64,,True,,Zone_SHA_SW-996,active,
+,2a02:3e8:fc07::/56,,True,,RMV_PUBLIC_IPv6,active,
+,2a02:3e8:fc07:100::/56,,True,,ITX2_PUBLIC_IPv6,active,
+,2a00:1080:800::/64,,True,,SHA-CAP-1,active,
+,2a00:1080:800:1::/64,,True,,SHA-RMV-1,active,
+,2a00:1080:800:2::/64,,True,,DMA-CAP-1,active,
+,2a00:1080:800:3::/64,,True,,DMA-RMV-1,active,
+,2a00:1080:804:300::/64,,True,,SHA-4,active,
+,2a00:1080:806::/64,,True,,SHA-ITX2-2,active,
+,2a00:1080:806:200::/64,,True,,SHA-ITX2-1,active,
+,2a00:1080:806:200::3:0/112,,True,,mx-2.arkena.net,active,
+,2a00:1080:806:200::4:0/112,,True,,git.arkena.net,active,
+,2a00:1080:806:200::6:0/112,,True,,ntp-1.arkena.net,active,
+,2a00:1080:806:200::7:0/112,,True,,proxy-1.arkena.net,active,
+,2a00:1080:806:200::9:0/112,,True,,smtp-1.arkena.net,active,
+,2a00:1080:806:200::15:0/112,,True,,VM-3686,active,
+,2a00:1080:806:201::/64,,True,,DMA-1,active,
+,2a00:1080:806:203::/64,,True,,DMA-3 (see STR DMA-3),active,
+,2a00:1080:806:205::/64,,True,,SHA-ITX-3,active,
+,2a00:1080:807:200::/64,,True,,SHA-2,active,
+,2a00:1080:807:201::/64,,True,,DMA-2,active,
+,2a00:1080:807:203::/64,,True,,SHA-4  (SHA-RMV-2),active,
+,2a00:1080:80d:200::/64,,True,,DMA-3,active,
+,2a00:1080:80d:201::/64,,True,,SHA-3,active,
+,2a00:1080:80e:200::/64,,True,,DMA-3,active,
+,2a00:1080:80e:201::/64,,True,,SHA-3,active,
+,2a00:1080:0:242::/64,,True,,VPN Access Clients,active,
+,2a00:1080:0:242::/103,,True,,VPN Access Internal,active,
+,2a00:1080:0:242::248:0/112,,True,,VPN Access External,active,
+,2a00:1080:0:242::252:0/112,,True,,VPN Access Bots,active,
+,2a00:1080:806:202::/64,,True,,VPNACCESS-ITX2,active,
+,2a00:1080:807:202::/64,,True,,VPNACCESS-RMV,active,
+,2a00:1080:816:200::/64,,True,,VPNACCESS-LA,active,
+,172.16.9.0/24,,True,,MANAGEMENT_HYPERVISEUR,active,MANAGEMENT_HYPERVISEUR
+,172.24.42.0/24,,True,,AUTOMATION LCP RMV ,active,AUTOMATION LCP RMV 
+,172.24.44.0/24,,True,,STORAGE LCP RMV ,active,STORAGE LCP RMV
+,172.16.23.0/24,,True,,RMV-ADMIN-PDU,active,RMV-ADMIN-PDU
+,172.24.39.0/24,,True,,MULTICAST LCP RMV ,active,2439
+,172.24.47.0/24,,True,,INTERNE LCP RMV,active,INTERNE LCP RMV
+,172.24.48.0/24,,True,,MCAST-ARKENA-HIPTV,active,MCAST-ARKENA-HIPTV
+,172.16.10.0/24,,True,,ISCSCI_1 dHCI,active,ISCSCI_1 dHCI
+,172.16.11.0/24,,True,,ISCSCI_2 dHCI,active,ISCSCI_2 dHCI
+,172.24.58.0/24,,True,,,active,Media Orange Verif
+,10.31.9.0/24,,True,,,active,0
+,10.31.10.0/24,,True,,,active,0
+,10.31.8.0/24,,True,,,active,SNL_FW_OUT_PROV
+,172.23.1.0/24,,True,, 172.23.1.0/24,active,0
+,10.37.107.0/24,,True,,BPM_MAM_PROD,active,0
+,172.16.210.0/24,,True,,,active,PROD_ENTRY_LEVEL
+,172.16.170.0/24,,True,,,active,3170
+,10.20.0.0/16,,True,,,active,0
+,10.100.153.0/24,,True,,DMZ-ADMIN,active,DMZ-ADMIN
+,10.100.20.0/24,,True,,,active,ISSY WIFI USER
+,10.20.100.0/24,,True,,,active,0
+,10.20.101.0/24,,True,,,active,0
+,10.20.104.0/24,,True,,,active,0
+,10.20.105.0/24,,True,,,active,0
+,10.20.128.0/24,,True,,,active,0
+,10.100.0.0/16,,True,,,active,0
+,10.159.10.0/24,,True,,,active,0
+,172.16.16.0/24,,True,,AUTOMATION VIACOM RMV,active,AUTOMATION VIACOM RMV
+,172.16.17.0/24,,True,,STORAGE VIACOM RMV,active,STORAGE VIACOM RMV
+,172.16.18.0/24,,True,,MULTICAST VIACOM RMV,active,MULTICAST VIACOM RMV
+,172.16.24.0/24,,True,,demaintv,active,demaintv
+,172.24.0.0/16,,True,,,active,0
+,172.16.0.0/16,,True,,,active,0
+,172.20.0.0/16,,True,,,active,0
+,172.16.208.0/24,,True,,Automation - PRA Gulli RMV-ITX2,active,Automation - PRA Gulli RMV-ITX2
+,172.16.207.0/24,,True,,Mcast PRA Gulli RMV-ITX2,active,Mcast PRA Gulli RMV-ITX2
+,172.16.209.0/24,,True,,Stockage PRA Gulli RMV-ITX2,active,Stockage PRA Gulli RMV-ITX2
+,172.16.212.0/24,,True,,Admin  PRA Gulli RMV-ITX2,active,Admin  PRA Gulli RMV-ITX2
+,172.16.148.0/22,,True,,LAG DATA RMV,active,LAG DATA RMV
+,172.16.216.0/22,,True,,M6 AUTOMATIONS MCAST RMV,active,M6 AUTOMATIONS MCAST RMV
+,172.16.159.0/24,,True,,LAG ORCA ATEME ENCODEURS MCAST2,active,M6 ORCA ATEME ENCODEURS MCAST2
+,172.16.198.0/24,,True,,LAG ORCA ATEME ENCODEURS MCAST2,active,0
+,172.16.147.0/24,,True,,LAG MANAGEMENT,active,LAG MANAGEMENT
+,172.16.153.0/24,,True,,LAG POG ( VLAN2171 PLAYOUT à confirmer),active,LAG POG
+,172.16.184.0/24,,True,,PRA_OCS_API,active,0
+,172.16.183.0/24,,True,,PRA_OCS_DATA,active,0
+,172.16.127.0/24,,True,,Mcast_PRA_OCS,active,PRA_OCS_MCAST
+,172.16.203.0/24,,True,,Mcast_PRA_OCS,active,Mcast_PRA_OCS
+,172.16.204.0/24,,True,,PRA_OCS_DATA,active,PRA_OCS_DATA
+,172.16.205.0/24,,True,,PRA_OCS_API,active,PRA_OCS_API
+,172.16.206.0/24,,True,,PRA_OCS_GLUE,active,PRA_OCS_GLUE
+,172.24.33.0/24,,True,,RMV-ENCODAGE,active,RMV-ENCODAGE
+,10.56.15.0/24,,True,,admin encodage,active,0
+,10.201.16.0/22,,True,,OFFICE-ISSY-USER,active,0
+,10.201.20.0/24,,True,,OFFICE-ISSY-WIFI_USER,active,ISSY WIFI USER
+,10.201.21.0/24,,True,,OFFICE-ISSY-WIFI_GUEST,active,OFFICE-ISSY-WIFI_GUEST
+,10.201.23.0/24,,True,,OFFICE-ISSY-MGMT,active,ISSY-MGMT
+,10.201.16.0/21,,True,,OFFICE_ISSY,active,0
+,10.201.22.0/28,,True,,OFFICE-ISSY-SEESTEMS,active,OFFICE-ISSY-SEESTEMS
+,10.201.22.32/28,,True,,OFFICE-ISSY-CAMERA,active,OFFICE-ISSY-CAMERA
+,10.100.80.0/24,,True,,dmz_www_in,active,dmz_www_in
+,10.100.164.0/24,,True,,dmz_qualif,active,dmz_qualif
+,172.20.4.0/24,,True,,proxmox,active,cji_lan
+,172.16.214.0/24,,True,,proxmox,active,0
+,172.16.117.0/24,,True,,QUALIF2-DCM,active,QUALIF2-DCM
+,172.16.125.0/24,,True,,prod-mutualise,active,prod-mutualise
+,172.16.130.0/24,,True,,media_mcl3,active,MEDIA_MCL3
+,172.16.60.0/24,,True,,diffusion multicast,active,diffusion multicast
+,10.37.34.0/27,,True,,interne fibre stockage,active,0
+,10.159.11.0/24,,True,,,active,0
+,185.241.97.0/24,,True,,TDF-TRANSIT-SERVICES-BLOCK-4,active,0
+,10.201.22.64/28,,True,,OFFICE-ISSY-REGIE-SNL,active,OFFICE-ISSY-REGIE-SNL
+,10.37.6.0/25,,True,,,active,0
+,10.250.20.0/24,,True,,,active,0
+,10.201.22.96/28,,True,,OFFICE-ISSY-MAM,active,OFFICE-ISSY-MAM
+,172.16.22.0/24,,True,,,active,0
+,172.16.95.0/24,,True,,,active,JPEG2000
+,172.16.19.0/24,,True,,,active,Mcast Issy LCP
+,172.16.14.0/24,,True,,Intercom AES67 -ISSY ,active, Intercom AES67 -ISSY
+,172.16.13.0/24,,True,,,active,Mcast Issy MTH
+,172.16.12.0/24,,True,,Mcast Issy MCL,active,Mcast Issy MCL
+,172.16.5.0/24,,True,,ADMIN PROXMOX,active,admin_proxmox
+,172.16.6.0/24,,True,,Rebond Issy LCP,active,Rebond Issy LCP
+,10.30.200.0/24,,True,,,active,0
+,10.250.16.0/24,,True,,,active,0
+,172.24.65.0/24,,True,,,active,0
+,172.16.172.0/24,,True,,,active,3172
+,172.16.173.0/24,,True,,3173,active,3173
+,172.16.122.0/24,,True,,,active,3122
+,172.16.143.0/24,,True,,,active,3143
+,172.16.107.0/24,,True,,,active,3107
+,10.250.17.0/24,,True,,,active,0
+,10.201.22.128/28,,True,,OFFICE-ISSY-DRCANAL,active,OFFICE-ISSY-DRCanal
+,172.16.31.128/25,,True,,RebondMCL,active,0
+,10.158.0.0/16,,True,,MGMT GLOBAL,active,0
+,10.158.0.0/24,,True,,MGMT GLOBAL 0,active,MGMT GLOBAL
+,10.103.0.208/28,,True,,RXTX on sait pas,active,0
+,172.16.26.0/24,,True,,,active,prod-francetv
+,10.159.6.0/24,,True,,,active,0
+,10.20.20.0/24,,True,,LCPAN-TVIPS-ADMIN,active,LCPAN-TVIPS-ADMIN
+,10.158.1.0/24,,True,,MGMT BROADCAST,active,0
+,172.25.83.0/24,,True,,,active,0
+,172.25.0.0/16,,True,,,active,0
+,172.16.133.0/24,,True,,,active,ARCHIVE_CMD_MCL3
+,10.20.21.0/24,,True,,RxTx Assemblée N,active,RxTx Assemblée N
+,172.16.20.0/24,,True,,LCPAN-TVIPS-DATA,active,prod-lcp
+,172.16.21.0/24,,True,,RxTx Assemblée N DATA,active,prod-ps
+,172.16.213.0/24,,True,,Admin ANEVIA FLAMINGO RMV-ITX2,active,
+,10.20.7.0/24,,True,,natgeocore_admin,active,natgeocore_admin
+,172.16.43.0/24,,True,,PIGE_ANYWHERE,active,PIGE_ANYWHERE
+,10.20.32.0/24,,True,,ADMIN-IRD-PEIRRERE,active,ADMIN-IRD-PEIRRERE
+,172.16.33.0/24,,True,,FOX,active,FOX
+,10.1.0.120/29,,True,,interco-pereire,active,INTERCO_ro-rmv_FW-STRMSHLD
+,10.20.160.0/24,,True,,pbdc_admin,active,pbdc_admin
+,172.16.136.0/24,,True,,client_multicast_mcl3,active,CLIENT_MULTICAST_MCL3
+,172.16.137.0/24,,True,,Pxe_repository,active,PXE_REPOSITORY
+,172.16.138.0/24,,True,,qualif_automation_mcl3,active,QUALIF_AUTOMATION_MCL3
+,172.16.139.0/24,,True,,qualif_media_mcl3,active,QUALIF_MEDIA_MCL3
+,172.16.175.0/24,,True,,PDU_MTH,active,PDU_MTH
+,172.24.59.0/24,,True,,,active,Omneon Orange Verif
+,172.24.60.0/24,,True,,VM/ILO Orange Verif,active,VM ILO HP Orange Verif
+,10.20.9.0/24,,True,,RXTX_of_RMV,active,RXTX_of_RMV
+,10.20.39.0/24,,True,,,active,new-admin-mcl
+,10.20.36.0/24,,True,,supervision_controle,active,supervision_controle
+,172.16.8.0/24,,True,,Africabox,active,Africabox
+,172.16.34.0/24,,True,,vivolta,active,vivolta
+,172.16.40.0/24,,True,,ordres-vivolta,active,ordres-vivolta
+,172.16.89.0/24,,True,,intellinq,active,intellinq
+,172.16.91.0/24,,True,,insight,active,insight
+,172.16.90.0/24,,True,,harris,active,harris
+,172.16.154.0/24,,True,,LCTVI,active,LCTVI
+,172.16.211.0/24,,True,,ADMIN-MAINTENANCE,active,ADMIN-MAINTENANCE
+,10.8.0.0/16,,True,,,active,0
+,172.16.124.0/24,,True,,,active,prod-evenementiel
+,172.16.25.0/24,,True,,,active,prod-canal-antenne
+,172.16.27.0/24,,True,,,active,prod-adstream
+,172.16.41.0/24,,True,,,active,vivolta_3041_BUIDNET_109
+,172.16.32.0/24,,True,,,active,FLUX-IRD-PEIRRERE
+,10.100.104.0/24,,True,,,active,prod-ancien-diff
+,10.100.155.0/24,,True,,vm_dev_cji,active,VM_DEV_CJI
+,10.20.171.0/24,,True,,,active,LAG POG
+,172.24.53.0/24,,True,,,active,LCP PROXMOX
+,172.16.0.0/23,,True,,,active,0
+,172.16.189.0/24,,True,,PRA FTV admin,active,PRA_FTV_BDCAST
+,172.16.15.0/24,,True,,,active,0
+,172.16.36.0/24,,True,,TEST DEMO,active,0
+,10.58.0.0/24,,True,,,active,0
+,172.23.0.0/24,,True,,orange garden,active,0
+,172.23.0.0/16,,True,,,active,0
+,172.16.128.0/23,,True,,supervision_mcl3,active,SUPERVISION-MCL3
+,172.16.31.16/29,,True,,Riedel Issy - C+ Lumière,active,Riedel Issy - C+ Lumière
+,172.25.58.0/24,,True,,,active,0
+,172.25.58.40/29,,True,,,active,MAM 1758
+,172.25.58.16/29,,True,,,active,MAM 3058
+,95.81.162.0/24,,True,,,active,0
+,10.254.0.0/16,,True,,NETADM,active,NETADM
+,10.254.253.0/24,,True,,,active,NETADM
+,10.37.64.16/28,,True,,BPM Harmony common store,active,0
+,224.0.0.0/8,,True,,,active,0
+,225.0.0.0/8,,True,,,active,0
+,226.0.0.0/8,,True,,,active,0
+,227.0.0.0/8,,True,,,active,0
+,228.0.0.0/8,,True,,,active,0
+,229.0.0.0/8,,True,,,active,0
+,230.0.0.0/8,,True,,,active,0
+,231.0.0.0/8,,True,,2110 CANAL D3,active,
+,232.0.0.0/8,,True,,,active,0
+,233.0.0.0/8,,True,,,active,0
+,234.0.0.0/8,,True,,,active,0
+,235.0.0.0/8,,True,,,active,0
+,236.0.0.0/8,,True,,,active,0
+,238.0.0.0/8,,True,,,active,0
+,237.0.0.0/8,,True,,,active,
+,239.0.0.0/16,,True,,,active,0
+,239.1.0.0/16,,True,,,active,0
+,239.2.0.0/16,,True,,,active,0
+,239.7.0.0/16,,True,,,active,0
+,239.8.0.0/16,,True,,,active,0
+,239.187.0.0/16,,True,,,active,0
+,239.255.11.0/24,,True,,,active,0
+,239.12.0.0/16,,True,,,active,0
+,172.16.193.0/24,,True,,PRA FMM +RFI: VLAN 3903,active,PRA_FMM_ARKENA
+,239.254.8.0/24,,True,,Subnet Xco Canal IPTV,active,
+,172.16.190.0/24,,True,,,active,DCM Main
+,239.239.239.0/24,,True,,,active,0
+,10.160.0.0/12,,True,,MLB - RESERVE,active,0
+,10.176.0.0/14,,True,,MLB - RESERVE,active,
+,10.160.0.0/14,,True,,MLB - INFRA,active,
+,10.164.0.0/14,,True,,MLB - PROD,active,0
+,10.168.0.0/14,,True,,MLB - PPD,active,
+,10.172.0.0/14,,True,,MLB - QA,active,
+,10.164.0.0/22,,True,,SMARTJOG,active,
+,10.164.0.0/23,,True,,SMARTJOG - COMMON,active,
+,10.164.2.0/23,,True,,SMARTJOG - RXTX,active,
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.160.0.0/16,,True,,ADMIN,active,ADMIN_ISOLATED
+,10.161.0.0/16,,True,,SERVICES,active,0
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.162.0.0/16,,True,,ILO_DRAC,active,
+,10.163.0.0/16,,True,,NETWORK,active,0
+,10.54.0.0/16,,True,,PRA FMM,active,0
+,10.54.0.0/24,,True,,PRA FMM DMZ,active,PRA-FMM DMZ
+,10.54.1.0/24,,True,,PRA FMM GLOBAL,active,PRA FMM GLOBAL
+,10.54.2.0/24,,True,,PRA FMM RADIO,active,PRA FMM RADIO
+,10.54.3.0/24,,True,,PRA FMM TV,active,PRA-FMM TV
+,10.54.11.0/24,,True,,PRA FMM MCAST RADIO,active,PRA-FMM MCAST RADIO
+,10.54.12.0/24,,True,,PRA FMM MCAST TV,active,PRA FMM MCAST TV
+,10.56.16.0/26,,True,,IPTVAMD-MCL2,active,PTVAMD-MCL2
+,172.16.112.0/24,,True,,,active,3112
+,10.56.14.0/24,,True,,,active,0
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.164.0.0/24,,True,,PRO_SMJ_MAIN,active,PRO_SMJ_MAIN
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.164.1.0/26,,True,,PRO_SMJ_STORAGE,active,PRO_SMJ_STORAGE
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.164.1.128/25,,True,,PRO_SMJ_DMZ,active,PRO_SMJ_DMZ
+,172.16.42.0/24,,True,,,active,0
+,172.16.73.0/24,,True,,,active,0
+,172.16.77.0/24,,True,,,active,0
+,213.205.127.240/28,,True,,OUT rxtx CESSON,active, rxtx OUT CES 
+,172.25.56.0/24,,True,,IPTVADM,active,0
+,172.25.56.0/29,,True,,Interco FW XCO ITX2,active,0
+,172.25.56.8/29,,True,,interco FW XCO RMV,active,0
+,172.25.56.16/29,,True,,Interco SW RO RMV,active,0
+,172.25.56.24/29,,True,,Interco SRX RO CJI,active,0
+,172.25.56.32/29,,True,,Interco SRX RO CJI (test vrf vlan 1862),active,0
+,10.100.100.0/24,,True,,Zone prod_mcl1,active,0
+,172.21.15.0/24,,True,,Chez LCP,active,0
+,213.205.127.224/28,,True,, rxtx OUT RMV ,active, rxtx OUT RMV 
+,10.75.0.0/16,,True,,PSDA-FTV,active,0
+,10.75.10.0/24,,True,,PSDA-FTV-ADM-CJI-VLAN10,active,0
+,172.18.0.0/16,,True,,,active,0
+,172.18.0.0/24,,True,,,active,0
+,239.184.45.0/24,,True,,mcast_ipvtl_HD.cji.fr,active,0
+,10.164.4.0/24,,True,,COMMON,active,
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.164.8.0/24,,True,,CJI,active,
+,10.54.13.0/24,,True,,PRA FMM MCAST AES-67,active,PRA FMM MCAST AES-67
+,172.24.54.0/24,,True,,,active,NDI TX MOSA LCP / CNEWS
+,176.175.231.0/25,,True,,IP_PUBLIQUE_MONTIGNY,active,0
+,10.161.0.0/22,,True,,Subnets Infra,active,0
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.161.0.0/24,,True,,INF_GLB_MAIN,active,INF_GLB_MAIN
+,10.163.0.0/24,,True,,,active,0
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.161.3.128/25,,True,,INF_GLB_DMZ,active,INF_GLB_DMZ
+,239.184.10.0/24,,True,,F24 TO COEUR,active,0
+,239.180.10.0/24,,True,,RFI TO COEUR,active,0
+,10.75.11.0/24,,True,,PSDA-FTV-ZONE-I11-VLAN11,active,0
+,10.75.12.0/24,,True,,PSDA-FTV-ZONE-I12-VLAN12,active,0
+,10.75.31.8/29,,True,,PSDA-FTV-AAA-AUTH-VLAN31,active,0
+,10.75.31.0/29,,True,,PSDA-FTV-AAA-AD-VLAN30,active,0
+,10.75.31.16/28,,True,,PSDA-FTV-AAA-DMZ-VLAN32,active,0
+,10.75.31.32/29,,True,,PSDA-FTV-AAA-LOG-VLAN33,active,0
+,10.75.40.0/24,,True,,PSDA-FTV-LAN-FTV-VLAN40,active,0
+,10.75.51.0/29,,True,,PSDA-FTV-INT-CJI-VLAN51,active,0
+,10.75.101.0/24,,True,,PSDA-FTV-ZONE-1-VLAN101,active,0
+,10.75.102.0/24,,True,,PSDA-FTV-ZONE-2-VLAN102,active,0
+,10.75.103.0/24,,True,,PSDA-FTV-ZONE-3-VLAN103,active,0
+,10.75.105.0/24,,True,,PSDA-FTV-ZONE-5-VLAN105,active,0
+,10.75.106.0/24,,True,,PSDA-FTV-ZONE-6-VLAN106,active,0
+,10.75.107.0/24,,True,,PSDA-FTV-ZONE-7-VLAN107,active,0
+,10.75.110.0/24,,True,,PSDA-FTV-DMZ-1-VLAN110,active,0
+,10.75.121.0/24,,True,,PSDA-FTV-DMZ-2-1-VLAN121,active,0
+,10.75.122.0/24,,True,,PSDA-FTV-DMZ-2-2-VLAN122,active,0
+,10.75.123.0/24,,True,,PSDA-FTV-DMZ-2-3-VLAN123,active,0
+,10.75.124.0/24,,True,,PSDA-FTV-DMZ-2-4-VLAN124,active,0
+,10.75.130.0/24,,True,,PSDA-FTV-DMZ-3-VLAN130,active,0
+,172.16.204.64/29,,True,,PSDA-FTV-EXT-INTERCO-TDF,active,
+,10.75.125.0/24,,True,,PSDA-FTV-DMZ-2-5-VLAN125,active,PSDA-FTV-DMZ-2-5-VLAN125
+,10.75.150.0/24,,True,,PSDA-FTV-COLLECTE-FTV-VLAN150,active,PSDA-FTV-COLLECTE-FTV-VLAN150
+,10.75.160.0/24,,True,,PSDA-FTV-LIVRAISON-FTV-VLAN160,active,PSDA-FTV-LIVRAISON-FTV-VLAN160
+,10.75.161.0/24,,True,,PSDA-FTV-LIVRAISON-RF-VLAN161,active,PSDA-FTV-LIVRAISON-RF-VLAN161
+,10.75.162.0/24,,True,,PSDA-FTV-LIVRAISON-FTV-TMS-VLAN162,active,PSDA-FTV-LIVRAISON-FTV-TMS-VLAN162
+,10.75.163.0/24,,True,,PSDA-FTV-LIVRAISON-RF-TMS-VLAN163,active,PSDA-FTV-LIVRAISON-RF-TMS-VLAN163
+,10.75.170.0/24,,True,,PSDA-FTV-MCAST-LOCAL-VLAN170,active,PSDA-FTV-MCAST-LOCAL-VLAN170
+,10.75.171.0/24,,True,,PSDA-FTV-MCAST-FTV-VLAN171,active,PSDA-FTV-MCAST-FTV-VLAN171
+,10.75.172.0/24,,True,,PSDA-FTV-MCAST-LIVEWIRE-RF-VLAN172,active,PSDA-FTV-MCAST-LIVEWIRE-RF-VLAN172
+,10.75.173.0/24,,True,,PSDA-FTV-MCAST-BRANE-VLAN173,active,PSDA-FTV-MCAST-BRANE-VLAN173
+,10.75.174.0/24,,True,,PSDA-FTV-STREAM-M-TS-VLAN174,active,PSDA-FTV-STREAM-M-TS-VLAN174
+,10.75.250.0/24,,True,,PSDA-FTV-INTERNAL-VMOTION-VLAN250,active,PSDA-FTV-INTERNAL-VMOTION-VLAN250
+,10.75.251.0/24,,True,,PSDA-FTV-INTERNAL-VSAN-VLAN251,active,PSDA-FTV-INTERNAL-VSAN-VLAN251
+,10.75.61.0/24,,True,,PSDA-FTV-INTERCO-FTV-1-VLAN61,active,PSDA-FTV-INTERCO-FTV-1-VLAN61
+,10.75.62.0/24,,True,,PSDA-FTV-INTERCO-FTV-2-VLAN62,active,PSDA-FTV-INTERCO-FTV-2-VLAN62
+,10.75.70.0/30,,True,,PSDA-FTV-INTERCO-MCAST-ARISTA-VLAN70,active,PSDA-FTV-INTERCO-MCAST-ARISTA-VLAN70
+,10.75.70.4/30,,True,,PSDA-FTV-INTERCO-MCAST-ARISTA-VLAN71,active,PSDA-FTV-INTERCO-MCAST-ARISTA-VLAN71
+,10.75.70.8/30,,True,,PSDA-FTV-INTERCO-MCAST-ARISTA-VLAN72,active,PSDA-FTV-INTERCO-MCAST-ARISTA-VLAN72
+,10.75.21.0/24,,True,,PSDA-FTV-ZONE-I21-VLAN21,active,0
+,10.75.22.0/24,,True,,PSDA-FTV-ZONE-I22-VLAN22,active,0
+,10.75.70.0/24,,True,,PSDA-FTV-INTERCO-MCAST-ARISTA-VLAN70,active,0
+,10.75.71.0/24,,True,,PSDA-FTV-INTERCO-MCAST-ARISTA-VLAN71,active,0
+,95.81.144.0/24,,True,,,active,0
+,172.23.11.0/24,,True,,,active,0
+,10.32.9.0/24,,True,,rxtx INOUT RMV,active,0
+,10.161.252.0/22,,True,,Subnets VPN_INFRA,active,0
+,10.161.255.0/24,,True,,VPN_BOTS,active,0
+,10.161.254.0/24,,True,,VPN_EXTERNAL,active,0
+,10.161.252.0/23,,True,,VPN_INTERNAL,active,0
+,239.184.36.0/24,,True,,mcast_out_regie_CANAL_RMV_hd,active,
+,239.184.136.0/24,,True,,mcast_flux_secu_regie_CANAL_RMV_HD,active,
+,10.201.22.192/26,,True,,OFFICE-ISSY-ENENSYS,active,OFFICE-ISSY-ENENSYS
+,10.32.10.0/28,,True,,Interco PIXA,active,INTERCO PIXA
+,10.163.111.28/30,,True,,VPN OOB FORTI MLB,active,0
+,10.163.111.128/25,,True,,VPN OOB ISSY,active,0
+,10.103.2.0/26,,True,,Canal FARMAN,active,RXTX_CANAL_FARMAN
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.162.1.0/24,,True,,ILO-MLB-D50,active,0
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.162.10.0/24,,True,,esx.cji mgmt,active,0
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.162.12.0/24,,True,,ILO-MLB-O50,active,0
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.162.144.0/27,,True,,routage nsx,active,0
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.162.2.0/24,,True,,ILO-MLB-E50,active,0
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.162.3.0/24,,True,,ILO-MLB-F50,active,0
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.162.6.0/24,,True,,ILO-MLB-I50,active,0
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.162.7.0/24,,True,,ILO-MLB-J50,active,0
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.162.4.0/24,,True,,ILO-MLB-G50,active,
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.162.5.0/24,,True,,ILO-MLB-H50,active,0
+,10.163.144.0/24,,True,,??,active,0
+,10.163.145.0/24,,True,,FW-MLB-LAG,active,
+,10.0.100.0/24,,True,,interco_tdf,active,0
+,172.16.195.0/27,,True,,SNL ASPERA FTP,active,SNL ASPERA FTP ( Brane Canal+)
+,10.163.250.0/24,,True,,INBAND,active,0
+,10.163.251.0/24,,True,,FABRIC,active,0
+,10.161.4.0/24,,True,,Subnets ESX,active,0
+,10.161.4.0/26,,True,,MGMT_ESXi,active,Cloud_Prive_OnCloud_MGMT
+,10.161.4.64/26,,True,,V_MOTION,active,Cloud_Prive_OnCloud_vMotion
+,10.161.4.128/26,,True,,VSAN,active,Cloud_Prive_OnCloud_vSAN
+,10.161.4.192/26,,True,,ESX_4,active,0
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.178.0.0/15,,True,,STORAGE,active,STORAGE_ISOLATED
+,10.163.3.0/24,,True,,inbound switch fabric MLB,active,0
+,10.159.209.0/24,,True,,,active,0
+,10.76.0.0/24,,True,,PSDA-FTV-XCO-BACKUP-PRA-EXT,active,PSDA-FTV-XCO-BACKUP-PRA-EXT
+,10.163.101.0/24,,True,,switch backbone,active,
+,239.184.43.0/24,,True,,mcast_to_montigny,active,
+,239.184.51.0/24,,True,,mcat_from_montigny,active,
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.162.8.0/24,,True,,ILO-MLB-K50,active,0
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.162.9.0/24,,True,,ILO-MLB-L50,active,0
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.162.13.0/24,,True,,ILO-MLB-P50,active,0
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.162.14.0/24,,True,,ILO-MLB-Q50,active,0
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.162.15.0/24,,True,,ILO-MLB-R50,active,0
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.163.112.0/25,,True,,NAT INFRA,active,NAT_INFRA
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.164.8.0/25,,True,,PRO_CJI_MAIN,active,PRO_CJI_MAIN
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.164.8.240/28,,True,,PRO_CJI_DMZ,active,PRO_CJI_DMZ
+,10.75.52.0/29,,True,,Interco ISSY - PSDA,active,Vlan_ISSY-PSDA
+,10.56.13.0/24,,True,,,active,
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.162.0.0/24,,True,,ILO-MLB-DHCP,active,
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.172.4.0/22,,True,,QA_GLB_MAIN,active,QA_GLB_MAIN
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.172.0.0/24,,True,,QA_GLB_DMZ,active,QA_GLB_DMZ
+,10.163.100.0/24,,True,,vlan_interco_pe,active,
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.164.4.0/26,,True,,PRO_COMMON_KARAJAN,active,PRO_COMMON_KARAJAN
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.164.4.240/28,,True,,PRO_COMMON_DMZ,active,PRO_COMMON_DMZ
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.164.4.224/28,,True,,PRO_COMMON_RECEPT,active,PRO_COMMON_RECEPT
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.164.4.128/26,,True,,PRO_COMMON_TRANSCO,active,PRO_COMMON_TRANSCO
+,10.164.5.0/25,,True,,PANDORA,active,
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.164.5.0/26,,True,,PRO_PANDORA_MAIN,active,PRO_PANDORA_MAIN
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.164.5.112/28,,True,,PRO_PANDORA_DMZ,active,PRO_PANDORA_DMZ
+,10.164.5.128/25,,True,,OCS,active,
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.164.5.128/26,,True,,PRO_OCS_MAIN,active,PRO_OCS_MAIN
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.164.5.240/28,,True,,PRO_OCS_DMZ,active,PRO_OCS_DMZ
+,10.168.0.0/22,,True,,SMARTJOG,active,
+,10.168.4.0/24,,True,,COMMON,active,
+,10.168.5.0/25,,True,,PANDORA,active,
+,10.168.5.128/25,,True,,OCS,active,
+,10.168.8.0/24,,True,,CJI,active,
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.168.5.128/26,,True,,PPD_OCS_MAIN,active,
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.168.5.240/28,,True,,PPD_OCS_DMZ,active,
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.168.5.0/26,,True,,PPD_PANDORA_MAIN,active,
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.168.5.112/28,,True,,PPD_PANDORA_DMZ,active,
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.168.4.0/26,,True,,PPD_COMMON_KARAJAN,active,PPD_COMMON_KARAJAN
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.168.4.128/26,,True,,PPD_COMMON_TRANSCO,active,PPD_COMMON_TRANSCO
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.168.4.240/28,,True,,PPD_COMMON_DMZ,active,PPD_COMMON_DMZ
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.168.4.224/28,,True,,PPD_COMMON_RECEPT,active,PPD_COMMON_RECEPT
+,10.75.127.0/24,,True,,PSDA-FTV-DMZ-2-5-VLAN125,active,PSDA-FTV-DMZ-2-7-VLAN127
+,10.201.22.144/29,,True,,OFFICE-ISSY-PSDA,active,OFFICE-ISSY-PSDA
+,10.100.110.0/24,,True,,,active,
+,10.163.10.0/24,,True,,Interco C+,active,
+,10.163.10.0/25,,True,,C+ TH2,active,
+,10.163.10.128/25,,True,,C+ ITX,active,
+,10.163.10.0/30,,True,,,active,
+,10.163.10.4/30,,True,,,active,
+,10.163.10.8/30,,True,,,active,
+,10.163.10.128/30,,True,,,active,
+,10.163.10.132/30,,True,,,active,
+,10.163.10.136/30,,True,,,active,
+,239.224.51.0/24,,True,,mcast_MLB_PEEBLE,active,
+,10.164.9.0/24,,True,,CANAL D3,active,
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.164.9.0/25,,True,,PRO_CANALD3_MAIN,active,PRO_CANALD3_MAIN
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.164.9.240/28,,True,,PRO_CANALD3_DMZ,active,PRO_CANALD3_DMZ
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.164.9.128/27,,True,,PRO_CANALD3_COMMAND,active,PRO_CANALD3_COMMAND
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.164.9.224/28,,True,,PRO_CANALD3_PTP,active,PRO_CANALD3_PTP
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.164.4.192/27,,True,,PRO_COMMON_MAIN,active,PRO_COMMON_MAIN
+,10.167.0.0/24,,True,,CANAL D3 MCAST,active,
+,10.167.0.0/26,,True,,MCAST_CANALD3_MPEG,active,MCAST_CANALD3_MPEG_1
+,239.225.51.0/24,,True,,NDI_MLB,active,
+,10.163.102.0/24,,True,,TH2,active,
+,10.163.103.0/24,,True,,ITX2,active,
+,10.163.102.0/30,,True,,INTERCO STORMSHIELD TH2 MLB,active,INTERCO STORMSHIELD MLB
+,10.163.103.0/30,,True,,INTERCO STORMSHIELD ITX2 MLB,active,INTERCO STORMSHIELD MLB
+,10.163.102.4/30,,True,,INTERCO VDCM TH2,active,INTERCO VDCM
+,10.163.103.4/30,,True,,INTERCO VDCM ITX2,active,INTERCO VDCM
+,10.163.102.16/29,,True,,INTERCO STORMSHIELD TH2 TDF,active,INTERCO STORMSHIELD TDF
+,10.163.103.16/29,,True,,INTERCO STORMSHIELD TH2 TDF,active,INTERCO STORMSHIELD TDF
+,10.163.11.0/27,,True,,NAT C+,active,
+,239.184.38.0/24,,True,,mcast_to_regie_live_canal,active,
+,10.163.10.140/32,,True,,,active,
+,10.163.10.141/32,,True,,,active,
+,10.163.10.142/32,,True,,,active,
+,10.163.10.12/32,,True,,,active,
+,10.163.10.13/32,,True,,,active,
+,10.163.10.14/32,,True,,,active,
+,10.201.22.160/27,,True,,OFFICE-ISSY-REGIE-CANALD3,active,OFFICE-ISSY-REGIE-CANALD3
+,10.167.0.64/27,,True,,MCAST_CANALD3_MPEG_2110_1,active,MCAST_CANALD3_MPEG_2110
+,10.167.0.96/27,,True,,MCAST_CANALD3_MPEG_2110_2,active,MCAST_CANALD3_MPEG_2110_2
+,10.201.24.0/21,,True,,OFFICE_ISSY_2,active,
+,10.201.24.0/24,,True,,OFFICE_ISSY_2_1,active,
+,10.201.25.0/24,,True,,OFFICE_ISSY_2_2,active,
+,10.201.26.0/24,,True,,OFFICE_ISSY_2_3,active,
+,10.201.27.0/24,,True,,OFFICE_ISSY_2_4,active,
+,10.201.28.0/24,,True,,OFFICE_ISSY_2_5,active,
+,10.201.29.0/24,,True,,OFFICE_ISSY_2_6,active,
+,10.201.30.0/24,,True,,OFFICE_ISSY_2_7,active,
+,10.201.31.0/24,,True,,OFFICE_ISSY_2_8,active,
+,172.16.195.128/28,,True,,zone partenaire C+ vers MLB,active,
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.164.1.64/26,,True,,PRO_SMJ_RXTX_INT,active,PRO_SMJ_RXTX_INT_ISOLATED
+,239.184.39.0/24,,True,,mcast_contrib_vDCM_D3,active,
+,10.201.22.16/28,,True,,OFFICE-ISSY-REGIE-CANALDR,active,OFFICE-ISSY-REGIE-CANALDR
+,10.167.0.128/26,,True,,MCAST_CANALD3_MPEG_2,active,MCAST_CANALD3_MPEG_2
+,239.35.6.0/24,,True,,mcast_to_ASTRA,active,ASTRA TH2
+,239.226.51.0/24,,True,,mcast_controle_monitoring_mlb,active,
+,10.163.146.0/24,,True,,mgmt oncloud ?,active,
+,10.163.147.0/24,,True,,mgmt oncloud 2 ?,active,
+,10.63.0.0/16,,True,,Network_CJI_TDF_side,active,
+,10.167.0.192/26,,True,,MCAST_CANALD3_NODE,active,MCAST_NODE
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.168.4.192/27,,True,,PPD_COMMON_MAIN,active,PPD_COMMON_MAIN
+,172.26.3.0/24,,True,,Mercator - SW-463,active,Mercator
+"{'id': '2', 'name': 'CJI NS', 'namesrv1': '10.161.0.21;10.161.0.22', 'description': 'Nameserver CJI', 'permissions': '1', 'editDate': '2022-12-09 13:00:47'}",10.164.4.64/27,,True,,PRO_COMMON_BPM,active,PRO_COMMON_BPM
+,10.100.165.0/24,,True,,,active,
+,10.159.20.0/24,,True,,,active,
+,10.254.7.0/24,,True,,/,active,
+,10.167.1.0/24,,True,,COMMON MCAST,active,
+,10.167.1.240/28,,True,,MCAST_POG,active,MCAST_POG

@@ -24,6 +24,7 @@ def update_subnet_data():
 
         # Replace the value of the "masterSubnetId" field
         # with the corresponding subnet if it's different from "0", otherwise, set it to None
+        """
         if subnet["masterSubnetId"] != "0":
             for prev_subnet in data:
                 if prev_subnet["id"] == subnet["masterSubnetId"]:
@@ -32,6 +33,8 @@ def update_subnet_data():
         else:
 
             subnet["masterSubnetId"] = None
+
+        """
 
 
         #A On va redefir les champs pour les rendre comforme à Nautobot
@@ -56,14 +59,16 @@ def update_subnet_data():
 
         
       
-        subnet ["vlan"] =subnet.pop("vlanId")        
+        subnet ["vlan"] =subnet.pop("vlanId")  
+        subnet ["prefix"] =subnet.pop("subnet")         
 
 
         
 
         #Ici on va supprimer les champs non utile
       
-        list = [
+        list = ["id",
+        "masterSubnet",
         "mask",
         "sectionId",
         "isFull",
@@ -99,11 +104,10 @@ def update_subnet_data():
             del subnet[item]
 
     
-    return json.dumps(data,indent =4)
+    return data
   
 
 
-print (update_subnet_data ())
 
 
 
@@ -137,6 +141,7 @@ def subnets_to_csv():
         for entry in data_json:
 
             writer.writerow(entry)
+subnets_to_csv()
 
 
 
