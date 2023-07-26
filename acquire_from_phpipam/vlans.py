@@ -21,13 +21,13 @@ def update_vlans():
         del vlan["custom_fields"]
         del vlan["customer_id"]
         del vlan["editDate"]
-        del vlan["id"]
+        del vlan["number"]
         del vlan["domainId"]
         
 
         # A On va redefir les champs pour les rendre comforme à Nautobot
         vlan["group"] = "TDF"
-        vlan["vid"] = vlan.pop("number")
+        vlan["vid"] = vlan.pop("id")
 
         # Concatenate the "name" field with the "id" field and replace the "name" field
         vlan["name"] = f"{vlan['name']}-{vlan['vid']}"
