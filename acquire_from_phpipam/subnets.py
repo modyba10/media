@@ -1,4 +1,5 @@
 import csv
+import json
 import api
 
 
@@ -10,12 +11,16 @@ def update_vlans_test():
     data = api.acquire_data("vlans/all")
 
     for vlan in data:
-
+        found_match = False  # Variable pour vérifier si une correspondance a été trouvée pour ce VLAN
         for domain in data_domains:
             if vlan["domainId"] == domain["id"]:
                 vlan["domainId"] = domain["name"]
+                found_match = True
                 break
-    
+
+        # Si aucune correspondance n'a été trouvée, attribuer une valeur par défaut
+        if not found_match:
+            vlan["domainId"] = None
 
     return data
 
@@ -49,6 +54,7 @@ def update_subnet_data():
 
         # Process the vlanId
         if subnet["vlanId"] != 0:
+
             for vlan in vlans:
                 if vlan["id"] == subnet["vlanId"]:
                     subnet["vlanId"] = vlan["domainId"]
@@ -68,13 +74,26 @@ def update_subnet_data():
 
     return data
 
+def delete_0 () : 
+
+    data = update_subnet_data()
+
+    for subnet in data :
+
+        if subnet["vlan"] == "0" :
+
+            subnet["vlan"] = ""
+
+    return data
+
+
 
 
 
 
 def subnets_to_csv():
     csv_file = "prefixes_or_subnets.csv"
-    data_json = update_subnet_data()
+    data_json = delete_0()
 
     # Vérification des données JSON
     if not isinstance(data_json, list) or not all(isinstance(item, dict) for item in data_json):
@@ -91,7 +110,8 @@ def subnets_to_csv():
         writer.writeheader()
         for entry in data_json:
             writer.writerow(entry)
-
 subnets_to_csv()
+
+
 
 
