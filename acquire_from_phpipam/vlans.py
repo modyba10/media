@@ -22,10 +22,11 @@ def update_vlans():
         del vlan["customer_id"]
         del vlan["editDate"]
         del vlan["id"]
+        del vlan["domainId"]
         
 
         # A On va redefir les champs pour les rendre comforme à Nautobot
-        vlan["group"] = vlan.pop("domainId")
+        vlan["group"] = "TDF"
         vlan["vid"] = vlan.pop("number")
 
         # Concatenate the "name" field with the "id" field and replace the "name" field
