@@ -7,22 +7,20 @@ import api
 
 
 def update_vlans_test():
+
+
     data_domains = api.acquire_data("l2domains/")
+
     data = api.acquire_data("vlans/all")
 
     for vlan in data:
+
+
         vlan["name"] = f"{vlan['name']}-{vlan['number']}"
+
+
         found_match = False  # Variable pour vérifier si une correspondance a été trouvée pour ce VLAN
-        for domain in data_domains:
-            if vlan["domainId"] == domain["id"]:
-                vlan["domainId"] = domain["name"]
-                found_match = True
-                break
-
-        # Si aucune correspondance n'a été trouvée, attribuer une valeur par défaut
-        if not found_match:
-            vlan["domainId"] = None
-
+        
     return data
 
 
@@ -30,7 +28,9 @@ def update_vlans_test():
 
 
 def update_subnet_data():
+
     data = api.acquire_data("subnets/all/")
+
     vlans = update_vlans_test()
 
     for subnet in data:
@@ -56,22 +56,7 @@ def update_subnet_data():
         subnet["is_pool"] = True
 
         # Process the vlanId
-        if subnet["vlanId"] != 0:
-
-            for vlan in vlans:
-                
-                if vlan["id"] == subnet["vlanId"]:
-
-                    subnet["vlan_group"] = vlan["domainId"]
-
-                    subnet["vlanId"] = vlan["name"]
-
-                    break
-
-        else:
-
-            subnet["vlanId"] = None
-
+        
 
         subnet["vlan"] = subnet.pop("vlanId")
 

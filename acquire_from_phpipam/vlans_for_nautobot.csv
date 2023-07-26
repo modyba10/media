@@ -1,586 +1,586 @@
-group,description,vid,name,status
-TDF,IPv6 private 1 subnets,1,IPv6 private 1-2001,active
-TDF,DMZ public,2,Servers DMZ-4001,active
-TDF,,3,2885-2885,active
-TDF,,4,PRA_FMM-C4M-STOCKAGE-2892,active
-TDF,,5,DMZ_MEDIA-2099,active
-TDF,,6,PDU-623,active
-TDF,,7,1506-1506,active
-TDF,,8,2439-2439,active
-TDF,,9,STORAGE LCP RMV-2444,active
-TDF,,10,AUTOMATION LCP RMV -2442,active
-TDF,,11,INTERNE LCP RMV-2447,active
-TDF,,12,MCAST-ARKENA-HIPTV-2448,active
-TDF,,13,MANAGEMENT_HYPERVISEUR-3009,active
-TDF,,14,ISCSCI_1 dHCI-3010,active
-TDF,,15,ISCSCI_2 dHCI-3011,active
-TDF,,16,2707-2707,active
-TDF,,18,2879-2879,active
-TDF,,19,2893-2893,active
-TDF,,21,3170-3170,active
-TDF,,22,KARAJAN_PREPROD_INTERNAL-2802,active
-TDF,,23,ATEME_DRIVERS_PREPROD-351,active
-TDF,,24,Mcast Issy LCP-3019,active
-TDF,,25,STORAGE VIACOM RMV-3017,active
-TDF,,26,AUTOMATION VIACOM RMV-3016,active
-TDF,,27,MULTICAST VIACOM RMV-3018,active
-TDF,,28,Automation - PRA Gulli RMV-ITX2-3208,active
-TDF,,29,Mcast PRA Gulli RMV-ITX2-3207,active
-TDF,,30,Stockage PRA Gulli RMV-ITX2-3209,active
-TDF,,31,Admin  PRA Gulli RMV-ITX2-3212,active
-TDF,,32,LAG DATA RMV-3148,active
-TDF,,33,M6 AUTOMATIONS MCAST RMV-2169,active
-TDF,,34,M6 ORCA ATEME ENCODEURS MCAST2-2115,active
-TDF,,35,M6 ORCA ATEME ENCODEURS MCAST2-2122,active
-TDF,,36,LAG MANAGEMENT-3147,active
-TDF,,37,LAG POG-2171,active
-TDF,,38,NETADM-18,active
-TDF,proxmox & dmz-smtp,39,smtp.cji.fr est dedans-3,active
-TDF,,40,CJI Wifi Arkena-45,active
-TDF,,41,CJI Wifi Arkena Guest-46,active
-TDF,proxmox,42,dmz_www_out-60,active
-TDF,proxmox,43,dmz_www_in-80,active
-TDF,,44,83-83,active
-TDF,,45,BRANE ADMIN_GLOBAL-2685,active
-TDF,,46,BRANE STORAGE_NAS_RMV-2890,active
-TDF,,47,MAM ?-3000,active
-TDF,,48,PRA_OCS_GLUE-3807,active
-TDF,,49,PRA_OCS_API-3804,active
-TDF,,50,PRA_OCS_DATA-3803,active
-TDF,,51,PRA_OCS_MCAST-3127,active
-TDF,,53,PRA_OCS_DATA-3204,active
-TDF,,54,PRA_OCS_API-3205,active
-TDF,,55,PRA_OCS_GLUE-3206,active
-TDF,,56,RMV-ENCODAGE-2433,active
-TDF,,57,admin encodage-615,active
-TDF,,58,ISSY USER-16,active
-TDF,,59,ISSY WIFI USER-20,active
-TDF,,60,ISSY-MGMT-23,active
-TDF,,61,OFFICE-ISSY-SEESTEMS-221,active
-TDF,,62,OFFICE-ISSY-CAMERA-223,active
-TDF,proxmox,63,DMZ-ADMIN-153,active
-TDF,proxmox,64,DMZ-DMC-CORE-160,active
-TDF,proxmox,65,dmz_qualif-164,active
-TDF,proxmox,66,cji_lan-1010,active
-TDF,proxmox,67,admin remote desktop(admin-free)-2056,active
-TDF,proxmox,68,DCM-PROD-3003,active
-TDF,proxmox,69,admin_proxmox-3005,active
-TDF,proxmox,70,QUALIF2-DCM-3117,active
-TDF,proxmox,71,prod-mutualise-3125,active
-TDF,,72,SUPERVISION-MCL3-3128,active
-TDF,,73,MEDIA_MCL3-3130,active
-TDF,,74,AUTOMATION-MCL3-3131,active
-TDF,,75,HABILLAGE_MCL3-3132,active
-TDF,,77,EXPLOITATION_MCL3-3141,active
-TDF,proxmox,78,diffusion multicast-3060,active
-TDF,proxmox,79,LCP PROXMOX-3553,active
-TDF,,80,OFFICE-ISSY-REGIE-SNL-225,active
-TDF,,81,ADMIN_COMMON_BRANE-1792,active
-TDF,,82,OFFICE-ISSY-MAM-227,active
-TDF,,83,ADMIN RMV 622-622,active
-TDF,,84,Mcast Issy MTH-3013,active
-TDF,,85, Intercom AES67 -ISSY-3014,active
-TDF,Data TVIPS,86,JPEG2000-3195,active
-TDF,,87,Mcast Issy MCL-3012,active
-TDF,,89,Rebond Issy LCP-3006,active
-TDF,,90,Media Orange Verif-3558,active
-TDF,,91,RXTX_sj-cji-fr-284,active
-TDF,,92,3106-3106,active
-TDF,,93,3172-3172,active
-TDF,,94,TRANSFERT 3171-3171,active
-TDF,,95,3173-3173,active
-TDF,,96,CLIENT 3169-3169,active
-TDF,,98,3122-3122,active
-TDF,,99,3143-3143,active
-TDF,,100,3107-3107,active
-TDF,,101,SNL_STORAGE-2878,active
-TDF,OFFICE-ISSY-DRCanal,102,OFFICE-ISSY-DRCanal-229,active
-TDF,,103,OFFICE-ISSY-WIFI_GUEST-21,active
-TDF,RebondMCL,104,RebondMCL-3031,active
-TDF,,105,MGMT GLOBAL-2767,active
-TDF,,106,LCPAN-TVIPS-ADMIN-2020,active
-TDF,,107,29-29,active
-TDF,,108,VMS PREPROD 161-161,active
-TDF,,109,RxTx Assemblée N-2021,active
-TDF,,110,prod-lcp-3020,active
-TDF,,111,prod-ps-3021,active
-TDF,,112,natgeocore_admin-2007,active
-TDF,,113,halo_1_out-3007,active
-TDF,,114,PIGE_ANYWHERE-3043,active
-TDF,,115,ADMIN-IRD-PEIRRERE-2032,active
-TDF,,116,FOX-3033,active
-TDF,,117,INTERCO_ro-rmv_FW-STRMSHLD-4016,active
-TDF,,118,pbdc_admin-2160,active
-TDF,,119,PBDC_PROD-3160,active
-TDF,,120,ARCHIVE_CMD_MCL3-3133,active
-TDF,,121,PARALLELE_ANTENNE_MCL3-3135,active
-TDF,,122,CLIENT_MULTICAST_MCL3-3136,active
-TDF,,123,PXE_REPOSITORY-3137,active
-TDF,,124,QUALIF_AUTOMATION_MCL3-3138,active
-TDF,,125,QUALIF_MEDIA_MCL3-3139,active
-TDF,,126,PDU_MTH-3175,active
-TDF,,127,KVM_MTH-3176,active
-TDF,,128,GPI_MTH-3177,active
-TDF,,129,Dalet-3556,active
-TDF,,130,Omneon Orange Verif-3559,active
-TDF,,131,VM ILO HP Orange Verif-3560,active
-TDF,,132,OFFICE-CJI-PRINT-44,active
-TDF,,133,OFFICE_CJI_LIMITED-47,active
-TDF,,134,dmz_byges_occult-82,active
-TDF,,135,dmz_ftp_in-84,active
-TDF,,136,area0-p2p-srx-ospfc1-96,active
-TDF,,137,area0-p2p-srx-ospfc2-97,active
-TDF,,138,ospf_mcl1-100,active
-TDF,,140,prod-ancien-diff-104,active
-TDF,,144,platformes_Disney-108,active
-TDF,,145,150-150,active
-TDF,,146,VM_DEV_CJI-155,active
-TDF,,147,DMZ_ONDULEURS-168,active
-TDF,,148,CJI-IVR-125-mcst-1|2_to_RMV-260,active
-TDF,,149,intx_mcast_rmv_cji-261,active
-TDF,,150,admin-rambouillet-275,active
-TDF,,151,RXTX_LIVRAISON_SJ-283,active
-TDF,,152,canalplus_tsgenesis.smj-405,active
-TDF,,153,RADIOFRANCE_BKP_CJI-413,active
-TDF,,154,interco_bytel-436,active
-TDF,,155,internet_cji-507,active
-TDF,,156,admin-iptv_cji_paris-563,active
-TDF,,157,admin-iptv_cji_bis-565,active
-TDF,,158,nxtRadio_netgear_srx-682,active
-TDF,,159,VIACOM-752,active
-TDF,,160,TDF_MOSAIQUE-764,active
-TDF,,161,THEMA_MCAST-772,active
-TDF,,162,n23.smj-797,active
-TDF,,163,Webradio_Lagardere-799,active
-TDF,,164,OSPF_BB-990,active
-TDF,,165,fddi-default-1002,active
-TDF,,166,token-ring-default-1003,active
-TDF,,167,fddinet-default-1004,active
-TDF,,168,trnet-default-1005,active
-TDF,,169,admin-mcl-1011,active
-TDF,,170,Interco_C+_SNL_CJI-1474,active
-TDF,,171,intrc_C+SNL_CJI_Bkup-1477,active
-TDF,,172,IPTVADM-1856,active
-TDF,,173,MAM-1858,active
-TDF,,174,SRX_VRF_TEST-1862,active
-TDF,,175,SW-ITX2-C4-1_MCAST-1-1960,active
-TDF,,176,intx_l3_disney_cji-1966,active
-TDF,,177,intx_l3_mcast_6_0-1976,active
-TDF,,178,intx_mcast_srx-1979,active
-TDF,,179,cpe-itx2-1_mcast-1-1980,active
-TDF,,180,cpe-th2-old_mcast-1-1982,active
-TDF,,181,MCAST_CONTRIB-TH2-1_CJI-MCAST-1-1988,active
-TDF,,182,MCAST_CONTRIB-TH2-2_CJI-MCAST-1-1989,active
-TDF,,183,MCAST-CJI-1_IVR-1-1994,active
-TDF,,184,MCAST-CJI-2_IVR-2-1996,active
-TDF,,185,BUREAUTIQUE_SJ-2000,active
-TDF,,186,RXTX_of_RMV-2009,active
-TDF,,187,supervision_mcl-2035,active
-TDF,,188,supervision_controle-2036,active
-TDF,,189,new-admin-mcl-2039,active
-TDF,,190,admin_bytelhd_cji-2047,active
-TDF,,191,admin-mosa-bt-2061,active
-TDF,,192,admin_retour-2062,active
-TDF,,193,admin-veda2-2093,active
-TDF,,194,admin_switch-2100,active
-TDF,,195,GRILL_MCL3-2129,active
-TDF,,196,admin_LCTVI-2154,active
-TDF,,197,admin_PF_test_transco_rennes-2155,active
-TDF,,198,C.Regie_MCL3-2510,active
-TDF,,199,admin_ocs-2521,active
-TDF,,200,admin-bt-v2-2524,active
-TDF,,201,admin-encodage-mut-2528,active
-TDF,,202,admin-c+webtv-2538,active
-TDF,,203,admin_c+_cap-2542,active
-TDF,,204,admin_cfi-2580,active
-TDF,,205,admin_quadrille-2581,active
-TDF,,206,admin-rfo-2594,active
-TDF,,207,INTERCO_LAGAR_DEMAT-2810,active
-TDF,,208,livraison_mcast_lagardere-2816,active
-TDF,,209,Webradio_lag_tempo-2817,active
-TDF,,210,Africabox-3008,active
-TDF,,211,demaintv-3024,active
-TDF,,212,prod-canal-antenne-3025,active
-TDF,,213,prod-francetv-3026,active
-TDF,,214,prod-adstream-3027,active
-TDF,,215,FLUX-IRD-PEIRRERE-3032,active
-TDF,,216,vivolta-3034,active
-TDF,,217,MCL-3035,active
-TDF,,218,ordres-vivolta-3040,active
-TDF,,219,vivolta_3041_BUIDNET_109-3041,active
-TDF,,220,mcast_retour-3062,active
-TDF,,221,prod-tv-radio-3081,active
-TDF,,222,sgt-3088,active
-TDF,,223,intellinq-3089,active
-TDF,,224,insight-3091,active
-TDF,,225,harris-3090,active
-TDF,,226,NEW-SGT-3093,active
-TDF,,227,CNALA+_SNL-3114,active
-TDF,,228,prod-evenementiel-3124,active
-TDF,,229,LCTVI-3154,active
-TDF,,230,PF_test_transco_rennes-3155,active
-TDF,,231,PROD_ENTRY_LEVEL-3210,active
-TDF,,232,ADMIN-MAINTENANCE-3211,active
-TDF,,233,Mcast_PRA_OCS-3203,active
-TDF,,234,SNL_FW_OUT_PROV-2893,active
-TDF,,235,GLOBECAST - TX-788,active
-TDF,,236,ARQIVA - TX-516,active
-TDF,,237,TELECLUB TX-808,active
-TDF,,238,TELECLUB TX-809,active
-TDF,,239,Amazon via MX1 - TX Main-2423,active
-TDF,,240,Amazon via MX1 - TX Backup-2424,active
-TDF,,241,MOLOTOV - TX 700Mbps-753,active
-TDF,,243,LGD COGNACQ-3100,active
-TDF,Multicast Viacom Brane,244,Multicast Viacom-2796,active
-TDF,,245,RMV-ADMIN-PDU-3023,active
-TDF,,246,PRA_FTV_BDCAST-3809,active
-TDF,Interco SIP Riedel CJI - C+ Lumière,247,Riedel Issy - C+ Lumière-3631,active
-TDF,,248,MAM 3058-3058,active
-TDF,,249,MAM 1758-1758,active
-TDF,,250,QA-669,active
-TDF,,251,56-56,active
-TDF,,252,zixi_priv-2894,active
-TDF,,253,DCM Main-2840,active
-TDF,,254,PRA_FMM_ARKENA-3903,active
-TDF,VLAN SRT Aviwest ,255,VLAN SRT-3637,active
-TDF,,256,NDI TX MOSA LCP / CNEWS-2454,active
-ZZ_contrib TDF,Alterpop,257,Alterpop-104,active
-ZZ_contrib TDF,MX1 Fashion One - RX,258,MX1_Fashion_One_-_RX-106,active
-ZZ_contrib TDF,Netgem Reunicable - TX,259,Netgem_Reunicable_-_TX-107,active
-ZZ_contrib TDF,Mediactive - TX,260,Mediactive_-_TX-108,active
-ZZ_contrib TDF,TMS - Alsace 20 MAIN - RX,261,TMS_-_Alsace_20_MAIN_-_RX-210,active
-ZZ_contrib TDF,TMS - TV 7 Bordeaux - RX,262,TMS_-_TV_7_Bordeaux_-_RX-215,active
-ZZ_contrib TDF,TMS - Canal 32 - RX,263,TMS_-_Canal_32_-_RX-216,active
-ZZ_contrib TDF,TMS - Vosges Television - RX,264,TMS_-_Vosges_Television_-_RX-221,active
-ZZ_contrib TDF,TS Pro Main - RX,265,TS_Pro_Main_-_RX-222,active
-ZZ_contrib TDF,TMS - Mirabelle TV - RX,266,TMS_-_Mirabelle_TV_-_RX-226,active
-ZZ_contrib TDF,TS Pro BU - RX,267,TS_Pro_BU_-_RX-228,active
-ZZ_contrib TDF,TMS - Alsace 20 BACKUP - RX,268,TMS_-_Alsace_20_BACKUP_-_RX-229,active
-ZZ_contrib TDF,TMS - AZUR Provence - RX,269,TMS_-_AZUR_Provence_-_RX-235,active
-ZZ_contrib TDF,TMS - AZUR Var - RX,270,TMS_-_AZUR_Var_-_RX-236,active
-ZZ_contrib TDF,TMS - AZUR TV - RX,271,TMS_-_AZUR_TV_-_RX-237,active
-ZZ_contrib TDF,TMS - TL7 HD - RX,272,TMS_-_TL7_HD_-_RX-238,active
-ZZ_contrib TDF,TMS - TVPI,273,TMS_-_TVPI-241,active
-ZZ_contrib TDF,TMS - R4,274,TMS_-_R4-242,active
-ZZ_contrib TDF,TMS - R7,275,TMS_-_R7-243,active
-ZZ_contrib TDF,Roland Garros,276,Roland_Garros-245,active
-ZZ_contrib TDF,ARQIVA - TX,277,ARQIVA_-_TX-316,active
-ZZ_contrib TDF,ARQIVA - TX,278,ARQIVA_-_TX-317,active
-ZZ_contrib TDF,TMS - Services FranceTV,279,TMS_-_Services_FranceTV-321,active
-ZZ_contrib TDF,Globecast Nimbra - TX,280,Globecast_Nimbra_-_TX-339,active
-ZZ_contrib TDF,Mediactive - RX,281,Mediactive_-_RX-385,active
-ZZ_contrib TDF,DVMR - Alterpop - RX,282,DVMR_-_Alterpop_-_RX-428,active
-ZZ_contrib TDF,Basmedia via Ziggo - RX,283,Basmedia_via_Ziggo_-_RX-438,active
-ZZ_contrib TDF,Unicast Ere TV - RX,284,Unicast_Ere_TV_-_RX-500,active
-ZZ_contrib TDF,VPLS 1497 - Arqiva,285,VPLS_1497_-_Arqiva-515,active
-ZZ_contrib TDF,ARQIVA - TX,286,ARQIVA_-_TX-516,active
-ZZ_contrib TDF,Alchimie - TX,287,Alchimie_-_TX-709,active
-ZZ_contrib TDF,Bouygues,288,Bouygues-751,active
-ZZ_contrib TDF,Viacom Live - RX,289,Viacom_Live_-_RX-752,active
-ZZ_contrib TDF,Molotov - TX,290,Molotov_-_TX-753,active
-ZZ_contrib TDF,Eurochannel - RX,291,Eurochannel_-_RX-755,active
-ZZ_contrib TDF,Netgem Alsatis - TX,292,Netgem_Alsatis_-_TX-758,active
-ZZ_contrib TDF,ODMS_Penthouse_Black,293,ODMS_Penthouse_Black-765,active
-ZZ_contrib TDF,Ethnic Channel - TX,294,Ethnic_Channel_-_TX-772,active
-ZZ_contrib TDF,Netgem Nordnet - TX,295,Netgem_Nordnet_-_TX-773,active
-ZZ_contrib TDF,Blueline - TX,296,Blueline_-_TX-780,active
-ZZ_contrib TDF,Pixagility - RX,297,Pixagility_-_RX-781,active
-ZZ_contrib TDF,Advalem - RXTX,298,Advalem_-_RXTX-783,active
-ZZ_contrib TDF,Afrimedia - RX,299,Afrimedia_-_RX-785,active
-ZZ_contrib TDF,RedBee FR -RX,300,RedBee_FR_-RX-787,active
-ZZ_contrib TDF,Globecast - RXTX,301,Globecast_-_RXTX-788,active
-ZZ_contrib TDF,ZEOP - TX,302,ZEOP_-_TX-789,active
-ZZ_contrib TDF,AB - RX,303,AB_-_RX-791,active
-ZZ_contrib TDF,LiveCom - RX,304,LiveCom_-_RX-793,active
-ZZ_contrib TDF,HexaGlobe - TX,305,HexaGlobe_-_TX-794,active
-ZZ_contrib TDF,Canal IPTV - TX,306,Canal_IPTV_-_TX-798,active
-ZZ_contrib TDF,PAD - RX,307,PAD_-_RX-799,active
-ZZ_contrib TDF,Wibox - TX,308,Wibox_-_TX-800,active
-ZZ_contrib TDF,NBC Universal Networks International - RX,309,NBC_Universal_Networks_International_-_RX-801,active
-ZZ_contrib TDF,NBC Universal Networks International - RX,310,NBC_Universal_Networks_International_-_RX-802,active
-ZZ_contrib TDF,Teleclub - TX,311,Teleclub_-_TX-808,active
-ZZ_contrib TDF,Teleclub - TX,312,Teleclub_-_TX-809,active
-ZZ_contrib TDF,M7 MAIN - TX,313,M7_MAIN_-_TX-810,active
-ZZ_contrib TDF,M7 BKP - TX,314,M7_BKP_-_TX-811,active
-ZZ_contrib TDF,ARQIVA BACKUP - RX,315,ARQIVA_BACKUP_-_RX-1111,active
-ZZ_contrib TDF,ARQIVA RXTX,316,ARQIVA_RXTX-1112,active
-ZZ_contrib TDF,Eutelsat - TX1,317,Eutelsat_-_TX1-1550,active
-ZZ_contrib TDF,Eutelsat DRD Rambouillet - RX,318,Eutelsat_DRD_Rambouillet_-_RX-1552,active
-ZZ_contrib TDF,Eutelsat - RX,319,Eutelsat_-_RX-1555,active
-ZZ_contrib TDF,FOX - NatGeo - RX,320,FOX_-_NatGeo_-_RX-1680,active
-ZZ_contrib TDF,Netgem Ozone - TX,321,Netgem_Ozone_-_TX-2008,active
-ZZ_contrib TDF,MEO Telecom Portugal - TX,322,MEO_Telecom_Portugal_-_TX-2018,active
-ZZ_contrib TDF,Vodafone - TX,323,Vodafone_-_TX-2020,active
-ZZ_contrib TDF,NOWO Cabovisao - TX,324,NOWO_Cabovisao_-_TX-2032,active
-ZZ_contrib TDF,NOS Telecom - TX,325,NOS_Telecom_-_TX-2039,active
-ZZ_contrib TDF,TMS - Mux POC Tetris Bytel Cherie25 et NRJ12,326,TMS_-_Mux_POC_Tetris_Bytel_Cherie25_et_NRJ12-2057,active
-ZZ_contrib TDF,TMS - NatGeo Core - TX,327,TMS_-_NatGeo_Core_-_TX-2062,active
-ZZ_contrib TDF,TMS - NatGeo Wild - TX,328,TMS_-_NatGeo_Wild_-_TX-2063,active
-ZZ_contrib TDF,TMS - Canal Kids - TX,329,TMS_-_Canal_Kids_-_TX-2064,active
-ZZ_contrib TDF,TMS - Canal Docs - TX,330,TMS_-_Canal_Docs_-_TX-2065,active
-ZZ_contrib TDF,TMS - BFM Lyon,331,TMS_-_BFM_Lyon-2317,active
-ZZ_contrib TDF,TMS - BFM Lyon,332,TMS_-_BFM_Lyon-2318,active
-ZZ_contrib TDF,Eutelsat - TX,333,Eutelsat_-_TX-2411,active
-ZZ_contrib TDF,Eutelsat - TX,334,Eutelsat_-_TX-2412,active
-ZZ_contrib TDF,Overon - TX,335,Overon_-_TX-2413,active
-ZZ_contrib TDF,telecom Austria,336,telecom_Austria-2414,active
-ZZ_contrib TDF,telecom Austria,337,telecom_Austria-2415,active
-ZZ_contrib TDF,Clubbing,338,Clubbing-2416,active
-ZZ_contrib TDF,RedBee NL - Voie Backup,339,RedBee_NL_-_Voie_Backup-2417,active
-ZZ_contrib TDF,British Telecom Paris 2 - TX,340,British_Telecom_Paris_2_-_TX-2418,active
-ZZ_contrib TDF,British Telecom Paris 1 - TX,341,British_Telecom_Paris_1_-_TX-2419,active
-ZZ_contrib TDF,POST-Luxembourg,342,POST-Luxembourg-2420,active
-ZZ_contrib TDF,Amazon - TX,343,Amazon_-_TX-2421,active
-ZZ_contrib TDF,Amazon - TX,344,Amazon_-_TX-2422,active
-ZZ_contrib TDF,Amazon - TX,345,Amazon_-_TX-2423,active
-ZZ_contrib TDF,Amazon - TX,346,Amazon_-_TX-2424,active
-ZZ_contrib TDF,OpenPlayout - RXTX,347,OpenPlayout_-_RXTX-2425,active
-ZZ_contrib TDF,REDBEE-NL-NEW-RX,348,REDBEE-NL-NEW-RX-2426,active
-ZZ_contrib TDF,ARTE France,349,ARTE_France-2427,active
-ZZ_contrib TDF,SFR - TX - voie Main,350,SFR_-_TX_-_voie_Main-2428,active
-ZZ_contrib TDF,SFR - TX - voie Backup,351,SFR_-_TX_-_voie_Backup-2429,active
-ZZ_contrib TDF,SFR - RX - voie Main,352,SFR_-_RX_-_voie_Main-2430,active
-ZZ_contrib TDF,SFR - RX - voie Backup,353,SFR_-_RX_-_voie_Backup-2431,active
-ZZ_contrib TDF,Free RX TX,354,Free_RX_TX-2432,active
-ZZ_contrib TDF,FTV Roland Garros RX,355,FTV_Roland_Garros_RX-2433,active
-ZZ_contrib TDF,MediaChoice,356,MediaChoice-2434,active
-ZZ_contrib TDF,MediaLogistika,357,MediaLogistika-2435,active
-ZZ_contrib TDF,FTV RG 2021,358,FTV_RG_2021-2533,active
-ZZ_contrib TDF,Eutelsat - TX1,359,Eutelsat_-_TX1-2550,active
-ZZ_contrib TDF,Eutelsat DRD Rambouillet - RX,360,Eutelsat_DRD_Rambouillet_-_RX-2552,active
-ZZ_contrib TDF,Eutelsat - RX,361,Eutelsat_-_RX-2555,active
-ZZ_contrib TDF,FTV Roland Garros RX backup,362,FTV_Roland_Garros_RX_backup-2633,active
-ZZ_contrib TDF,ZIXI - RX,363,ZIXI_-_RX-2840,active
-ZZ_contrib TDF,Canal - TX,364,Canal_-_TX-2841,active
-ZZ_contrib TDF,Arqiva -TX,365,Arqiva_-TX-2842,active
-ZZ_contrib TDF,LCP-PS - TX,366,LCP-PS_-_TX-3078,active
-ZZ_contrib TDF,Advaleme M6 3128,367,Advaleme_M6_3128-3128,active
-ZZ_contrib TDF,Advaleme M6 3129,368,Advaleme_M6_3129-3129,active
-ZZ_contrib TDF,Advaleme,369,Advaleme-3323,active
-ZZ_contrib TDF,Synchroscreen Radio Allemandes - TX,370,Synchroscreen_Radio_Allemandes_-_TX-3908,active
-ZZ_contrib TDF,Lagardère TX,371,Lagardère_TX-2816,active
-ZZ_contrib TDF,,372,3112-3112,active
-ZZ_contrib TDF,,373,3217-3217,active
-TDF,,374,SW-NETCORE-RMV-6,active
-TDF,,375,OSPF_MTH-109,active
-TDF,,376,MCAST-B2M-231,active
-TDF,,377,CJI_RMV-E2-1_MCAST-264,active
-TDF,,378,CJI_RMV-E2-2_MCAST-265,active
-TDF,,379,WHESTONE-300,active
-TDF,,380,VRFRXTX-SMJ-332,active
-TDF,,381,ARQUIVA-515,active
-TDF,,382,SL3-RMV-P3D6-mcast-1_2_to_SW-RMV-549,active
-TDF,,383,INTERNET_MEDIAMOBILE_1-720,active
-TDF,,384,INTERNET_MEDIAMOBILE_2-725,active
-TDF,,385,INTERNET_NRJ-800,active
-TDF,,386,ADMIN-IPTV-1857,active
-TDF,,387,PRA_OCS_INTERSW_NetCore_-1863,active
-TDF,,388,PRA_GULLI_INTERSW_NetCore_-1864,active
-TDF,,389,PRA_FTV_INTERSW_NetCore_-1865,active
-TDF,,390,PRA_FMM_INTERSW_NetCore_-1866,active
-TDF,,391,ADMIN-MTH-2128,active
-TDF,,392,ADMIN_B2M-2152,active
-TDF,,393,ACCES-DIVA-BRANE-2656,active
-TDF,,394,PRA_GULLI_C4M_NAS-2827,active
-TDF,,395,PRA_OCS_INTERCO_vFW-DSI-2856,active
-TDF,,396,INTERCO-RMV-ICNX-PRA-OCS-2857,active
-TDF,,397,PRA_FTV-C4M-STOCKAGE-2866,active
-TDF,,398,PRA_FTV_INTERCO_vFW-DSI-2868,active
-TDF,,399,PRA_FMM_INTERCO_vFW-DSI-2869,active
-TDF,,400,INTERCO-MAM-BRANE-2897,active
-TDF,,401,MCAST-CLOUD-DSI-2942,active
-TDF,,402,CLOUD_IPPLAY-2956,active
-TDF,,403,MULTICAST-ADVALEM_PROD_RMV-2981,active
-TDF,,404,PRA_NTP-2990,active
-TDF,,405,THEMA_PUB-3002,active
-TDF,,406,PRA_OCS_CJI-6th-flr_MCAST_JEPEG-3115,active
-TDF,,407,QUALIF_HABILLAGE-3140,active
-TDF,,408,ARQUIVA_ADMIN_VPN-3179,active
-TDF,,409,Dante-CJI-ISSY-3214,active
-TDF,,410,AKA-RMV-R00_SL3-RMV-E2-1_MCAST-3305,active
-TDF,,411,AKA-RMV-R01_SL3-RMV-E2-2_MCAST-3306,active
-TDF,,412,AKA-RMV-R00_SL3-RMV-P3D6-MCAST-1-3309,active
-TDF,,413,AKA-RMV-R01_SL3-RMV-P3D6-MCAST-2-3310,active
-TDF,,414,PRA_GULLI_DATA-3800,active
-TDF,,415,PRA_GULLI_ADMIN-3801,active
-TDF,,416,PRA_GULLI_STREAM-3802,active
-TDF,,417,PRA_OCS_POLARIS-3805,active
-TDF,,418,PRA_OCS_MAMDIFF-3806,active
-TDF,,419,PRA_FTV_Mcast_RTMP-3808,active
-TDF,,420,PRA_FTV-ADMIN-HOSTS-3901,active
-TDF,,421,PRA_FMM_ADMIN_ARKENA-3902,active
-TDF,,422,PRA_FMM_MCAST_TH2-3904,active
-TDF,,423,PRA_FMM_MCAST-3905,active
-TDF,,424,PRA_FMM_INTERCO_FW_DPR-3906,active
-TDF,,425,PRA_FMM_DATA-3907,active
-TDF,,426,PRA_FTV_MAST-3909,active
-TDF,,427,INTERC_STRMSH_NETCORE-4010,active
-TDF,,428,INTX_CPLUS_ATLAS-4027,active
-TDF,,429,RIEDEL-INTERCO-CPLUS-4028,active
-TDF,,430,INTERSWITCH-NETCORE-4094,active
-ZZ_contrib TDF,,431,PTVAMD-MCL2-616,active
-TDF,,432, rxtx OUT CES -2957,active
-TDF,,433, rxtx OUT RMV -3123,active
-ZZ_contrib TDF,,434,PRA FTV RADIO ADM-10,active
-TDF,,436,PRA FMM RADIO-3116,active
-TDF,,437,PRA-FMM DMZ-3108,active
-TDF,,438,PRA FMM GLOBAL-3118,active
-TDF,,439,PRA-FMM TV-3117,active
-TDF,,440,PRA FMM MCAST TV-3120,active
-TDF,,441,PRA-FMM MCAST RADIO-3119,active
-TDF,,442,PRA FMM MCAST AES-67-3151,active
-00_MLB,,443,NETWORK-2,active
-00_MLB,,444,ILO_DRAC-3,active
-00_MLB,,445,ADMIN_PROMISCUOUS-4,active
-00_MLB,,446,ADMIN_ISOLATED-5,active
-00_MLB,,447,ADMIN_COMMUNITY_1-6,active
-00_MLB,,448,PRO_SMJ_MAIN-51,active
-00_MLB,,449,PRO_SMJ_STORAGE-52,active
-00_MLB,,450,PRO_SMJ_DMZ-53,active
-00_MLB,,451,PRO_CJI_MAIN-54,active
-00_MLB,,452,PRO_CJI_DMZ-55,active
-00_MLB,,453,PRO_COMMON_DMZ-56,active
-00_MLB,,454,PRO_COMMON_KARAJAN-57,active
-00_MLB,,456,PROD_LAST_RESERVED-900,active
-00_MLB,,457,PPD_COMMON_DMZ-1501,active
-00_MLB,,458,PPD_COMMON_KARAJAN-1502,active
-00_MLB,,459,PPD_COMMON_TRANSCO-1503,active
-00_MLB,,460,PPD_COMMON_MAIN-1504,active
-00_MLB,,461,PPD_COMMON_RECEPT-1505,active
-00_MLB,,462,PPROD_P3_MAIN-1506,active
-00_MLB,,463,PPROD_P3_DMZ-1507,active
-00_MLB,,464,PPROD_LAST_RESERVED-2500,active
-00_MLB,,465,QA_GLB_MAIN-3001,active
-00_MLB,,466,QA_GLB_DMZ-3002,active
-00_MLB,,467,DELL-4001,active
-00_MLB,PEBBLE + PROD,468,MCAST_CANALD3_MPEG_1-3601,active
-00_MLB,,469,MULTICAST_LAST_RESERVED-3800,active
-00_MLB,,470,QA_LAST_RESERVED-3100,active
-TDF,Multicast,472,DCM RMV_-_Brane RMV-3174,active
-TDF-PSDAFTV,,494,PSDA-FTV-AAA-AD-VLAN30-30,active
-TDF-PSDAFTV,,495,PSDA-FTV-AAA-AUTH-VLAN31-31,active
-TDF-PSDAFTV,,496,PSDA-FTV-AAA-DMZ-VLAN32-32,active
-TDF-PSDAFTV,,497,PSDA-FTV-AAA-LOG-VLAN33-33,active
-TDF-PSDAFTV,,498,PSDA-FTV-ADM-CJI-VLAN10-10,active
-TDF-PSDAFTV,,499,PSDA-FTV-DMZ-1-VLAN110-110,active
-TDF-PSDAFTV,,500,PSDA-FTV-DMZ-2-1-VLAN121-121,active
-TDF-PSDAFTV,,501,PSDA-FTV-DMZ-2-2-VLAN122-122,active
-TDF-PSDAFTV,,502,PSDA-FTV-DMZ-2-3-VLAN123-123,active
-TDF-PSDAFTV,,503,PSDA-FTV-DMZ-2-4-VLAN124-124,active
-TDF-PSDAFTV,,504,PSDA-FTV-DMZ-3-VLAN130-130,active
-TDF-PSDAFTV,,505,PSDA-FTV-EXT-INTERCO-TDF-135,active
-TDF-PSDAFTV,,506,PSDA-FTV-INT-CJI-VLAN51-51,active
-TDF-PSDAFTV,,507,PSDA-FTV-LAN-FTV-VLAN40-40,active
-TDF-PSDAFTV,,508,PSDA-FTV-PSDA-MNGT-134,active
-TDF-PSDAFTV,,509,PSDA-FTV-WAN-FTV-VLAN140-140,active
-TDF-PSDAFTV,,510,PSDA-FTV-WAN-RF-VLAN141-141,active
-TDF-PSDAFTV,,511,PSDA-FTV-ZONE-1-VLAN101-101,active
-TDF-PSDAFTV,,512,PSDA-FTV-ZONE-2-VLAN102-102,active
-TDF-PSDAFTV,,513,PSDA-FTV-ZONE-3-VLAN103-103,active
-TDF-PSDAFTV,,514,PSDA-FTV-ZONE-5-VLAN105-105,active
-TDF-PSDAFTV,,515,PSDA-FTV-ZONE-6-VLAN106-106,active
-TDF-PSDAFTV,,516,PSDA-FTV-ZONE-7-VLAN107-107,active
-TDF-PSDAFTV,,517,PSDA-FTV-ZONE-I11-VLAN11-11,active
-TDF-PSDAFTV,,518,PSDA-FTV-ZONE-I12-VLAN12-12,active
-TDF-PSDAFTV,,519,PSDA-FTV-ZONE-I21-VLAN21-21,active
-TDF-PSDAFTV,,520,PSDA-FTV-ZONE-I22-VLAN22-22,active
-TDF-PSDAFTV,,521,PSDA-FTV-DMZ-2-5-VLAN125-125,active
-TDF-PSDAFTV,,522,PSDA-FTV-COLLECTE-FTV-VLAN150-150,active
-TDF-PSDAFTV,,523,PSDA-FTV-LIVRAISON-FTV-VLAN160-160,active
-TDF-PSDAFTV,,524,PSDA-FTV-LIVRAISON-RF-VLAN161-161,active
-TDF-PSDAFTV,,525,PSDA-FTV-LIVRAISON-FTV-TMS-VLAN162-162,active
-TDF-PSDAFTV,,526,PSDA-FTV-LIVRAISON-RF-TMS-VLAN163-163,active
-TDF-PSDAFTV,,527,PSDA-FTV-MCAST-LOCAL-VLAN170-170,active
-TDF-PSDAFTV,,528,PSDA-FTV-MCAST-FTV-VLAN171-171,active
-TDF-PSDAFTV,,529,PSDA-FTV-MCAST-LIVEWIRE-RF-VLAN172-172,active
-TDF-PSDAFTV,,530,PSDA-FTV-MCAST-BRANE-VLAN173-173,active
-TDF-PSDAFTV,,531,PSDA-FTV-STREAM-M-TS-VLAN174-174,active
-TDF-PSDAFTV,,532,PSDA-FTV-INTERNAL-VMOTION-VLAN250-250,active
-TDF-PSDAFTV,,533,PSDA-FTV-INTERNAL-VSAN-VLAN251-251,active
-TDF-PSDAFTV,,534,PSDA-FTV-INTERCO-FTV-1-VLAN61-61,active
-TDF-PSDAFTV,,535,PSDA-FTV-INTERCO-FTV-2-VLAN62-62,active
-TDF-PSDAFTV,,536,PSDA-FTV-INTERCO-MCAST-ARISTA-VLAN70-70,active
-TDF-PSDAFTV,,537,PSDA-FTV-INTERCO-MCAST-ARISTA-VLAN71-71,active
-TDF-PSDAFTV,,538,PSDA-FTV-INTERCO-MCAST-ARISTA-VLAN72-72,active
-00_MLB,,539,ADMIN_COMMUNITY_2-7,active
-00_MLB,,540,INF_GLB_MAIN-10,active
-00_MLB,,541,INF_GLB_DMZ-11,active
-00_MLB,,542,INFRA_LAST_RESERVED-20,active
-00_MLB,,543,STORAGE_PROMISCUOUS-3850,active
-00_MLB,,544,STORAGE_ISOLATED-3851,active
-00_MLB,,545,STORAGE_COMMUNITY_1-3852,active
-00_MLB,,546,STORAGE_COMMUNITY_2-3853,active
-00_MLB,,547,DELL-4002,active
-00_MLB,,548,DELL-4003,active
-00_MLB,,549,DELL-4004,active
-00_MLB,,550,DELL-4005,active
-00_MLB,,551,DELL-4006,active
-00_MLB,,552,DELL-4007,active
-00_MLB,,553,DELL-4008,active
-00_MLB,,554,DELL-4009,active
-00_MLB,,555,DELL-4010,active
-00_MLB,,556,DELL-4011,active
-00_MLB,,557,DELL-4012,active
-00_MLB,,558,DELL-4013,active
-00_MLB,,559,DELL-4014,active
-00_MLB,,560,DELL-4015,active
-00_MLB,,561,DELL-4016,active
-00_MLB,,562,DELL-4017,active
-00_MLB,,563,DELL-4018,active
-00_MLB,,564,DELL-4019,active
-00_MLB,,565,DELL-4020,active
-00_MLB,,566,DELL-4094,active
-00_MLB,,567,OOB_DELL-3950,active
-00_MLB,,568,OOB_oncloud-3951,active
-00_MLB,,569,reserve_oncloud-3959,active
-00_MLB,,570,ONCLOUD RESERVED-3900,active
-TDF,,571,LAG POG-3153,active
-00_MLB,,572,VPC_PEER_LINK-3600,active
-TDF,,573,OFFICE-ISSY-ENENSYS-231,active
-00_MLB,INTERCO PIXA,574,INTERCO PIXA-2955,active
-00_MLB,,575,OFFICE-ISSY-MLB-OOB-3500,active
-00_MLB,,576,RXTX_CANAL_FARMAN-3183,active
-00_MLB,,577,L2VNI_FORTINET_ASR1000_pour_Internet-3942,active
-00_MLB,,578,L3VNI_SERVICE_MLB-3940,active
-00_MLB,,579,L3VNI_MULTICAST-3941,active
-00_MLB,,580,Cloud_Prive_OnCloud_MGMT-3952,active
-00_MLB,,581,Cloud_Prive_OnCloud_vMotion-3953,active
-00_MLB,,582,Cloud_Prive_OnCloud_vSAN-3954,active
-00_MLB,,583,Cloud_Prive_OnCloud_vTEP_ESXi-3955,active
-00_MLB,,584,Cloud_Prive_OnCloud_vTEP_NSX-3956,active
-00_MLB,,585,Cloud_Prive_OnCloud_Overlay_NSX_Edge-3957,active
-Canal+ SNL,from Canal+ TH2(main)/IP5(backup) to Brane,586,SNL ASPERA FTP ( Brane Canal+)-2907,active
-TDF,Brane sw-1683,587,PSDA-FTV-XCO-BACKUP-PRA-EXT-3188,active
-00_MLB,,589,NAT_INFRA-21,active
-00_MLB,,590,QA_GLB_LAB-3003,active
-TDF-PSDAFTV,,591,Vlan_ISSY-PSDA-52,active
-00_MLB,,592,PRO_COMMON_TRANSCO-58,active
-00_MLB,,593,PRO_COMMON_RECEPT-59,active
-00_MLB,,594,PRO_PANDORA_DMZ-60,active
-00_MLB,,595,PRO_PANDORA_MAIN-61,active
-00_MLB,,596,PRO_OCS_DMZ-62,active
-00_MLB,,597,PRO_OCS_MAIN-63,active
-00_MLB,,598,PSDA-FTV-DMZ-2-7-VLAN127-127,active
-TDF,Pupitre PSDA ISSY,599,OFFICE-ISSY-PSDA-230,active
-00_MLB,SERVICE,600,PRO_CANALD3_MAIN-232,active
-00_MLB,,601,MCAST_CANALD3_MPEG_2110-3602,active
-00_MLB,PEBBLE,603,PRO_CANALD3_COMMAND-231,active
-00_MLB,,604,PRO_CANALD3_DMZ-234,active
-00_MLB,,605,PRO_CANALD3_PTP-233,active
-00_MLB,,607,PRO_COMMON_MAIN-64,active
-00_MLB,,608,INTERCO STORMSHIELD MLB-3101,active
-00_MLB,,609,INTERCO VDCM-3603,active
-00_MLB,,610,INTERCO STORMSHIELD C+-3102,active
-00_MLB,,611,INTERCO STORMSHIELD TDF-3103,active
-00_MLB,,612,QUMULO INTERNAL-3854,active
-TDF,,613,OFFICE-ISSY-REGIE-CANALD3-232,active
-00_MLB,,614,MCAST_CANALD3_MPEG_2110_2-3604,active
-00_MLB,,615,PRO_SMJ_RXTX_INT_PROMISCUOUS-65,active
-00_MLB,,616,PRO_SMJ_RXTX_INT_ISOLATED-66,active
-TDF,,618,OFFICE-ISSY-REGIE-CANALDR-222,active
-00_MLB,,619,MCAST_CANALD3_MPEG_2-3605,active
-ZZ_contrib TDF,ASTRA TH2 ,620,ASTRA TH2-812,active
-00_MLB,,621,MCAST_NODE-3606,active
-TDF,,622,Mercator-1603,active
-00_MLB,,623,PRO_COMMON_BPM-67,active
-00_MLB,,624,MCAST_POG-3607,active
+name,group,vid,description,status
+IPv6 private 1-2001,TDF,1,IPv6 private 1 subnets,active
+Servers DMZ-4001,TDF,2,DMZ public,active
+2885-2885,TDF,3,,active
+PRA_FMM-C4M-STOCKAGE-2892,TDF,4,,active
+DMZ_MEDIA-2099,TDF,5,,active
+PDU-623,TDF,6,,active
+1506-1506,TDF,7,,active
+2439-2439,TDF,8,,active
+STORAGE LCP RMV-2444,TDF,9,,active
+AUTOMATION LCP RMV -2442,TDF,10,,active
+INTERNE LCP RMV-2447,TDF,11,,active
+MCAST-ARKENA-HIPTV-2448,TDF,12,,active
+MANAGEMENT_HYPERVISEUR-3009,TDF,13,,active
+ISCSCI_1 dHCI-3010,TDF,14,,active
+ISCSCI_2 dHCI-3011,TDF,15,,active
+2707-2707,TDF,16,,active
+2879-2879,TDF,18,,active
+2893-2893,TDF,19,,active
+3170-3170,TDF,21,,active
+KARAJAN_PREPROD_INTERNAL-2802,TDF,22,,active
+ATEME_DRIVERS_PREPROD-351,TDF,23,,active
+Mcast Issy LCP-3019,TDF,24,,active
+STORAGE VIACOM RMV-3017,TDF,25,,active
+AUTOMATION VIACOM RMV-3016,TDF,26,,active
+MULTICAST VIACOM RMV-3018,TDF,27,,active
+Automation - PRA Gulli RMV-ITX2-3208,TDF,28,,active
+Mcast PRA Gulli RMV-ITX2-3207,TDF,29,,active
+Stockage PRA Gulli RMV-ITX2-3209,TDF,30,,active
+Admin  PRA Gulli RMV-ITX2-3212,TDF,31,,active
+LAG DATA RMV-3148,TDF,32,,active
+M6 AUTOMATIONS MCAST RMV-2169,TDF,33,,active
+M6 ORCA ATEME ENCODEURS MCAST2-2115,TDF,34,,active
+M6 ORCA ATEME ENCODEURS MCAST2-2122,TDF,35,,active
+LAG MANAGEMENT-3147,TDF,36,,active
+LAG POG-2171,TDF,37,,active
+NETADM-18,TDF,38,,active
+smtp.cji.fr est dedans-3,TDF,39,proxmox & dmz-smtp,active
+CJI Wifi Arkena-45,TDF,40,,active
+CJI Wifi Arkena Guest-46,TDF,41,,active
+dmz_www_out-60,TDF,42,proxmox,active
+dmz_www_in-80,TDF,43,proxmox,active
+83-83,TDF,44,,active
+BRANE ADMIN_GLOBAL-2685,TDF,45,,active
+BRANE STORAGE_NAS_RMV-2890,TDF,46,,active
+MAM ?-3000,TDF,47,,active
+PRA_OCS_GLUE-3807,TDF,48,,active
+PRA_OCS_API-3804,TDF,49,,active
+PRA_OCS_DATA-3803,TDF,50,,active
+PRA_OCS_MCAST-3127,TDF,51,,active
+PRA_OCS_DATA-3204,TDF,53,,active
+PRA_OCS_API-3205,TDF,54,,active
+PRA_OCS_GLUE-3206,TDF,55,,active
+RMV-ENCODAGE-2433,TDF,56,,active
+admin encodage-615,TDF,57,,active
+ISSY USER-16,TDF,58,,active
+ISSY WIFI USER-20,TDF,59,,active
+ISSY-MGMT-23,TDF,60,,active
+OFFICE-ISSY-SEESTEMS-221,TDF,61,,active
+OFFICE-ISSY-CAMERA-223,TDF,62,,active
+DMZ-ADMIN-153,TDF,63,proxmox,active
+DMZ-DMC-CORE-160,TDF,64,proxmox,active
+dmz_qualif-164,TDF,65,proxmox,active
+cji_lan-1010,TDF,66,proxmox,active
+admin remote desktop(admin-free)-2056,TDF,67,proxmox,active
+DCM-PROD-3003,TDF,68,proxmox,active
+admin_proxmox-3005,TDF,69,proxmox,active
+QUALIF2-DCM-3117,TDF,70,proxmox,active
+prod-mutualise-3125,TDF,71,proxmox,active
+SUPERVISION-MCL3-3128,TDF,72,,active
+MEDIA_MCL3-3130,TDF,73,,active
+AUTOMATION-MCL3-3131,TDF,74,,active
+HABILLAGE_MCL3-3132,TDF,75,,active
+EXPLOITATION_MCL3-3141,TDF,77,,active
+diffusion multicast-3060,TDF,78,proxmox,active
+LCP PROXMOX-3553,TDF,79,proxmox,active
+OFFICE-ISSY-REGIE-SNL-225,TDF,80,,active
+ADMIN_COMMON_BRANE-1792,TDF,81,,active
+OFFICE-ISSY-MAM-227,TDF,82,,active
+ADMIN RMV 622-622,TDF,83,,active
+Mcast Issy MTH-3013,TDF,84,,active
+ Intercom AES67 -ISSY-3014,TDF,85,,active
+JPEG2000-3195,TDF,86,Data TVIPS,active
+Mcast Issy MCL-3012,TDF,87,,active
+Rebond Issy LCP-3006,TDF,89,,active
+Media Orange Verif-3558,TDF,90,,active
+RXTX_sj-cji-fr-284,TDF,91,,active
+3106-3106,TDF,92,,active
+3172-3172,TDF,93,,active
+TRANSFERT 3171-3171,TDF,94,,active
+3173-3173,TDF,95,,active
+CLIENT 3169-3169,TDF,96,,active
+3122-3122,TDF,98,,active
+3143-3143,TDF,99,,active
+3107-3107,TDF,100,,active
+SNL_STORAGE-2878,TDF,101,,active
+OFFICE-ISSY-DRCanal-229,TDF,102,OFFICE-ISSY-DRCanal,active
+OFFICE-ISSY-WIFI_GUEST-21,TDF,103,,active
+RebondMCL-3031,TDF,104,RebondMCL,active
+MGMT GLOBAL-2767,TDF,105,,active
+LCPAN-TVIPS-ADMIN-2020,TDF,106,,active
+29-29,TDF,107,,active
+VMS PREPROD 161-161,TDF,108,,active
+RxTx Assemblée N-2021,TDF,109,,active
+prod-lcp-3020,TDF,110,,active
+prod-ps-3021,TDF,111,,active
+natgeocore_admin-2007,TDF,112,,active
+halo_1_out-3007,TDF,113,,active
+PIGE_ANYWHERE-3043,TDF,114,,active
+ADMIN-IRD-PEIRRERE-2032,TDF,115,,active
+FOX-3033,TDF,116,,active
+INTERCO_ro-rmv_FW-STRMSHLD-4016,TDF,117,,active
+pbdc_admin-2160,TDF,118,,active
+PBDC_PROD-3160,TDF,119,,active
+ARCHIVE_CMD_MCL3-3133,TDF,120,,active
+PARALLELE_ANTENNE_MCL3-3135,TDF,121,,active
+CLIENT_MULTICAST_MCL3-3136,TDF,122,,active
+PXE_REPOSITORY-3137,TDF,123,,active
+QUALIF_AUTOMATION_MCL3-3138,TDF,124,,active
+QUALIF_MEDIA_MCL3-3139,TDF,125,,active
+PDU_MTH-3175,TDF,126,,active
+KVM_MTH-3176,TDF,127,,active
+GPI_MTH-3177,TDF,128,,active
+Dalet-3556,TDF,129,,active
+Omneon Orange Verif-3559,TDF,130,,active
+VM ILO HP Orange Verif-3560,TDF,131,,active
+OFFICE-CJI-PRINT-44,TDF,132,,active
+OFFICE_CJI_LIMITED-47,TDF,133,,active
+dmz_byges_occult-82,TDF,134,,active
+dmz_ftp_in-84,TDF,135,,active
+area0-p2p-srx-ospfc1-96,TDF,136,,active
+area0-p2p-srx-ospfc2-97,TDF,137,,active
+ospf_mcl1-100,TDF,138,,active
+prod-ancien-diff-104,TDF,140,,active
+platformes_Disney-108,TDF,144,,active
+150-150,TDF,145,,active
+VM_DEV_CJI-155,TDF,146,,active
+DMZ_ONDULEURS-168,TDF,147,,active
+CJI-IVR-125-mcst-1|2_to_RMV-260,TDF,148,,active
+intx_mcast_rmv_cji-261,TDF,149,,active
+admin-rambouillet-275,TDF,150,,active
+RXTX_LIVRAISON_SJ-283,TDF,151,,active
+canalplus_tsgenesis.smj-405,TDF,152,,active
+RADIOFRANCE_BKP_CJI-413,TDF,153,,active
+interco_bytel-436,TDF,154,,active
+internet_cji-507,TDF,155,,active
+admin-iptv_cji_paris-563,TDF,156,,active
+admin-iptv_cji_bis-565,TDF,157,,active
+nxtRadio_netgear_srx-682,TDF,158,,active
+VIACOM-752,TDF,159,,active
+TDF_MOSAIQUE-764,TDF,160,,active
+THEMA_MCAST-772,TDF,161,,active
+n23.smj-797,TDF,162,,active
+Webradio_Lagardere-799,TDF,163,,active
+OSPF_BB-990,TDF,164,,active
+fddi-default-1002,TDF,165,,active
+token-ring-default-1003,TDF,166,,active
+fddinet-default-1004,TDF,167,,active
+trnet-default-1005,TDF,168,,active
+admin-mcl-1011,TDF,169,,active
+Interco_C+_SNL_CJI-1474,TDF,170,,active
+intrc_C+SNL_CJI_Bkup-1477,TDF,171,,active
+IPTVADM-1856,TDF,172,,active
+MAM-1858,TDF,173,,active
+SRX_VRF_TEST-1862,TDF,174,,active
+SW-ITX2-C4-1_MCAST-1-1960,TDF,175,,active
+intx_l3_disney_cji-1966,TDF,176,,active
+intx_l3_mcast_6_0-1976,TDF,177,,active
+intx_mcast_srx-1979,TDF,178,,active
+cpe-itx2-1_mcast-1-1980,TDF,179,,active
+cpe-th2-old_mcast-1-1982,TDF,180,,active
+MCAST_CONTRIB-TH2-1_CJI-MCAST-1-1988,TDF,181,,active
+MCAST_CONTRIB-TH2-2_CJI-MCAST-1-1989,TDF,182,,active
+MCAST-CJI-1_IVR-1-1994,TDF,183,,active
+MCAST-CJI-2_IVR-2-1996,TDF,184,,active
+BUREAUTIQUE_SJ-2000,TDF,185,,active
+RXTX_of_RMV-2009,TDF,186,,active
+supervision_mcl-2035,TDF,187,,active
+supervision_controle-2036,TDF,188,,active
+new-admin-mcl-2039,TDF,189,,active
+admin_bytelhd_cji-2047,TDF,190,,active
+admin-mosa-bt-2061,TDF,191,,active
+admin_retour-2062,TDF,192,,active
+admin-veda2-2093,TDF,193,,active
+admin_switch-2100,TDF,194,,active
+GRILL_MCL3-2129,TDF,195,,active
+admin_LCTVI-2154,TDF,196,,active
+admin_PF_test_transco_rennes-2155,TDF,197,,active
+C.Regie_MCL3-2510,TDF,198,,active
+admin_ocs-2521,TDF,199,,active
+admin-bt-v2-2524,TDF,200,,active
+admin-encodage-mut-2528,TDF,201,,active
+admin-c+webtv-2538,TDF,202,,active
+admin_c+_cap-2542,TDF,203,,active
+admin_cfi-2580,TDF,204,,active
+admin_quadrille-2581,TDF,205,,active
+admin-rfo-2594,TDF,206,,active
+INTERCO_LAGAR_DEMAT-2810,TDF,207,,active
+livraison_mcast_lagardere-2816,TDF,208,,active
+Webradio_lag_tempo-2817,TDF,209,,active
+Africabox-3008,TDF,210,,active
+demaintv-3024,TDF,211,,active
+prod-canal-antenne-3025,TDF,212,,active
+prod-francetv-3026,TDF,213,,active
+prod-adstream-3027,TDF,214,,active
+FLUX-IRD-PEIRRERE-3032,TDF,215,,active
+vivolta-3034,TDF,216,,active
+MCL-3035,TDF,217,,active
+ordres-vivolta-3040,TDF,218,,active
+vivolta_3041_BUIDNET_109-3041,TDF,219,,active
+mcast_retour-3062,TDF,220,,active
+prod-tv-radio-3081,TDF,221,,active
+sgt-3088,TDF,222,,active
+intellinq-3089,TDF,223,,active
+insight-3091,TDF,224,,active
+harris-3090,TDF,225,,active
+NEW-SGT-3093,TDF,226,,active
+CNALA+_SNL-3114,TDF,227,,active
+prod-evenementiel-3124,TDF,228,,active
+LCTVI-3154,TDF,229,,active
+PF_test_transco_rennes-3155,TDF,230,,active
+PROD_ENTRY_LEVEL-3210,TDF,231,,active
+ADMIN-MAINTENANCE-3211,TDF,232,,active
+Mcast_PRA_OCS-3203,TDF,233,,active
+SNL_FW_OUT_PROV-2893,TDF,234,,active
+GLOBECAST - TX-788,TDF,235,,active
+ARQIVA - TX-516,TDF,236,,active
+TELECLUB TX-808,TDF,237,,active
+TELECLUB TX-809,TDF,238,,active
+Amazon via MX1 - TX Main-2423,TDF,239,,active
+Amazon via MX1 - TX Backup-2424,TDF,240,,active
+MOLOTOV - TX 700Mbps-753,TDF,241,,active
+LGD COGNACQ-3100,TDF,243,,active
+Multicast Viacom-2796,TDF,244,Multicast Viacom Brane,active
+RMV-ADMIN-PDU-3023,TDF,245,,active
+PRA_FTV_BDCAST-3809,TDF,246,,active
+Riedel Issy - C+ Lumière-3631,TDF,247,Interco SIP Riedel CJI - C+ Lumière,active
+MAM 3058-3058,TDF,248,,active
+MAM 1758-1758,TDF,249,,active
+QA-669,TDF,250,,active
+56-56,TDF,251,,active
+zixi_priv-2894,TDF,252,,active
+DCM Main-2840,TDF,253,,active
+PRA_FMM_ARKENA-3903,TDF,254,,active
+VLAN SRT-3637,TDF,255,VLAN SRT Aviwest ,active
+NDI TX MOSA LCP / CNEWS-2454,TDF,256,,active
+Alterpop-104,ZZ_contrib TDF,257,Alterpop,active
+MX1_Fashion_One_-_RX-106,ZZ_contrib TDF,258,MX1 Fashion One - RX,active
+Netgem_Reunicable_-_TX-107,ZZ_contrib TDF,259,Netgem Reunicable - TX,active
+Mediactive_-_TX-108,ZZ_contrib TDF,260,Mediactive - TX,active
+TMS_-_Alsace_20_MAIN_-_RX-210,ZZ_contrib TDF,261,TMS - Alsace 20 MAIN - RX,active
+TMS_-_TV_7_Bordeaux_-_RX-215,ZZ_contrib TDF,262,TMS - TV 7 Bordeaux - RX,active
+TMS_-_Canal_32_-_RX-216,ZZ_contrib TDF,263,TMS - Canal 32 - RX,active
+TMS_-_Vosges_Television_-_RX-221,ZZ_contrib TDF,264,TMS - Vosges Television - RX,active
+TS_Pro_Main_-_RX-222,ZZ_contrib TDF,265,TS Pro Main - RX,active
+TMS_-_Mirabelle_TV_-_RX-226,ZZ_contrib TDF,266,TMS - Mirabelle TV - RX,active
+TS_Pro_BU_-_RX-228,ZZ_contrib TDF,267,TS Pro BU - RX,active
+TMS_-_Alsace_20_BACKUP_-_RX-229,ZZ_contrib TDF,268,TMS - Alsace 20 BACKUP - RX,active
+TMS_-_AZUR_Provence_-_RX-235,ZZ_contrib TDF,269,TMS - AZUR Provence - RX,active
+TMS_-_AZUR_Var_-_RX-236,ZZ_contrib TDF,270,TMS - AZUR Var - RX,active
+TMS_-_AZUR_TV_-_RX-237,ZZ_contrib TDF,271,TMS - AZUR TV - RX,active
+TMS_-_TL7_HD_-_RX-238,ZZ_contrib TDF,272,TMS - TL7 HD - RX,active
+TMS_-_TVPI-241,ZZ_contrib TDF,273,TMS - TVPI,active
+TMS_-_R4-242,ZZ_contrib TDF,274,TMS - R4,active
+TMS_-_R7-243,ZZ_contrib TDF,275,TMS - R7,active
+Roland_Garros-245,ZZ_contrib TDF,276,Roland Garros,active
+ARQIVA_-_TX-316,ZZ_contrib TDF,277,ARQIVA - TX,active
+ARQIVA_-_TX-317,ZZ_contrib TDF,278,ARQIVA - TX,active
+TMS_-_Services_FranceTV-321,ZZ_contrib TDF,279,TMS - Services FranceTV,active
+Globecast_Nimbra_-_TX-339,ZZ_contrib TDF,280,Globecast Nimbra - TX,active
+Mediactive_-_RX-385,ZZ_contrib TDF,281,Mediactive - RX,active
+DVMR_-_Alterpop_-_RX-428,ZZ_contrib TDF,282,DVMR - Alterpop - RX,active
+Basmedia_via_Ziggo_-_RX-438,ZZ_contrib TDF,283,Basmedia via Ziggo - RX,active
+Unicast_Ere_TV_-_RX-500,ZZ_contrib TDF,284,Unicast Ere TV - RX,active
+VPLS_1497_-_Arqiva-515,ZZ_contrib TDF,285,VPLS 1497 - Arqiva,active
+ARQIVA_-_TX-516,ZZ_contrib TDF,286,ARQIVA - TX,active
+Alchimie_-_TX-709,ZZ_contrib TDF,287,Alchimie - TX,active
+Bouygues-751,ZZ_contrib TDF,288,Bouygues,active
+Viacom_Live_-_RX-752,ZZ_contrib TDF,289,Viacom Live - RX,active
+Molotov_-_TX-753,ZZ_contrib TDF,290,Molotov - TX,active
+Eurochannel_-_RX-755,ZZ_contrib TDF,291,Eurochannel - RX,active
+Netgem_Alsatis_-_TX-758,ZZ_contrib TDF,292,Netgem Alsatis - TX,active
+ODMS_Penthouse_Black-765,ZZ_contrib TDF,293,ODMS_Penthouse_Black,active
+Ethnic_Channel_-_TX-772,ZZ_contrib TDF,294,Ethnic Channel - TX,active
+Netgem_Nordnet_-_TX-773,ZZ_contrib TDF,295,Netgem Nordnet - TX,active
+Blueline_-_TX-780,ZZ_contrib TDF,296,Blueline - TX,active
+Pixagility_-_RX-781,ZZ_contrib TDF,297,Pixagility - RX,active
+Advalem_-_RXTX-783,ZZ_contrib TDF,298,Advalem - RXTX,active
+Afrimedia_-_RX-785,ZZ_contrib TDF,299,Afrimedia - RX,active
+RedBee_FR_-RX-787,ZZ_contrib TDF,300,RedBee FR -RX,active
+Globecast_-_RXTX-788,ZZ_contrib TDF,301,Globecast - RXTX,active
+ZEOP_-_TX-789,ZZ_contrib TDF,302,ZEOP - TX,active
+AB_-_RX-791,ZZ_contrib TDF,303,AB - RX,active
+LiveCom_-_RX-793,ZZ_contrib TDF,304,LiveCom - RX,active
+HexaGlobe_-_TX-794,ZZ_contrib TDF,305,HexaGlobe - TX,active
+Canal_IPTV_-_TX-798,ZZ_contrib TDF,306,Canal IPTV - TX,active
+PAD_-_RX-799,ZZ_contrib TDF,307,PAD - RX,active
+Wibox_-_TX-800,ZZ_contrib TDF,308,Wibox - TX,active
+NBC_Universal_Networks_International_-_RX-801,ZZ_contrib TDF,309,NBC Universal Networks International - RX,active
+NBC_Universal_Networks_International_-_RX-802,ZZ_contrib TDF,310,NBC Universal Networks International - RX,active
+Teleclub_-_TX-808,ZZ_contrib TDF,311,Teleclub - TX,active
+Teleclub_-_TX-809,ZZ_contrib TDF,312,Teleclub - TX,active
+M7_MAIN_-_TX-810,ZZ_contrib TDF,313,M7 MAIN - TX,active
+M7_BKP_-_TX-811,ZZ_contrib TDF,314,M7 BKP - TX,active
+ARQIVA_BACKUP_-_RX-1111,ZZ_contrib TDF,315,ARQIVA BACKUP - RX,active
+ARQIVA_RXTX-1112,ZZ_contrib TDF,316,ARQIVA RXTX,active
+Eutelsat_-_TX1-1550,ZZ_contrib TDF,317,Eutelsat - TX1,active
+Eutelsat_DRD_Rambouillet_-_RX-1552,ZZ_contrib TDF,318,Eutelsat DRD Rambouillet - RX,active
+Eutelsat_-_RX-1555,ZZ_contrib TDF,319,Eutelsat - RX,active
+FOX_-_NatGeo_-_RX-1680,ZZ_contrib TDF,320,FOX - NatGeo - RX,active
+Netgem_Ozone_-_TX-2008,ZZ_contrib TDF,321,Netgem Ozone - TX,active
+MEO_Telecom_Portugal_-_TX-2018,ZZ_contrib TDF,322,MEO Telecom Portugal - TX,active
+Vodafone_-_TX-2020,ZZ_contrib TDF,323,Vodafone - TX,active
+NOWO_Cabovisao_-_TX-2032,ZZ_contrib TDF,324,NOWO Cabovisao - TX,active
+NOS_Telecom_-_TX-2039,ZZ_contrib TDF,325,NOS Telecom - TX,active
+TMS_-_Mux_POC_Tetris_Bytel_Cherie25_et_NRJ12-2057,ZZ_contrib TDF,326,TMS - Mux POC Tetris Bytel Cherie25 et NRJ12,active
+TMS_-_NatGeo_Core_-_TX-2062,ZZ_contrib TDF,327,TMS - NatGeo Core - TX,active
+TMS_-_NatGeo_Wild_-_TX-2063,ZZ_contrib TDF,328,TMS - NatGeo Wild - TX,active
+TMS_-_Canal_Kids_-_TX-2064,ZZ_contrib TDF,329,TMS - Canal Kids - TX,active
+TMS_-_Canal_Docs_-_TX-2065,ZZ_contrib TDF,330,TMS - Canal Docs - TX,active
+TMS_-_BFM_Lyon-2317,ZZ_contrib TDF,331,TMS - BFM Lyon,active
+TMS_-_BFM_Lyon-2318,ZZ_contrib TDF,332,TMS - BFM Lyon,active
+Eutelsat_-_TX-2411,ZZ_contrib TDF,333,Eutelsat - TX,active
+Eutelsat_-_TX-2412,ZZ_contrib TDF,334,Eutelsat - TX,active
+Overon_-_TX-2413,ZZ_contrib TDF,335,Overon - TX,active
+telecom_Austria-2414,ZZ_contrib TDF,336,telecom Austria,active
+telecom_Austria-2415,ZZ_contrib TDF,337,telecom Austria,active
+Clubbing-2416,ZZ_contrib TDF,338,Clubbing,active
+RedBee_NL_-_Voie_Backup-2417,ZZ_contrib TDF,339,RedBee NL - Voie Backup,active
+British_Telecom_Paris_2_-_TX-2418,ZZ_contrib TDF,340,British Telecom Paris 2 - TX,active
+British_Telecom_Paris_1_-_TX-2419,ZZ_contrib TDF,341,British Telecom Paris 1 - TX,active
+POST-Luxembourg-2420,ZZ_contrib TDF,342,POST-Luxembourg,active
+Amazon_-_TX-2421,ZZ_contrib TDF,343,Amazon - TX,active
+Amazon_-_TX-2422,ZZ_contrib TDF,344,Amazon - TX,active
+Amazon_-_TX-2423,ZZ_contrib TDF,345,Amazon - TX,active
+Amazon_-_TX-2424,ZZ_contrib TDF,346,Amazon - TX,active
+OpenPlayout_-_RXTX-2425,ZZ_contrib TDF,347,OpenPlayout - RXTX,active
+REDBEE-NL-NEW-RX-2426,ZZ_contrib TDF,348,REDBEE-NL-NEW-RX,active
+ARTE_France-2427,ZZ_contrib TDF,349,ARTE France,active
+SFR_-_TX_-_voie_Main-2428,ZZ_contrib TDF,350,SFR - TX - voie Main,active
+SFR_-_TX_-_voie_Backup-2429,ZZ_contrib TDF,351,SFR - TX - voie Backup,active
+SFR_-_RX_-_voie_Main-2430,ZZ_contrib TDF,352,SFR - RX - voie Main,active
+SFR_-_RX_-_voie_Backup-2431,ZZ_contrib TDF,353,SFR - RX - voie Backup,active
+Free_RX_TX-2432,ZZ_contrib TDF,354,Free RX TX,active
+FTV_Roland_Garros_RX-2433,ZZ_contrib TDF,355,FTV Roland Garros RX,active
+MediaChoice-2434,ZZ_contrib TDF,356,MediaChoice,active
+MediaLogistika-2435,ZZ_contrib TDF,357,MediaLogistika,active
+FTV_RG_2021-2533,ZZ_contrib TDF,358,FTV RG 2021,active
+Eutelsat_-_TX1-2550,ZZ_contrib TDF,359,Eutelsat - TX1,active
+Eutelsat_DRD_Rambouillet_-_RX-2552,ZZ_contrib TDF,360,Eutelsat DRD Rambouillet - RX,active
+Eutelsat_-_RX-2555,ZZ_contrib TDF,361,Eutelsat - RX,active
+FTV_Roland_Garros_RX_backup-2633,ZZ_contrib TDF,362,FTV Roland Garros RX backup,active
+ZIXI_-_RX-2840,ZZ_contrib TDF,363,ZIXI - RX,active
+Canal_-_TX-2841,ZZ_contrib TDF,364,Canal - TX,active
+Arqiva_-TX-2842,ZZ_contrib TDF,365,Arqiva -TX,active
+LCP-PS_-_TX-3078,ZZ_contrib TDF,366,LCP-PS - TX,active
+Advaleme_M6_3128-3128,ZZ_contrib TDF,367,Advaleme M6 3128,active
+Advaleme_M6_3129-3129,ZZ_contrib TDF,368,Advaleme M6 3129,active
+Advaleme-3323,ZZ_contrib TDF,369,Advaleme,active
+Synchroscreen_Radio_Allemandes_-_TX-3908,ZZ_contrib TDF,370,Synchroscreen Radio Allemandes - TX,active
+Lagardère_TX-2816,ZZ_contrib TDF,371,Lagardère TX,active
+3112-3112,ZZ_contrib TDF,372,,active
+3217-3217,ZZ_contrib TDF,373,,active
+SW-NETCORE-RMV-6,TDF,374,,active
+OSPF_MTH-109,TDF,375,,active
+MCAST-B2M-231,TDF,376,,active
+CJI_RMV-E2-1_MCAST-264,TDF,377,,active
+CJI_RMV-E2-2_MCAST-265,TDF,378,,active
+WHESTONE-300,TDF,379,,active
+VRFRXTX-SMJ-332,TDF,380,,active
+ARQUIVA-515,TDF,381,,active
+SL3-RMV-P3D6-mcast-1_2_to_SW-RMV-549,TDF,382,,active
+INTERNET_MEDIAMOBILE_1-720,TDF,383,,active
+INTERNET_MEDIAMOBILE_2-725,TDF,384,,active
+INTERNET_NRJ-800,TDF,385,,active
+ADMIN-IPTV-1857,TDF,386,,active
+PRA_OCS_INTERSW_NetCore_-1863,TDF,387,,active
+PRA_GULLI_INTERSW_NetCore_-1864,TDF,388,,active
+PRA_FTV_INTERSW_NetCore_-1865,TDF,389,,active
+PRA_FMM_INTERSW_NetCore_-1866,TDF,390,,active
+ADMIN-MTH-2128,TDF,391,,active
+ADMIN_B2M-2152,TDF,392,,active
+ACCES-DIVA-BRANE-2656,TDF,393,,active
+PRA_GULLI_C4M_NAS-2827,TDF,394,,active
+PRA_OCS_INTERCO_vFW-DSI-2856,TDF,395,,active
+INTERCO-RMV-ICNX-PRA-OCS-2857,TDF,396,,active
+PRA_FTV-C4M-STOCKAGE-2866,TDF,397,,active
+PRA_FTV_INTERCO_vFW-DSI-2868,TDF,398,,active
+PRA_FMM_INTERCO_vFW-DSI-2869,TDF,399,,active
+INTERCO-MAM-BRANE-2897,TDF,400,,active
+MCAST-CLOUD-DSI-2942,TDF,401,,active
+CLOUD_IPPLAY-2956,TDF,402,,active
+MULTICAST-ADVALEM_PROD_RMV-2981,TDF,403,,active
+PRA_NTP-2990,TDF,404,,active
+THEMA_PUB-3002,TDF,405,,active
+PRA_OCS_CJI-6th-flr_MCAST_JEPEG-3115,TDF,406,,active
+QUALIF_HABILLAGE-3140,TDF,407,,active
+ARQUIVA_ADMIN_VPN-3179,TDF,408,,active
+Dante-CJI-ISSY-3214,TDF,409,,active
+AKA-RMV-R00_SL3-RMV-E2-1_MCAST-3305,TDF,410,,active
+AKA-RMV-R01_SL3-RMV-E2-2_MCAST-3306,TDF,411,,active
+AKA-RMV-R00_SL3-RMV-P3D6-MCAST-1-3309,TDF,412,,active
+AKA-RMV-R01_SL3-RMV-P3D6-MCAST-2-3310,TDF,413,,active
+PRA_GULLI_DATA-3800,TDF,414,,active
+PRA_GULLI_ADMIN-3801,TDF,415,,active
+PRA_GULLI_STREAM-3802,TDF,416,,active
+PRA_OCS_POLARIS-3805,TDF,417,,active
+PRA_OCS_MAMDIFF-3806,TDF,418,,active
+PRA_FTV_Mcast_RTMP-3808,TDF,419,,active
+PRA_FTV-ADMIN-HOSTS-3901,TDF,420,,active
+PRA_FMM_ADMIN_ARKENA-3902,TDF,421,,active
+PRA_FMM_MCAST_TH2-3904,TDF,422,,active
+PRA_FMM_MCAST-3905,TDF,423,,active
+PRA_FMM_INTERCO_FW_DPR-3906,TDF,424,,active
+PRA_FMM_DATA-3907,TDF,425,,active
+PRA_FTV_MAST-3909,TDF,426,,active
+INTERC_STRMSH_NETCORE-4010,TDF,427,,active
+INTX_CPLUS_ATLAS-4027,TDF,428,,active
+RIEDEL-INTERCO-CPLUS-4028,TDF,429,,active
+INTERSWITCH-NETCORE-4094,TDF,430,,active
+PTVAMD-MCL2-616,ZZ_contrib TDF,431,,active
+ rxtx OUT CES -2957,TDF,432,,active
+ rxtx OUT RMV -3123,TDF,433,,active
+PRA FTV RADIO ADM-10,ZZ_contrib TDF,434,,active
+PRA FMM RADIO-3116,TDF,436,,active
+PRA-FMM DMZ-3108,TDF,437,,active
+PRA FMM GLOBAL-3118,TDF,438,,active
+PRA-FMM TV-3117,TDF,439,,active
+PRA FMM MCAST TV-3120,TDF,440,,active
+PRA-FMM MCAST RADIO-3119,TDF,441,,active
+PRA FMM MCAST AES-67-3151,TDF,442,,active
+NETWORK-2,00_MLB,443,,active
+ILO_DRAC-3,00_MLB,444,,active
+ADMIN_PROMISCUOUS-4,00_MLB,445,,active
+ADMIN_ISOLATED-5,00_MLB,446,,active
+ADMIN_COMMUNITY_1-6,00_MLB,447,,active
+PRO_SMJ_MAIN-51,00_MLB,448,,active
+PRO_SMJ_STORAGE-52,00_MLB,449,,active
+PRO_SMJ_DMZ-53,00_MLB,450,,active
+PRO_CJI_MAIN-54,00_MLB,451,,active
+PRO_CJI_DMZ-55,00_MLB,452,,active
+PRO_COMMON_DMZ-56,00_MLB,453,,active
+PRO_COMMON_KARAJAN-57,00_MLB,454,,active
+PROD_LAST_RESERVED-900,00_MLB,456,,active
+PPD_COMMON_DMZ-1501,00_MLB,457,,active
+PPD_COMMON_KARAJAN-1502,00_MLB,458,,active
+PPD_COMMON_TRANSCO-1503,00_MLB,459,,active
+PPD_COMMON_MAIN-1504,00_MLB,460,,active
+PPD_COMMON_RECEPT-1505,00_MLB,461,,active
+PPROD_P3_MAIN-1506,00_MLB,462,,active
+PPROD_P3_DMZ-1507,00_MLB,463,,active
+PPROD_LAST_RESERVED-2500,00_MLB,464,,active
+QA_GLB_MAIN-3001,00_MLB,465,,active
+QA_GLB_DMZ-3002,00_MLB,466,,active
+DELL-4001,00_MLB,467,,active
+MCAST_CANALD3_MPEG_1-3601,00_MLB,468,PEBBLE + PROD,active
+MULTICAST_LAST_RESERVED-3800,00_MLB,469,,active
+QA_LAST_RESERVED-3100,00_MLB,470,,active
+DCM RMV_-_Brane RMV-3174,TDF,472,Multicast,active
+PSDA-FTV-AAA-AD-VLAN30-30,TDF-PSDAFTV,494,,active
+PSDA-FTV-AAA-AUTH-VLAN31-31,TDF-PSDAFTV,495,,active
+PSDA-FTV-AAA-DMZ-VLAN32-32,TDF-PSDAFTV,496,,active
+PSDA-FTV-AAA-LOG-VLAN33-33,TDF-PSDAFTV,497,,active
+PSDA-FTV-ADM-CJI-VLAN10-10,TDF-PSDAFTV,498,,active
+PSDA-FTV-DMZ-1-VLAN110-110,TDF-PSDAFTV,499,,active
+PSDA-FTV-DMZ-2-1-VLAN121-121,TDF-PSDAFTV,500,,active
+PSDA-FTV-DMZ-2-2-VLAN122-122,TDF-PSDAFTV,501,,active
+PSDA-FTV-DMZ-2-3-VLAN123-123,TDF-PSDAFTV,502,,active
+PSDA-FTV-DMZ-2-4-VLAN124-124,TDF-PSDAFTV,503,,active
+PSDA-FTV-DMZ-3-VLAN130-130,TDF-PSDAFTV,504,,active
+PSDA-FTV-EXT-INTERCO-TDF-135,TDF-PSDAFTV,505,,active
+PSDA-FTV-INT-CJI-VLAN51-51,TDF-PSDAFTV,506,,active
+PSDA-FTV-LAN-FTV-VLAN40-40,TDF-PSDAFTV,507,,active
+PSDA-FTV-PSDA-MNGT-134,TDF-PSDAFTV,508,,active
+PSDA-FTV-WAN-FTV-VLAN140-140,TDF-PSDAFTV,509,,active
+PSDA-FTV-WAN-RF-VLAN141-141,TDF-PSDAFTV,510,,active
+PSDA-FTV-ZONE-1-VLAN101-101,TDF-PSDAFTV,511,,active
+PSDA-FTV-ZONE-2-VLAN102-102,TDF-PSDAFTV,512,,active
+PSDA-FTV-ZONE-3-VLAN103-103,TDF-PSDAFTV,513,,active
+PSDA-FTV-ZONE-5-VLAN105-105,TDF-PSDAFTV,514,,active
+PSDA-FTV-ZONE-6-VLAN106-106,TDF-PSDAFTV,515,,active
+PSDA-FTV-ZONE-7-VLAN107-107,TDF-PSDAFTV,516,,active
+PSDA-FTV-ZONE-I11-VLAN11-11,TDF-PSDAFTV,517,,active
+PSDA-FTV-ZONE-I12-VLAN12-12,TDF-PSDAFTV,518,,active
+PSDA-FTV-ZONE-I21-VLAN21-21,TDF-PSDAFTV,519,,active
+PSDA-FTV-ZONE-I22-VLAN22-22,TDF-PSDAFTV,520,,active
+PSDA-FTV-DMZ-2-5-VLAN125-125,TDF-PSDAFTV,521,,active
+PSDA-FTV-COLLECTE-FTV-VLAN150-150,TDF-PSDAFTV,522,,active
+PSDA-FTV-LIVRAISON-FTV-VLAN160-160,TDF-PSDAFTV,523,,active
+PSDA-FTV-LIVRAISON-RF-VLAN161-161,TDF-PSDAFTV,524,,active
+PSDA-FTV-LIVRAISON-FTV-TMS-VLAN162-162,TDF-PSDAFTV,525,,active
+PSDA-FTV-LIVRAISON-RF-TMS-VLAN163-163,TDF-PSDAFTV,526,,active
+PSDA-FTV-MCAST-LOCAL-VLAN170-170,TDF-PSDAFTV,527,,active
+PSDA-FTV-MCAST-FTV-VLAN171-171,TDF-PSDAFTV,528,,active
+PSDA-FTV-MCAST-LIVEWIRE-RF-VLAN172-172,TDF-PSDAFTV,529,,active
+PSDA-FTV-MCAST-BRANE-VLAN173-173,TDF-PSDAFTV,530,,active
+PSDA-FTV-STREAM-M-TS-VLAN174-174,TDF-PSDAFTV,531,,active
+PSDA-FTV-INTERNAL-VMOTION-VLAN250-250,TDF-PSDAFTV,532,,active
+PSDA-FTV-INTERNAL-VSAN-VLAN251-251,TDF-PSDAFTV,533,,active
+PSDA-FTV-INTERCO-FTV-1-VLAN61-61,TDF-PSDAFTV,534,,active
+PSDA-FTV-INTERCO-FTV-2-VLAN62-62,TDF-PSDAFTV,535,,active
+PSDA-FTV-INTERCO-MCAST-ARISTA-VLAN70-70,TDF-PSDAFTV,536,,active
+PSDA-FTV-INTERCO-MCAST-ARISTA-VLAN71-71,TDF-PSDAFTV,537,,active
+PSDA-FTV-INTERCO-MCAST-ARISTA-VLAN72-72,TDF-PSDAFTV,538,,active
+ADMIN_COMMUNITY_2-7,00_MLB,539,,active
+INF_GLB_MAIN-10,00_MLB,540,,active
+INF_GLB_DMZ-11,00_MLB,541,,active
+INFRA_LAST_RESERVED-20,00_MLB,542,,active
+STORAGE_PROMISCUOUS-3850,00_MLB,543,,active
+STORAGE_ISOLATED-3851,00_MLB,544,,active
+STORAGE_COMMUNITY_1-3852,00_MLB,545,,active
+STORAGE_COMMUNITY_2-3853,00_MLB,546,,active
+DELL-4002,00_MLB,547,,active
+DELL-4003,00_MLB,548,,active
+DELL-4004,00_MLB,549,,active
+DELL-4005,00_MLB,550,,active
+DELL-4006,00_MLB,551,,active
+DELL-4007,00_MLB,552,,active
+DELL-4008,00_MLB,553,,active
+DELL-4009,00_MLB,554,,active
+DELL-4010,00_MLB,555,,active
+DELL-4011,00_MLB,556,,active
+DELL-4012,00_MLB,557,,active
+DELL-4013,00_MLB,558,,active
+DELL-4014,00_MLB,559,,active
+DELL-4015,00_MLB,560,,active
+DELL-4016,00_MLB,561,,active
+DELL-4017,00_MLB,562,,active
+DELL-4018,00_MLB,563,,active
+DELL-4019,00_MLB,564,,active
+DELL-4020,00_MLB,565,,active
+DELL-4094,00_MLB,566,,active
+OOB_DELL-3950,00_MLB,567,,active
+OOB_oncloud-3951,00_MLB,568,,active
+reserve_oncloud-3959,00_MLB,569,,active
+ONCLOUD RESERVED-3900,00_MLB,570,,active
+LAG POG-3153,TDF,571,,active
+VPC_PEER_LINK-3600,00_MLB,572,,active
+OFFICE-ISSY-ENENSYS-231,TDF,573,,active
+INTERCO PIXA-2955,00_MLB,574,INTERCO PIXA,active
+OFFICE-ISSY-MLB-OOB-3500,00_MLB,575,,active
+RXTX_CANAL_FARMAN-3183,00_MLB,576,,active
+L2VNI_FORTINET_ASR1000_pour_Internet-3942,00_MLB,577,,active
+L3VNI_SERVICE_MLB-3940,00_MLB,578,,active
+L3VNI_MULTICAST-3941,00_MLB,579,,active
+Cloud_Prive_OnCloud_MGMT-3952,00_MLB,580,,active
+Cloud_Prive_OnCloud_vMotion-3953,00_MLB,581,,active
+Cloud_Prive_OnCloud_vSAN-3954,00_MLB,582,,active
+Cloud_Prive_OnCloud_vTEP_ESXi-3955,00_MLB,583,,active
+Cloud_Prive_OnCloud_vTEP_NSX-3956,00_MLB,584,,active
+Cloud_Prive_OnCloud_Overlay_NSX_Edge-3957,00_MLB,585,,active
+SNL ASPERA FTP ( Brane Canal+)-2907,Canal+ SNL,586,from Canal+ TH2(main)/IP5(backup) to Brane,active
+PSDA-FTV-XCO-BACKUP-PRA-EXT-3188,TDF,587,Brane sw-1683,active
+NAT_INFRA-21,00_MLB,589,,active
+QA_GLB_LAB-3003,00_MLB,590,,active
+Vlan_ISSY-PSDA-52,TDF-PSDAFTV,591,,active
+PRO_COMMON_TRANSCO-58,00_MLB,592,,active
+PRO_COMMON_RECEPT-59,00_MLB,593,,active
+PRO_PANDORA_DMZ-60,00_MLB,594,,active
+PRO_PANDORA_MAIN-61,00_MLB,595,,active
+PRO_OCS_DMZ-62,00_MLB,596,,active
+PRO_OCS_MAIN-63,00_MLB,597,,active
+PSDA-FTV-DMZ-2-7-VLAN127-127,00_MLB,598,,active
+OFFICE-ISSY-PSDA-230,TDF,599,Pupitre PSDA ISSY,active
+PRO_CANALD3_MAIN-232,00_MLB,600,SERVICE,active
+MCAST_CANALD3_MPEG_2110-3602,00_MLB,601,,active
+PRO_CANALD3_COMMAND-231,00_MLB,603,PEBBLE,active
+PRO_CANALD3_DMZ-234,00_MLB,604,,active
+PRO_CANALD3_PTP-233,00_MLB,605,,active
+PRO_COMMON_MAIN-64,00_MLB,607,,active
+INTERCO STORMSHIELD MLB-3101,00_MLB,608,,active
+INTERCO VDCM-3603,00_MLB,609,,active
+INTERCO STORMSHIELD C+-3102,00_MLB,610,,active
+INTERCO STORMSHIELD TDF-3103,00_MLB,611,,active
+QUMULO INTERNAL-3854,00_MLB,612,,active
+OFFICE-ISSY-REGIE-CANALD3-232,TDF,613,,active
+MCAST_CANALD3_MPEG_2110_2-3604,00_MLB,614,,active
+PRO_SMJ_RXTX_INT_PROMISCUOUS-65,00_MLB,615,,active
+PRO_SMJ_RXTX_INT_ISOLATED-66,00_MLB,616,,active
+OFFICE-ISSY-REGIE-CANALDR-222,TDF,618,,active
+MCAST_CANALD3_MPEG_2-3605,00_MLB,619,,active
+ASTRA TH2-812,ZZ_contrib TDF,620,ASTRA TH2 ,active
+MCAST_NODE-3606,00_MLB,621,,active
+Mercator-1603,TDF,622,,active
+PRO_COMMON_BPM-67,00_MLB,623,,active
+MCAST_POG-3607,00_MLB,624,,active
