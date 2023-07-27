@@ -1,5 +1,5 @@
-import api_nautobot as api
-import acquire_from_phpipam.subnets as subnets
+import  api
+import subnets
 
 def add_subnets():
     

@@ -1,5 +1,5 @@
-import api_nautobot as api
-import acquire_from_phpipam.vlans as vlans
+import  api
+import  vlans
 
 def add_vlans():
     

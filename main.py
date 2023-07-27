@@ -1,7 +1,7 @@
-import add_to_nautobot_api.groups_vlans_nautobots as groups
-import add_to_nautobot_api.ip_nautobots as ip
-import add_to_nautobot_api.subnets_nautobots as subnets
-import add_to_nautobot_api.vlans_nautobots as vlans
+import acquire_from_phpipam.groups_vlans_nautobots as groups
+import acquire_from_phpipam.ip_nautobots as ip
+import acquire_from_phpipam.subnets_nautobots as subnets
+import acquire_from_phpipam.vlans_nautobots as vlans
 
 #defini true les données que tu veux POST
 config = {

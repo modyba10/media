@@ -1,5 +1,5 @@
-import api_nautobot as api 
-import acquire_from_phpipam.ip_addresses as ip
+import api 
+import  ip_addresses as ip
 
 
 
