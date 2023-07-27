@@ -19,9 +19,24 @@ def update_vlans_test():
         vlan["name"] = f"{vlan['name']}-{vlan['number']}"
 
 
-        found_match = False  # Variable pour vérifier si une correspondance a été trouvée pour ce VLAN
+        for domain in data_domains:
+
+
+            if vlan["domainId"] == domain["id"]:
+
+
+                vlan["domainId"] = domain["name"]
+
+
+                break
+
+
+        
         
     return data
+
+
+
 
 
 
@@ -34,6 +49,8 @@ def update_subnet_data():
     vlans = update_vlans_test()
 
     for subnet in data:
+
+        subnet["vlan_group"] = None
 
         
         subnet["subnet"] += "/" + subnet["mask"]
@@ -51,20 +68,38 @@ def update_subnet_data():
         """
 
         # Redefine the fields to make them compliant with Nautobot
-        subnet["masterSubnet"] = subnet.pop("masterSubnetId")
         subnet["status"] = "active"
         subnet["is_pool"] = True
+
+       
+            
+            
+        for vlan in vlans:
+            if vlan["id"] == subnet["vlanId"]:
+
+                subnet["vlanId"] = vlan["number"]
+
+                   
+                subnet["vlan_group"] = vlan["domainId"]
+             
+                break
+        if subnet["vlanId"] ==0 : 
+
+            subnet ["vlanId"] =None
+    
+            
+       
 
         # Process the vlanId
         
 
-        subnet["vlan"] = subnet.pop("vlanId")
+        subnet["vlan.vid"] = subnet.pop("vlanId")
 
 
         subnet["prefix"] = subnet.pop("subnet")
 
         # Remove unnecessary fields
-        keys_to_keep = ["vlan_group","status", "is_pool", "vlan", "prefix","description"]
+        keys_to_keep = ["vlan_group","status", "is_pool", "vlan.vid", "prefix","description"]
 
         subnet_keys = list(subnet.keys())
 
@@ -73,20 +108,25 @@ def update_subnet_data():
             if key not in keys_to_keep:
 
                 del subnet[key]
+    
 
     return data
 
-def delete_0 () : 
 
-    data = update_subnet_data()
+def delete_vlanVid_null ():
 
-    for subnet in data :
+    data_json = update_subnet_data()
 
-        if subnet["vlan"] == "0" :
+    for subnet in data_json :
 
-            subnet["vlan"] = ""
+        if subnet["vlan.vid"] =="0":
 
-    return data
+            subnet["vlan.vid"] =None
+    return data_json
+
+
+
+
 
 
 
@@ -95,7 +135,7 @@ def delete_0 () :
 
 def subnets_to_csv():
     csv_file = "prefixes_or_subnets.csv"
-    data_json = delete_0()
+    data_json = delete_vlanVid_null()
 
     # Vérification des données JSON
     if not isinstance(data_json, list) or not all(isinstance(item, dict) for item in data_json):
@@ -112,8 +152,8 @@ def subnets_to_csv():
         writer.writeheader()
         for entry in data_json:
             writer.writerow(entry)
-subnets_to_csv()
 
+subnets_to_csv()
 
 
 
