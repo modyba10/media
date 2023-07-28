@@ -197,4 +197,4 @@ def update_columns_from_csv():
         writer.writerows(data)
 
 
-update_columns_from_csv()
+

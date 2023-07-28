@@ -1,3 +1,12 @@
-importation par CSV: Contrainte
+IMPORTATION PAR CSV :
+
+Contrainte :
 
 On arrive pas a importer plus de 1800 address ip à la fois, du coup il faut trouver un moyen de secrtionner 
+
+
+Utilisation :
+
+-Clickez sur le le scripts main_csv.py
+-Modifiez l'objet Config en remplacant* : False  par True dans le champs dont vous voulez le csv 
+-Le csv se gérérera automatiquement

@@ -67,7 +67,5 @@ def vlans_to_csv():
         for entry in data_json:
             writer.writerow(entry)
 
-vlans_to_csv()
-
 
 

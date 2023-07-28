@@ -26,7 +26,7 @@ def update_vlans_domains_data():
 
 
 def vlans_domains_to_csv():
-    csv_file = "data_for_nautobot.csv"
+    csv_file = "vlans_groups_for_nautobot.csv"
     data_json = update_vlans_domains_data()
     
     # Vérification des données JSON
@@ -46,5 +46,5 @@ def vlans_domains_to_csv():
             writer.writerow(entry) 
 
 
-vlans_domains_to_csv()
+
 

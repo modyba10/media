@@ -50,7 +50,7 @@ def update_subnet_data():
 
     for subnet in data:
 
-        subnet["vlan_group"] = None
+        subnet["vlan_group.name"] = None
 
         
         subnet["subnet"] += "/" + subnet["mask"]
@@ -80,7 +80,7 @@ def update_subnet_data():
                 subnet["vlanId"] = vlan["number"]
 
                    
-                subnet["vlan_group"] = vlan["domainId"]
+                subnet["vlan_group.name"] = vlan["domainId"]
              
                 break
         if subnet["vlanId"] ==0 : 
@@ -99,7 +99,7 @@ def update_subnet_data():
         subnet["prefix"] = subnet.pop("subnet")
 
         # Remove unnecessary fields
-        keys_to_keep = ["vlan_group","status", "is_pool", "vlan.vid", "prefix","description"]
+        keys_to_keep = ["vlan_group.name","status", "is_pool", "vlan.vid", "prefix","description"]
 
         subnet_keys = list(subnet.keys())
 
@@ -122,6 +122,7 @@ def delete_vlanVid_null ():
         if subnet["vlan.vid"] =="0":
 
             subnet["vlan.vid"] =None
+
     return data_json
 
 
@@ -153,7 +154,6 @@ def subnets_to_csv():
         for entry in data_json:
             writer.writerow(entry)
 
-subnets_to_csv()
 
 
 

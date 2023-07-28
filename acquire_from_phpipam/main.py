@@ -1,7 +1,7 @@
-import acquire_from_phpipam.groups_vlans_nautobots as groups
-import acquire_from_phpipam.ip_nautobots as ip
-import acquire_from_phpipam.subnets_nautobots as subnets
-import acquire_from_phpipam.vlans_nautobots as vlans
+import groups_vlans_nautobots as groups
+import ip_nautobots as ip
+import subnets_nautobots as subnets
+import vlans_nautobots as vlans
 
 #defini true les données que tu veux POST
 config = {
@@ -9,7 +9,7 @@ config = {
     "group" : False,
     "vlans":False,
     "subnets" :False,
-    "ip":False
+    "ip":True
 
 }
     
