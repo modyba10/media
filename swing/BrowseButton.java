@@ -19,6 +19,7 @@ public class BrowseButton extends JButton implements ActionListener {
         setFocusPainted(false);
         addActionListener(this); // Ajout de l'écouteur d'événements
     }
+    
 
     @Override
     public void actionPerformed(ActionEvent e) {
