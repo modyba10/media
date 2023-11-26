@@ -14,6 +14,8 @@ public class PlayPhoto extends JButton implements ActionListener {
         addActionListener(this);
     }
 
+    // diriger vers PhotoList en  cas de click sur  PlayPhoto
+
     @Override
     public void actionPerformed(ActionEvent e) {
         System.out.println("nous sommes dans le action performed");

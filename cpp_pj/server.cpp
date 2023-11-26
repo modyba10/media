@@ -93,6 +93,7 @@ int main(int argc, char* argv[]) {
                     std::cout << "Created photo: " << fileName << std::endl;
 
                     // Jouez le média
+                    std::cout << "Nous sommes ici dans photo" ;
                     manager.playMedia(fileName);
                     response = "Tout est OK";
 

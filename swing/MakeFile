@@ -1,0 +1,17 @@
+JAVAC = javac # Le compilateur Java
+JAVA = java # L'exécuteur Java
+
+# Les cibles à construire
+all: MainFrame.class
+
+# La règle pour construire MainFrame.class à partir de MainFrame.java
+MainFrame.class: MainFrame.java
+    $(JAVAC) MainFrame.java # Commande de compilation Java
+
+# La règle pour exécuter MainFrame
+run: MainFrame.class
+    $(JAVA) MainFrame
+
+# La règle pour nettoyer les fichiers générés
+clean:
+    rm -f *.class

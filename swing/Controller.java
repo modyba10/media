@@ -19,30 +19,32 @@ public class Controller extends JPanel {
         label.setBorder(BorderFactory.createLineBorder(Color.BLACK)); 
         client = new Client(); 
 
-        
-       
+        // Ajout du label au panneau
         add(label);
 
-        
+        // Initialisation du bouton de lecture vidéo
         playVideo = new PlayVideo(); 
         playVideo.setBackground(Color.RED);
         playVideo.setForeground(Color.RED);
 
+        // Initialisation du bouton de lecture de photo
         playPhoto = new PlayPhoto(); 
         playPhoto.setBackground(Color.BLACK);
         playPhoto.setForeground(Color.BLACK);
 
+        // Initialisation du bouton de parcours
         browseButton = new BrowseButton(client, label); 
         browseButton.setBackground(Color.GREEN); 
         browseButton.setForeground(Color.GREEN);
 
+        // Initialisation du bouton de sortie
         exitButton = new ExitButton();
         exitButton.setBackground(Color.BLUE); 
         exitButton.setForeground(Color.BLUE);
 
-        
+        // Ajout des différents composants au panneau
         add(playVideo);
-        add (playPhoto);
+        add(playPhoto);
         add(browseButton);
         add(exitButton);
     }

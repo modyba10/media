@@ -16,47 +16,45 @@ public class VideoList extends JFrame implements ActionListener {
         }
 
         setTitle("Video List");
-        
         setLayout(new BorderLayout());
 
-        
+        // Récupération de la liste des médias vidéo depuis le serveur
         String[] mediaNames = fetchMediaListFromServer();
 
+        // Création de la liste déroulante pour afficher les médias vidéo
         mediaList = new JComboBox<>(mediaNames);
         mediaList.addActionListener(this);
 
+        // Ajout de la liste déroulante au cadre
         add(mediaList, BorderLayout.CENTER);
 
-        pack();
-        setLocationRelativeTo(null);
-        setVisible(true);
+        pack(); 
+        setLocationRelativeTo(null); 
+        setVisible(true); 
     }
 
-
+    // Méthode pour récupérer la liste des médias vidéo depuis le serveur
     private String[] fetchMediaListFromServer() {
-     
-        String response = client.send("GetAllVideo");
-        
-        
+        String response = client.send("GetAllVideo"); 
 
-        
-        return response.split(","); 
+       
+        return response.split(",");
     }
 
-    
+    // Gestionnaire d'événements pour les actions sur la liste déroulante
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == mediaList) {
-            String selectedMedia = (String) mediaList.getSelectedItem();
+            String selectedMedia = (String) mediaList.getSelectedItem(); 
+
             try {
-                client =new Client();
+                client = new Client();
             } catch (IOException e1) {
-            
                 e1.printStackTrace();
             }
-            
-            String confirmation = client.send(selectedMedia);
 
+            // Envoi du média vidéo sélectionné au serveur et affichage de la réponse
+            String confirmation = client.send(selectedMedia);
+            System.out.println(confirmation);
         }
     }
-
 }
