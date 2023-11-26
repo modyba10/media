@@ -17,7 +17,7 @@ Le répertoire cpp_pj contient l'ensemble du backend du projet. Voici une vue d'
 Photos: Représente un objet photo.
 Vidéos: Représente un objet vidéo.
 Films: Représente un objet film.
-Pour exécuter le backend du projet, suivez ces étapes :
+Pour exécuter le fackend du projet, suivez ces étapes :
 
 Placez-vous dans le répertoire cpp_pj.
 Exécutez la commande make run.

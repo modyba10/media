@@ -16,6 +16,7 @@ default: run
 
 run: $(CLASSES:.java=.class)
 	@$(JVM) $(MAIN)
+	@rm -f *.class  # Supprime les fichiers .class après l'exécution
 
 clean:
 	@rm -f *.class
