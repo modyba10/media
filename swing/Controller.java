@@ -24,23 +24,23 @@ public class Controller extends JPanel {
 
         // Initialisation du bouton de lecture vidéo
         playVideo = new PlayVideo(); 
-        playVideo.setBackground(Color.RED);
-        playVideo.setForeground(Color.RED);
+        playVideo.setBackground(Color.BLUE);
+        playVideo.setForeground(Color.GRAY);
 
         // Initialisation du bouton de lecture de photo
         playPhoto = new PlayPhoto(); 
         playPhoto.setBackground(Color.BLACK);
-        playPhoto.setForeground(Color.BLACK);
+        playPhoto.setForeground(Color.GRAY);
 
         // Initialisation du bouton de parcours
         browseButton = new BrowseButton(client, label); 
         browseButton.setBackground(Color.GREEN); 
-        browseButton.setForeground(Color.GREEN);
+        browseButton.setForeground(Color.GRAY);
 
         // Initialisation du bouton de sortie
         exitButton = new ExitButton();
-        exitButton.setBackground(Color.BLUE); 
-        exitButton.setForeground(Color.BLUE);
+        exitButton.setBackground(Color.RED); 
+        exitButton.setForeground(Color.GRAY);
 
         // Ajout des différents composants au panneau
         add(playVideo);
