@@ -132,6 +132,5 @@ int main(int argc, char* argv[]) {
         delete server; // Libération de la mémoire allouée pour le serveur en cas d'erreur
         return 1;
     }
-
     return 0;
 }
