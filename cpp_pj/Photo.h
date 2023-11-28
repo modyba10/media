@@ -50,7 +50,7 @@ public:
 
     // Lecture (ou visualisation) de la photo
     virtual void play() const {
-        std::string command = "imagej " + getPathName();
+        std::string command = "imagej \"" + getPathName() + "\" &";
         int status = system(command.c_str());
         if (status != 0) {
             std::cerr << "Erreur lors de l'exécution de la commande." << std::endl;

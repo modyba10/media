@@ -30,7 +30,7 @@ public class BrowseButton extends JButton implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         JFileChooser fileChooser = new JFileChooser();
-        FileNameExtensionFilter filter = new FileNameExtensionFilter("Media Files", "jpg", "png", "gif", "mp4");
+        FileNameExtensionFilter filter = new FileNameExtensionFilter("Media Files", "jpg","jpeg", "png", "gif", "mp4");
         fileChooser.setFileFilter(filter);
     
         int returnValue = fileChooser.showOpenDialog(null);

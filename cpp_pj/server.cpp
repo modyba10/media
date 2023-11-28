@@ -13,7 +13,7 @@ int main(int argc, char* argv[]) {
     MediaManager manager;
 
     // Gestion du contenu multimedia
-    std::shared_ptr<Photo> photo1 = manager.createPhoto("Vacances", "cpp_pj/F5GXNMZXkAAaQJC.jpeg", 40.0, 50.0);
+    std::shared_ptr<Photo> photo1 = manager.createPhoto("Vacances", "big 5.jpeg", 40.0, 50.0);
     std::shared_ptr<Video> video1 = manager.createVideo("Anniversaire", "music.mp4", 120);
     
 
