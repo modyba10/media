@@ -57,7 +57,7 @@ public class BrowseButton extends JButton implements ActionListener {
         String extension = fileName.substring(fileName.lastIndexOf(".") + 1);
     
         // Déterminer le type de média en fonction de l'extension du fichier
-        if (extension.equalsIgnoreCase("jpg") || extension.equalsIgnoreCase("png") || extension.equalsIgnoreCase("gif")) {
+        if (extension.equalsIgnoreCase("jpg") ||extension.equalsIgnoreCase("jpeg") || extension.equalsIgnoreCase("png") || extension.equalsIgnoreCase("gif")) {
             return 0; // Photo
         } else if (extension.equalsIgnoreCase("mp4") || extension.equalsIgnoreCase("avi")) {
             return 1; // Vidéo
